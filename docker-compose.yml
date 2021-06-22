@@ -4,7 +4,7 @@ services:
   create_clients:
     build:
       context: .
-    image: app-create-clients:v1
+    image: blog:v1
     container_name: blog
     hostname: create_clients
     command: bash container/inst.sh

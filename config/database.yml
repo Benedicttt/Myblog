@@ -80,7 +80,12 @@ test:
 # for a full overview on how database connection configuration can be specified.
 #
 production:
-  <<: *default
-  database: MyBlog_production
-  username: MyBlog
-  password: MyBlog
+  adapter: postgresql
+  encoding: utf8
+  username: wzcpnsxtfprhwm
+  database: d4pma7ig5csq0f
+  password: 33b6a538b6d6378c38a264ecb5818c09fdf315c2697f6072d918b683bde6f9c1
+  host: ec2-63-32-7-190.eu-west-1.compute.amazonaws.com
+  pool: 5
+  timeout: 5000
+  port: 5432
