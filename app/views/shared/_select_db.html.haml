@@ -1,8 +1,0 @@
-%div{ style: "display: flex; margin-left: 30px;" }
-  %div
-    = form_for :add_env, remote: true, url: { action: 'modal_add_env', controller: 'clients'  } do |f|
-      = f.button '', class: 'btn btn btn-success glyphicon glyphicon-plus', id: 'plus-db-list'
-
-  %div{ style: "margin-left: 30px;" }
-  = form_for :add_env, remote: true, url: { action: 'modal_remove_env', controller: 'clients'  } do |f|
-    = f.button '', class: 'btn btn btn-danger glyphicon glyphicon-minus', id: 'minus-db-list'
