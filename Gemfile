@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
+source "https://rails-assets.org"
 
+gem 'rails-assets-bootstrap', ">= 4.0.0.alpha.2"
+gem 'rails-assets-tether'
 gem 'rubyzip', '>= 1.0.0'
 gem 'zip-zip'
 
@@ -9,8 +12,10 @@ gem 'puma'
 gem 'sass-rails'
 gem 'uglifier'
 gem 'jquery-rails'
+gem 'web-console', group: :development
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-group :development, :development_win, :staging, :test_development, :test_staging do
+group :development, :production, :test do
   gem 'pry'
   gem 'pry-byebug'
   gem 'pry-doc'
@@ -61,7 +66,6 @@ group :development, :development_win, :staging, :test_development, :test_staging
   gem 'amazing_print'
   gem 'rails_semantic_logger'
 
-  gem 'web-console'
   gem 'listen'
   gem 'spring'
   gem 'rack-cors'
@@ -81,4 +85,3 @@ group :development, :development_win, :staging, :test_development, :test_staging
   gem 'actionpack-action_caching'
 end
 
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]

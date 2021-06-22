@@ -2,73 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dca57621-5991-4d21-8d24-d2a640ecffe8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/assets/fonts/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/fonts/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/fonts/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/fonts/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/fonts/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/eq_informations/elp/option-elp-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/eq_informations/elp/option-elp-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/eq_informations/elp/option-elp-3.1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/eq_informations/elp/option-elp-3.2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/eq_informations/elp/option-elp-3.3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/eq_informations/elp/option-elp-3.4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/eq_informations/elp/option-elp-3.5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/eq_informations/elp/option-elp-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/eq_informations/elp/option-elp-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/eq_informations/elp/option-elp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/eq_informations/elp/result-elp-full-ip.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/eq_informations/elp/result-elp-second-ip.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/eq_informations/elp/result-elp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/exception_handler/alert.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/exception_handler/alert.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/exception_handler/connect/facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/exception_handler/connect/fusion.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/exception_handler/connect/linkedin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/exception_handler/connect/twitter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/exception_handler/connect/youtube.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/exception_handler/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/exception_handler/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/exception_handler/noise.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/exception_handler/overlay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/icon-title.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/javascript/application.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/javascript/bootag.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/javascript/cable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/javascript/channels/handler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/javascript/money-format.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/exception_handler.css.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/spiner.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/styles/_base.css.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/styles/_exception.css.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/styles/_footer.css.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/styles/_responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/_404.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/_500.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/_application.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/exception.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/shared/_checkbox.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/shared/_clients.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/shared/_modal_error.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/shared/_modal_success.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/shared/_select_db.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/shared/_spinner.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/shared/modal_error.js.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/shared/modal_success.js.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/main_page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/main_page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/main_page_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/main_page_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/channels/consumer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/channels/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/packs/application.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/assets.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/main_page/index.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/index.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/cable.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/cable.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +23,7 @@
     <setting file="file://$PROJECT_DIR$/container/pg_hba.conf" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/app/controllers/main_page_controller.rb" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/app/assets/stylesheets/main_page.scss" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/app/views/main_page/index.html.haml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/views/index.html.haml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/app/assets/stylesheets/styles/_base.css.erb" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/config/environments/production.rb" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/config/environments/development.rb" root0="FORCE_HIGHLIGHTING" />
@@ -105,18 +44,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/views/main_page" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views/main_page" />
       <recent name="$PROJECT_DIR$/app/assets/images" />
       <recent name="$PROJECT_DIR$/app/assets/stylesheets" />
       <recent name="$PROJECT_DIR$/app/javascript" />
       <recent name="$PROJECT_DIR$/app/assets" />
-      <recent name="$PROJECT_DIR$/app/views" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views" />
       <recent name="$PROJECT_DIR$/app/assets" />
       <recent name="$PROJECT_DIR$/app/javascript" />
     </key>
@@ -233,7 +173,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624369206344</updated>
-      <workItem from="1624369211244" duration="12894000" />
+      <workItem from="1624369211244" duration="15975000" />
     </task>
     <servers />
   </component>
