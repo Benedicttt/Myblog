@@ -78,10 +78,6 @@ $(document).ready(function(){
         $('#modal').modal('hide')
     } )
 
-    // $('ul.dropdown-menu').on('click', function(event){
-    //     event.stopImmediatePropagation();
-    // });
-
     $(document).ready(function() {
         $('#add_from_file').hide();
         $('#add_from_file2').click(function() {
