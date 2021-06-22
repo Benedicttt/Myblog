@@ -1,0 +1,21 @@
+version: "3.4"
+
+services:
+  create_clients:
+    build:
+      context: .
+    image: app-create-clients:v1
+    container_name: blog
+    hostname: create_clients
+    command: bash container/inst.sh
+    environment:
+      - LEVEL=dev
+      - POSTGRES_USER=MyBlog
+      - POSTGRES_PASSWORD=MyBlog
+      - POSTGRES_DB=MyBlog_development
+    ports:
+      - 5498:5432
+      - 3000:3000
+      - 8080:8080
+    volumes:
+      - ./:/app
