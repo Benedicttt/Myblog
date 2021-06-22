@@ -1,0 +1,8 @@
+.colorful-switch
+  = f.check_box id_checkbox.to_s, class: 'colorful-switch__checkbox ', type: "checkbox", name: name, checked: checked
+  = f.label '', class: 'colorful-switch__label', for: id_label do
+    %span.colorful-switch__bg
+    %span.colorful-switch__dot
+    %span.colorful-switch__on
+      %span.colorful-switch__on__inner
+    %span.colorful-switch__off
