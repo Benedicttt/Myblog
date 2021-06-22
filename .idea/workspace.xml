@@ -3,11 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="dca57621-5991-4d21-8d24-d2a640ecffe8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/main_page_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/main_page_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/main_page/index.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/index.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/cable.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/cable.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/main_page/index.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main_page/index.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/assets.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +22,8 @@
     <setting file="file://$PROJECT_DIR$/container/pg_hba.conf" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/app/controllers/main_page_controller.rb" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/app/assets/stylesheets/main_page.scss" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/app/views/index.html.haml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/views/main_page/index.html.haml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/config/initializers/assets.rb" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/app/assets/stylesheets/styles/_base.css.erb" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/config/environments/production.rb" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/config/environments/development.rb" root0="FORCE_HIGHLIGHTING" />
@@ -44,18 +44,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/views/main_page" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/assets" />
       <recent name="$PROJECT_DIR$/app/views/main_page" />
       <recent name="$PROJECT_DIR$/app/assets/images" />
       <recent name="$PROJECT_DIR$/app/assets/stylesheets" />
       <recent name="$PROJECT_DIR$/app/javascript" />
-      <recent name="$PROJECT_DIR$/app/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views/main_page" />
       <recent name="$PROJECT_DIR$/app/views" />
       <recent name="$PROJECT_DIR$/app/assets" />
       <recent name="$PROJECT_DIR$/app/javascript" />
@@ -173,7 +174,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624369206344</updated>
-      <workItem from="1624369211244" duration="15975000" />
+      <workItem from="1624369211244" duration="17598000" />
     </task>
     <servers />
   </component>
