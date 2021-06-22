@@ -34,7 +34,6 @@ RUN apt install -y sudo
 RUN apt install -y dos2unix
 RUN apt install -y redis-server
 
-RUN dos2unix ./container/inst.sh
 RUN gem install bundler
 RUN bundle install --jobs 20 --retry 5 --without development test
 RUN Xvfb :99 -ac &

@@ -14,49 +14,44 @@ if service postgresql start; then
     echo "POSTGRES installed"
 fi
 
-if psql -U postgres -c "create database MyBlog_development;"; then
+if psql -U postgres -c "create user admin_blog;"; then
+    echo "User created"
+fi
+
+if psql -U postgres -c "alter user admin_blog password 'admin_blog';"; then
+    echo "User created"
+fi
+
+if psql -U postgres -c "create database db_blog_development;"; then
     echo "DATABASE created"
 fi
 
-if psql -U postgres -c "create database test;"; then
+if psql -U postgres -c "grant all privileges on database db_blog_development to admin_blog;"; then
+    echo "User created"
+fi
+
+if psql -U postgres -c "ALTER DATABASE admin_blog OWNER TO db_blog_development;"; then
+    echo "User created"
+fi
+
+if psql -U postgres -c "create database db_blog_test;"; then
     echo "DATABASE created"
 fi
 
-if psql -U postgres -c "create user MyBlog;"; then
+if psql -U postgres -c "grant all privileges on database db_blog_test to admin_blog;"; then
     echo "User created"
 fi
 
-if psql -U postgres -c "create user test;"; then
-    echo "User created"
-fi
-
-if psql -U postgres -c "alter user MyBlog password 'MyBlog';"; then
-    echo "User created"
-fi
-
-if psql -U postgres -c "alter user test password 'test';"; then
-    echo "User created"
-fi
-
-if psql -U postgres -c "grant all privileges on database MyBlog_development to MyBlog;"; then
-    echo "User created"
-fi
-
-if psql -U postgres -c "grant all privileges on database test to test;"; then
-    echo "User created"
-fi
-
-if psql -U postgres -c "ALTER DATABASE test OWNER TO test;;"; then
+if psql -U postgres -c "ALTER DATABASE admin_blog OWNER TO db_blog_test;"; then
     echo "User created"
 fi
 
 cd /app
 
 bundle install
+
 RAILS_ENV=development rake db:migrate
 RAILS_ENV=development rake assets:precompile
-#export http_proxy='http://0.0.0.0:3128'
-#export https_proxy='http://0.0.0.0:3128'
 
 #bundle exec rails s -b 0.0.0.0 &
 tail -f /dev/null

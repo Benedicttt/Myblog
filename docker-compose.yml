@@ -10,9 +10,9 @@ services:
     command: bash container/inst.sh
     environment:
       - LEVEL=dev
-      - POSTGRES_USER=MyBlog
-      - POSTGRES_PASSWORD=MyBlog
-      - POSTGRES_DB=MyBlog_development
+      - POSTGRES_USER=admin_blog
+      - POSTGRES_PASSWORD=admin_blog
+      - POSTGRES_DB=db_blog_development
     ports:
       - 5498:5432
       - 3000:3000
