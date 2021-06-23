@@ -2,181 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dca57621-5991-4d21-8d24-d2a640ecffe8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/about_my.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/frameworks.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/sidebar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/web.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/about_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/back/java_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/back/js_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/back/ruby_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/mobile/java_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/mobile/js_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/mobile/ruby_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/web/java_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/web/js_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/web/ruby_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/about_my_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/frameworks_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/web_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/about/_about.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/about/about.js.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/back/java/_java.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/back/java/java.js.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/back/js/_js.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/back/js/js.js.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/back/ruby/_ruby.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/back/ruby/ruby.js.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/main_page/main_page.js.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/mobile/java/_java.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/mobile/java/java.js.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/mobile/js/_js.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/mobile/js/js.js.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/mobile/ruby/_ruby.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/mobile/ruby/ruby.js.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/shared/_sidebar.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/web/java/_java.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/web/java/java.js.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/web/js/_js.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/web/js/js.js.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/web/ruby/_ruby.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/web/ruby/ruby.js.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/java.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/js.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/main.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/mobile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/qa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/ruby.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/web.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ruby-version" beforeDir="false" afterPath="$PROJECT_DIR$/.ruby-version" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rakefile" beforeDir="false" afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/config/manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/config/manifest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/fonts/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/fonts/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/.keep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/eq_informations/elp/option-elp-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/eq_informations/elp/option-elp-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/eq_informations/elp/option-elp-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/eq_informations/elp/option-elp-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/eq_informations/elp/option-elp-3.1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/eq_informations/elp/option-elp-3.1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/eq_informations/elp/option-elp-3.2.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/eq_informations/elp/option-elp-3.2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/eq_informations/elp/option-elp-3.3.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/eq_informations/elp/option-elp-3.3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/eq_informations/elp/option-elp-3.4.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/eq_informations/elp/option-elp-3.4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/eq_informations/elp/option-elp-3.5.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/eq_informations/elp/option-elp-3.5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/eq_informations/elp/option-elp-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/eq_informations/elp/option-elp-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/eq_informations/elp/option-elp-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/eq_informations/elp/option-elp-4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/eq_informations/elp/option-elp.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/eq_informations/elp/option-elp.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/eq_informations/elp/result-elp-full-ip.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/eq_informations/elp/result-elp-full-ip.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/eq_informations/elp/result-elp-second-ip.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/eq_informations/elp/result-elp-second-ip.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/eq_informations/elp/result-elp.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/eq_informations/elp/result-elp.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/exception_handler/alert.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/exception_handler/alert.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/exception_handler/alert.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/exception_handler/alert.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/exception_handler/connect/facebook.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/exception_handler/connect/facebook.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/exception_handler/connect/fusion.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/exception_handler/connect/fusion.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/exception_handler/connect/linkedin.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/exception_handler/connect/linkedin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/exception_handler/connect/twitter.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/exception_handler/connect/twitter.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/exception_handler/connect/youtube.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/exception_handler/connect/youtube.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/exception_handler/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/exception_handler/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/exception_handler/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/exception_handler/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/exception_handler/noise.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/exception_handler/noise.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/exception_handler/overlay.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/exception_handler/overlay.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/icon-title.ico" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/icon-title.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/navigator.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/navigator.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascript/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascript/application.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascript/bootag.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascript/bootag.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascript/cable.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascript/cable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascript/channels/handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascript/channels/handler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascript/money-format.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascript/money-format.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/navigator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/about_my.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/exception_handler.css.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/exception_handler.css.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/main_page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/main_page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/spiner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/spiner.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/styles/_base.css.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/styles/_base.css.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/styles/_exception.css.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/styles/_exception.css.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/styles/_footer.css.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/styles/_footer.css.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/styles/_responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/styles/_responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/channels/application_cable/channel.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/channels/application_cable/channel.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/channels/application_cable/connection.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/channels/application_cable/connection.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/frameworks.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/web.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/web.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/concerns/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/concerns/.keep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/main_page_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/main_page_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/main_page_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/main_page_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/jobs/application_job.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/jobs/application_job.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/mailers/application_mailer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/mailers/application_mailer.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/application_record.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/application_record.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/concerns/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/concerns/.keep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/_404.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_404.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/_500.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_500.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/_application.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_application.html.haml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/exception.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/exception.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/mailer.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/mailer.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/mailer.text.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/mailer.text.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/main_page/index.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main_page/index.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_modal_error.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_modal_error.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_modal_success.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_modal_success.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_spinner.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_spinner.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/modal_error.js.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/modal_error.js.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/modal_success.js.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/modal_success.js.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.ru" beforeDir="false" afterPath="$PROJECT_DIR$/config.ru" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/boot.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/boot.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/cable.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/cable.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/credentials.yml.enc" beforeDir="false" afterPath="$PROJECT_DIR$/config/credentials.yml.enc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environment.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environment.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/application_controller_renderer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/application_controller_renderer.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/assets.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/backtrace_silencers.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/backtrace_silencers.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/content_security_policy.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/content_security_policy.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/cookies_serializer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/cookies_serializer.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/filter_parameter_logging.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/filter_parameter_logging.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/inflections.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/inflections.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/mime_types.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/mime_types.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/permissions_policy.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/permissions_policy.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/wrap_parameters.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/wrap_parameters.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/locales/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/en.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/puma.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/puma.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/spring.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/spring.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/storage.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/storage.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container/inst.sh" beforeDir="false" afterPath="$PROJECT_DIR$/container/inst.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container/pg_hba.conf" beforeDir="false" afterPath="$PROJECT_DIR$/container/pg_hba.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container/postgresql.conf" beforeDir="false" afterPath="$PROJECT_DIR$/container/postgresql.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/assets/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/lib/assets/.keep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tasks/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tasks/.keep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/log/.keep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/422.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/422.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/500.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/apple-touch-icon-precomposed.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/apple-touch-icon-precomposed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/apple-touch-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/helpers/main_page_helper_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/helpers/about_my_helper_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/requests/main_page_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/requests/about_my_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/storage/.keep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/application_system_test_case.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/channels/application_cable/connection_test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main_page/_main_page.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/files/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/helpers/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/integration/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/mailers/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/system/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pids/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shared/_modal_error.html.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shared/_modal_success.html.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shared/_sidebar.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_sidebar.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shared/modal_error.js.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shared/modal_success.js.erb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -362,7 +210,7 @@
       <workItem from="1624369211244" duration="20599000" />
       <workItem from="1624433547573" duration="632000" />
       <workItem from="1624434266279" duration="2345000" />
-      <workItem from="1624437556568" duration="8775000" />
+      <workItem from="1624437556568" duration="12347000" />
     </task>
     <servers />
   </component>

@@ -13,32 +13,38 @@
         #sidebar-wrapper
           %ul.sidebar-nav{:style => "margin-left:0;"}
             %li.sidebar-brand
-              %a#menu-toggle{:href => "#menu-toggle", :style => "margin-top:20px;float:right;"}
-                %i.fa.fa-bars{"aria-hidden" => "true", :style => "font-size:20px !Important;"}
+              -#%a#menu-toggle{:href => "#menu-toggle", :style => "margin-top:20px;float:right;"}
+              -#  %i.fa.fa-bars{"aria-hidden" => "true", :style => "font-size:20px !Important;"}
             %li
-              %a#main{:href => "#"}
-                %i.fa.fa-signal{"aria-hidden" => "true"}
-                %span{:style => "margin-left:10px;"} Главная
-                :javascript
-                  $(document).ready(function() {
-                    $("#main").click(function(e) {
-                        e.preventDefault();
-                        $.ajax({ url: "/main", type: "get" });
+              .display-flex
+                #icon-main
+                %a#main{:href => "#"}
+                  %span{:style => "margin-left:10px;"} Главная
+                  :javascript
+                    $(document).ready(function() {
+                      $("#main").click(function(e) {
+                          e.preventDefault();
+                          $.ajax({ url: "/main", type: "get" });
+                      });
                     });
-                  });
+            %br
 
             %li
-              %a.dropdown-toggle{"aria-controls" => "otherSections1", "aria-expanded" => "false", "data-toggle" => "collapse", :href => "#otherSections1", :role => "button"}
-                %i.fa.fa-inbox{"aria-hidden" => "true"}
-                %span{:style => "margin-left:10px;"} Автоматизация WEB
+              .display-flex
+                #icon-web
+                %a.dropdown-toggle{"aria-controls" => "otherSections1", "aria-expanded" => "false", "data-toggle" => "collapse", :href => "#otherSections1", :role => "button"}
+                  %span{:style => "margin-left:10px;"} Gui
               %ul#otherSections1.collapse.list-unstyled.margin-left-60
-                %li
+                %li.display-flex
+                  #icon-ruby
                   %a#web-ruby.scroll-link{:href => "#web/ruby"} Ruby
-                %li
+                %li.display-flex
+                  #icon-java
                   %a#web-java.scroll-link{:href => "#web/java"} Java
-                %li
+                %li.display-flex
+                  #icon-js
                   %a#web-js.scroll-link{:href => "#web/js"} JS
-
+                %br
                 :javascript
                   $(document).ready(function() {
                     $("#web-ruby").click(function(e) {
@@ -61,17 +67,21 @@
                     });
                   });
             %li
-              %a.dropdown-toggle{"aria-controls" => "otherSections2", "aria-expanded" => "false", "data-toggle" => "collapse", :href => "#otherSections2", :role => "button"}
-                %i.fa.fa-inbox{"aria-hidden" => "true"}
-                %span{:style => "margin-left:10px;"} Автоматизация Back
+              .display-flex
+                #icon-back
+                %a.dropdown-toggle{"aria-controls" => "otherSections2", "aria-expanded" => "false", "data-toggle" => "collapse", :href => "#otherSections2", :role => "button"}
+                  %span{:style => "margin-left:10px;"} Api
               %ul#otherSections2.collapse.list-unstyled.margin-left-60
-                %li
+                %li.display-flex
+                  #icon-ruby
                   %a#back-ruby.scroll-link{:href => "#back/ruby"} Ruby
-                %li
+                %li.display-flex
+                  #icon-java
                   %a#back-java.scroll-link{:href => "#back/java"} Java
-                %li
+                %li.display-flex
+                  #icon-js
                   %a#back-js.scroll-link{:href => "#back/js"} JS
-
+                %br
                 :javascript
                   $(document).ready(function() {
                     $("#back-ruby").click(function(e) {
@@ -95,17 +105,21 @@
                   });
 
             %li
-              %a.dropdown-toggle{"aria-controls" => "otherSections3", "aria-expanded" => "false", "data-toggle" => "collapse", :href => "#otherSections3", :role => "button"}
-                %i.fa.fa-inbox{"aria-hidden" => "true"}
-                %span{:style => "margin-left:10px;"} Автоматизация Mobile
+              .display-flex
+                #icon-mobile
+                %a.dropdown-toggle{"aria-controls" => "otherSections3", "aria-expanded" => "false", "data-toggle" => "collapse", :href => "#otherSections3", :role => "button"}
+                  %span{:style => "margin-left:10px;"} Mobile
               %ul#otherSections3.collapse.list-unstyled.margin-left-60
-                %li
+                %li.display-flex
+                  #icon-ruby
                   %a#mobile-ruby.scroll-link{:href => "#mobile/ruby"} Ruby
-                %li
+                %li.display-flex
+                  #icon-java
                   %a#mobile-java.scroll-link{:href => "#mobile/java"} Java
-                %li
+                %li.display-flex
+                  #icon-js
                   %a#mobile-js.scroll-link{:href => "#mobile/js"} JS
-
+                %br
                 :javascript
                   $(document).ready(function() {
                     $("#mobile-ruby").click(function(e) {
@@ -128,10 +142,11 @@
                     });
                   });
 
+              %br
               %li
                 %a#my{:href => "#"}
                   %i.fa.fa-user{"aria-hidden" => "true"}
-                  %span{:style => "margin-left:10px;"} Про меня
+                  %span{:style => "margin-left:10px;"} О блоге
                   :javascript
                     $(document).ready(function() {
                       $("#my").click(function(e) {

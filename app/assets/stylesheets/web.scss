@@ -1,3 +1,60 @@
-// Place all the styles related to the web controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: https://sass-lang.com/
+#icon-main {
+  background: url(main.jpeg);
+  background-size: 100%;
+  height: 15px;
+  width: 15px !important;
+  margin-top: 12px;
+  margin-left: 38px;
+}
+
+#icon-web {
+  background: url(web.png);
+  background-size: 100%;
+  height: 15px;
+  width: 15px !important;
+  margin-top: 12px;
+  margin-left: 38px;
+}
+
+#icon-back {
+  background: url(back.png);
+  background-size: 100%;
+  height: 15px;
+  width: 15px !important;
+  margin-top: 12px;
+  margin-left: 38px;
+}
+
+#icon-mobile {
+  background: url(mobile.svg);
+  background-size: 100%;
+  height: 15px;
+  width: 15px !important;
+  margin-top: 12px;
+  margin-left: 38px;
+}
+
+
+#icon-ruby {
+  background: url(ruby.png);
+  background-size: 100%;
+  height: 22px;
+  width: 22px !important;
+  margin-top: 12px;
+}
+
+#icon-java {
+  background: url(java.png);
+  background-size: 100%;
+  height: 22px;
+  width: 22px !important;
+  margin-top: 12px;
+}
+
+#icon-js {
+  background: url(js.png);
+  background-size: 100%;
+  height: 22px;
+  width: 22px !important;
+  margin-top: 12px;
+}
