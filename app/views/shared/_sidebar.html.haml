@@ -1,0 +1,148 @@
+%head
+  %link#bootstrap-css{:href => "//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css", :rel => "stylesheet"}/
+  %script{:src => "//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"}
+  %script{:src => "//code.jquery.com/jquery-1.11.1.min.js"}
+  / ---- Include the above in your HEAD tag --------
+  %link{:href => "//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css", :rel => "stylesheet"}/
+%body
+  .container
+    .row
+      %hr/
+      #wrapper
+        / Sidebar
+        #sidebar-wrapper
+          %ul.sidebar-nav{:style => "margin-left:0;"}
+            %li.sidebar-brand
+              %a#menu-toggle{:href => "#menu-toggle", :style => "margin-top:20px;float:right;"}
+                %i.fa.fa-bars{"aria-hidden" => "true", :style => "font-size:20px !Important;"}
+            %li
+              %a#main{:href => "#"}
+                %i.fa.fa-signal{"aria-hidden" => "true"}
+                %span{:style => "margin-left:10px;"} Главная
+                :javascript
+                  $(document).ready(function() {
+                    $("#main").click(function(e) {
+                        e.preventDefault();
+                        $.ajax({ url: "/main", type: "get" });
+                    });
+                  });
+
+            %li
+              %a.dropdown-toggle{"aria-controls" => "otherSections1", "aria-expanded" => "false", "data-toggle" => "collapse", :href => "#otherSections1", :role => "button"}
+                %i.fa.fa-inbox{"aria-hidden" => "true"}
+                %span{:style => "margin-left:10px;"} Автоматизация WEB
+              %ul#otherSections1.collapse.list-unstyled.margin-left-60
+                %li
+                  %a#web-ruby.scroll-link{:href => "#web/ruby"} Ruby
+                %li
+                  %a#web-java.scroll-link{:href => "#web/java"} Java
+                %li
+                  %a#web-js.scroll-link{:href => "#web/js"} JS
+
+                :javascript
+                  $(document).ready(function() {
+                    $("#web-ruby").click(function(e) {
+                        e.preventDefault();
+                        $.ajax({ url: "/web/ruby", type: "get" });
+                    });
+                  });
+
+                  $(document).ready(function() {
+                    $("#web-java").click(function(e) {
+                        e.preventDefault();
+                        $.ajax({ url: "/web/java", type: "get" });
+                    });
+                  });
+
+                  $(document).ready(function() {
+                    $("#web-js").click(function(e) {
+                        e.preventDefault();
+                        $.ajax({ url: "/web/js", type: "get" });
+                    });
+                  });
+            %li
+              %a.dropdown-toggle{"aria-controls" => "otherSections2", "aria-expanded" => "false", "data-toggle" => "collapse", :href => "#otherSections2", :role => "button"}
+                %i.fa.fa-inbox{"aria-hidden" => "true"}
+                %span{:style => "margin-left:10px;"} Автоматизация Back
+              %ul#otherSections2.collapse.list-unstyled.margin-left-60
+                %li
+                  %a#back-ruby.scroll-link{:href => "#back/ruby"} Ruby
+                %li
+                  %a#back-java.scroll-link{:href => "#back/java"} Java
+                %li
+                  %a#back-js.scroll-link{:href => "#back/js"} JS
+
+                :javascript
+                  $(document).ready(function() {
+                    $("#back-ruby").click(function(e) {
+                        e.preventDefault();
+                        $.ajax({ url: "/back/ruby", type: "get" });
+                    });
+                  });
+
+                  $(document).ready(function() {
+                    $("#back-java").click(function(e) {
+                        e.preventDefault();
+                        $.ajax({ url: "/back/java", type: "get" });
+                    });
+                  });
+
+                  $(document).ready(function() {
+                    $("#back-js").click(function(e) {
+                        e.preventDefault();
+                        $.ajax({ url: "/back/js", type: "get" });
+                    });
+                  });
+
+            %li
+              %a.dropdown-toggle{"aria-controls" => "otherSections3", "aria-expanded" => "false", "data-toggle" => "collapse", :href => "#otherSections3", :role => "button"}
+                %i.fa.fa-inbox{"aria-hidden" => "true"}
+                %span{:style => "margin-left:10px;"} Автоматизация Mobile
+              %ul#otherSections3.collapse.list-unstyled.margin-left-60
+                %li
+                  %a#mobile-ruby.scroll-link{:href => "#mobile/ruby"} Ruby
+                %li
+                  %a#mobile-java.scroll-link{:href => "#mobile/java"} Java
+                %li
+                  %a#mobile-js.scroll-link{:href => "#mobile/js"} JS
+
+                :javascript
+                  $(document).ready(function() {
+                    $("#mobile-ruby").click(function(e) {
+                        e.preventDefault();
+                        $.ajax({ url: "/mobile/ruby", type: "get" });
+                    });
+                  });
+
+                  $(document).ready(function() {
+                    $("#mobile-java").click(function(e) {
+                        e.preventDefault();
+                        $.ajax({ url: "/mobile/java", type: "get" });
+                    });
+                  });
+
+                  $(document).ready(function() {
+                    $("#mobile-js").click(function(e) {
+                        e.preventDefault();
+                        $.ajax({ url: "/mobile/js", type: "get" });
+                    });
+                  });
+
+              %li
+                %a#my{:href => "#"}
+                  %i.fa.fa-user{"aria-hidden" => "true"}
+                  %span{:style => "margin-left:10px;"} Про меня
+                  :javascript
+                    $(document).ready(function() {
+                      $("#my").click(function(e) {
+                          e.preventDefault();
+                          $.ajax({ url: "/about", type: "get" });
+                      });
+                    });
+    #body-container
+
+:javascript
+  $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+  });

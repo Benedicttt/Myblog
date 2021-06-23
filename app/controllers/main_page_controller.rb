@@ -1,8 +1,9 @@
 class MainPageController < ApplicationController
   def index
-    respond_to do |format|
-      format.html { render :text => 'this is html' }
-      format.js  { render :text => 'this is js' }
-    end
+    render "main_page/index"
+  end
+
+  def refresh
+    render "main_page/main_page"
   end
 end
