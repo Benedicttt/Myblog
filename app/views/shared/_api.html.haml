@@ -1,0 +1,35 @@
+%a.dropdown-toggle.display-flex.padding-10{"aria-controls" => "otherSections2", "aria-expanded" => "false", "data-toggle" => "collapse", :href => "#otherSections2", :role => "button" }
+  #icon-back
+  %span{:style => "margin-left:10px;"} Api
+%ul#otherSections2.collapse.list-unstyled.margin-left-60
+  %li.display-flex.padding-10
+    #icon-ruby
+    %a#back-ruby.scroll-link.margin-left-10{:href => "#back/ruby"} Ruby
+  %li.display-flex.padding-10
+    #icon-java
+    %a#back-java.scroll-link.margin-left-10{:href => "#back/java"} Java
+  %li.display-flex.padding-10
+    #icon-js
+    %a#back-js.scroll-link.margin-left-10{:href => "#back/js"} JS
+  %br
+    :javascript
+      $(document).ready(function() {
+        $("#back-ruby").click(function(e) {
+            e.preventDefault();
+            $.ajax({ url: "/back/ruby", type: "get", data: { locale: '#{params[:locale]}'} });
+        });
+      });
+
+      $(document).ready(function() {
+        $("#back-java").click(function(e) {
+            e.preventDefault();
+            $.ajax({ url: "/back/java", type: "get", data: { locale: '#{params[:locale]}'} });
+        });
+      });
+
+      $(document).ready(function() {
+        $("#back-js").click(function(e) {
+            e.preventDefault();
+            $.ajax({ url: "/back/js", type: "get", data: { locale: '#{params[:locale]}'} });
+        });
+      });

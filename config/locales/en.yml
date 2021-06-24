@@ -1,3 +1,6 @@
 en:
+  loader: Loading ...
   hello: Hello world! EN
   header: EN
+  language_en: English
+  language_ru: Russian

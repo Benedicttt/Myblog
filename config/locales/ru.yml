@@ -1,3 +1,6 @@
 ru:
+  loader: Загрузка ...
   hello: Hello world! RU
   header: RU
+  language_en: Английский
+  language_ru: Русский

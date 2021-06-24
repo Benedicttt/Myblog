@@ -44,7 +44,7 @@
 
   </style>
   <div id="overlay">
-    Загрузка ...
+    <%= t :loader %>
     <div class="loader1" alt="Loading" >
       <div class="box"></div>
       <div class="box"></div>
@@ -71,11 +71,7 @@
 
   <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= javascript_include_tag 'application' %>
+  <%= render 'shared/spinner'%>
 
 </head>
-<div>
-  <div id="modal" class="modal fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"></div>
-  <%= render 'shared/spinner'%>
-</div>
 <%= yield %>
-</body>

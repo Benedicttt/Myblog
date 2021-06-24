@@ -1,0 +1,10 @@
+%select#select_lang.margin-left-20.btn.btn-dark.font-size-18
+  %option{ value: "ru" } 🇷🇺
+  %option{ value: "en" } 🇬🇧
+
+:javascript
+  $(document).ready(function() {
+    $('#select_lang').change(function(){
+      $.ajax({ url: "/main", type: "get", data: { locale: $(this).val()} });
+    });
+  })

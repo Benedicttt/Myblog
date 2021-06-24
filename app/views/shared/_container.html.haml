@@ -1,0 +1,22 @@
+%head
+  %link#bootstrap-css{:href => "//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css", :rel => "stylesheet"}/
+  %script{:src => "//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"}
+  %script{:src => "//code.jquery.com/jquery-1.11.1.min.js"}
+  / ---- Include the above in your HEAD tag --------
+  %link{:href => "//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css", :rel => "stylesheet"}/
+%body
+  %header#pageHeader Header
+  %article#mainArticle
+    #body-container
+
+  %nav#mainNav
+    = render "shared/select_lang"
+    = render "shared/main"
+    = render "shared/web"
+    = render "shared/api"
+    = render "shared/mobile"
+    = render "shared/about"
+
+  #siteAds Ads
+  %footer#pageFooter Footer
+

@@ -5,7 +5,6 @@
 @import "glyphicons";
 @import "main_page";
 @import "spiner";
-@import "sidebar";
 @import "web";
 
 @debug '________ applciation compiled______';
@@ -17,3 +16,89 @@
 .display-flex {
   display: flex;
 }
+
+.padding-10 {
+  padding: 10px;
+}
+
+.margin-top-75 {
+  margin-top: 73px;
+}
+
+.margin-left-10 {
+  margin-left: 10px;
+}
+
+.margin-left-20 {
+  margin-left: 20px;
+}
+
+.pull-down {
+  position: absolute;
+  bottom: 15px;
+}
+.font-size-18 {
+  font-size: 18px !important;
+}
+body {
+  display: grid;
+  grid-template-areas:
+  "nav header header"
+  "nav article ads"
+  "nav footer ads";
+  grid-template-rows: 60px 1fr 60px;
+  grid-template-columns: 250px 1fr 15%;
+  grid-gap: 10px;
+  height: 100vh;
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+
+}
+
+header#pageHeader, footer#pageFooter, article#mainArticle, nav#mainNav, div#siteAds {
+  padding: 20px;
+}
+
+#pageHeader {
+  grid-area: header;
+}
+
+#pageFooter {
+  grid-area: footer;
+}
+
+#mainArticle {
+  grid-area: article;
+}
+
+#mainNav {
+  grid-area: nav;
+  background: #1b1c1d;
+  font-size: 16px;
+
+  a {
+    text-decoration: none !important;
+    color: #7f808a;
+  }
+}
+
+#siteAds {
+  grid-area: ads;
+}
+
+.dropdown-toggle::after {
+  display: none;
+  margin-top: 9px;
+  margin-left: 0.555em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
+
+select > option[value="male"]   { background-image:url(back.png);   }
+select > option[value="female"] { background-image:url(female.png); }

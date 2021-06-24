@@ -2,10 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dca57621-5991-4d21-8d24-d2a640ecffe8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/assets/images/blog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/shared/_about.html.haml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/shared/_api.html.haml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/shared/_container.html.haml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/shared/_main.html.haml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/shared/_mobile.html.haml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/shared/_select_lang.html.haml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/shared/_web.html.haml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/main_page_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/main_page_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/main_page/_main_page.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main_page/_main_page.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/sidebar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/web.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/web.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/mobile/java_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/mobile/java_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/web/java_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/web/java_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/main_page/index.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main_page/index.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shared/_sidebar.html.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shared/_spinner.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_spinner.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/locales/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/locales/ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/ru.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,19 +42,25 @@
     <setting file="file://$PROJECT_DIR$/app/views/main_page/main_page.js.erb" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/app/views/main_page/_main_page.html.haml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Gemfile" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/app/assets/stylesheets/sidebar.scss" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/assets/stylesheets/web.scss" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/config.ru" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/container/inst.sh" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/app/views/shared/_sidebar.html.haml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/views/shared/_container.html.haml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/container/pg_hba.conf" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/app/controllers/web/ruby_controller.rb" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/config/initializers/assets.rb" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/views/shared/_about.html.haml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/app/views/back/js/_js.html.haml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/views/shared/_main.html.haml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/app/views/back/js/js.js.erb" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/views/shared/_mobile.html.haml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/config/environments/production.rb" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/views/shared/_api.html.haml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/config/environments/development.rb" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/views/shared/_web.html.haml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/config/routes.rb" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/config/credentials.yml.enc" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/views/shared/_spinner.html.haml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/config/database.yml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/app/assets/stylesheets/exception_handler.css.erb" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
@@ -57,16 +79,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/config/locales" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/views/shared" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views/shared" />
       <recent name="$PROJECT_DIR$/config/locales" />
       <recent name="$PROJECT_DIR$/app/views/main_page" />
       <recent name="$PROJECT_DIR$/app/controllers" />
       <recent name="$PROJECT_DIR$/app/views" />
-      <recent name="$PROJECT_DIR$/app/views/web" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/views/about_my" />
@@ -192,7 +214,7 @@
       <workItem from="1624433547573" duration="632000" />
       <workItem from="1624434266279" duration="2345000" />
       <workItem from="1624437556568" duration="13348000" />
-      <workItem from="1624517734385" duration="10096000" />
+      <workItem from="1624517734385" duration="21343000" />
     </task>
     <servers />
   </component>

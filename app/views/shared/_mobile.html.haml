@@ -1,0 +1,35 @@
+%a.dropdown-toggle.display-flex.padding-10{"aria-controls" => "otherSections3", "aria-expanded" => "false", "data-toggle" => "collapse", :href => "#otherSections3", :role => "button" }
+  #icon-mobile
+  %span{:style => "margin-left:10px;"} Mobile
+%ul#otherSections3.collapse.list-unstyled.margin-left-60
+  %li.display-flex.padding-10
+    #icon-ruby
+    %a#mobile-ruby.scroll-link.margin-left-10{:href => "#mobile/ruby"} Ruby
+  %li.display-flex.padding-10
+    #icon-java
+    %a#mobile-java.scroll-link.margin-left-10{:href => "#mobile/java"} Java
+  %li.display-flex.padding-10
+    #icon-js
+    %a#mobile-js.scroll-link.margin-left-10{:href => "#mobile/js"} JS
+  %br
+    :javascript
+      $(document).ready(function() {
+        $("#mobile-ruby").click(function(e) {
+            e.preventDefault();
+            $.ajax({ url: "/mobile/ruby", type: "get", data: { locale: '#{params[:locale]}'} });
+        });
+      });
+
+      $(document).ready(function() {
+        $("#mobile-java").click(function(e) {
+            e.preventDefault();
+            $.ajax({ url: "/mobile/java", type: "get", data: { locale: '#{params[:locale]}'} });
+        });
+      });
+
+      $(document).ready(function() {
+        $("#mobile-js").click(function(e) {
+            e.preventDefault();
+            $.ajax({ url: "/mobile/js", type: "get", data: { locale: '#{params[:locale]}'} });
+        });
+      });
