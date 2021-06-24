@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dca57621-5991-4d21-8d24-d2a640ecffe8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/assets/images/blog.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/shared/_about.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/shared/_api.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/shared/_container.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/shared/_main.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/shared/_mobile.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/shared/_select_lang.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/shared/_web.html.haml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/sidebar.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/web.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/web.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/mobile/java_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/mobile/java_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/web/java_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/web/java_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/main_page/index.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main_page/index.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_sidebar.html.haml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_spinner.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_spinner.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/locales/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/en.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/locales/ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/ru.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shared/_select_lang.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_select_lang.html.haml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +196,7 @@
       <workItem from="1624433547573" duration="632000" />
       <workItem from="1624434266279" duration="2345000" />
       <workItem from="1624437556568" duration="13348000" />
-      <workItem from="1624517734385" duration="21343000" />
+      <workItem from="1624517734385" duration="24190000" />
     </task>
     <servers />
   </component>
