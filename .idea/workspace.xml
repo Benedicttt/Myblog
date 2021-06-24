@@ -2,29 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dca57621-5991-4d21-8d24-d2a640ecffe8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/assets/images/back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/java.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/js.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/main.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/main.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/mobile.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/qa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/ruby.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/locales/ru.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/navigator.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/about_my.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/frameworks.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/web.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/web.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/main.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_modal_error.html.haml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_modal_success.html.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/main_page/_main_page.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main_page/_main_page.html.haml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/shared/_sidebar.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_sidebar.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/modal_error.js.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/modal_success.js.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/web/java/_java.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/web/java/_java.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/web/ruby/_ruby.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/web/ruby/_ruby.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/locales/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,16 +66,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/views/main_page" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/config/locales" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config/locales" />
       <recent name="$PROJECT_DIR$/app/views/main_page" />
       <recent name="$PROJECT_DIR$/app/controllers" />
       <recent name="$PROJECT_DIR$/app/views" />
       <recent name="$PROJECT_DIR$/app/views/web" />
-      <recent name="$PROJECT_DIR$/app/controllers/web" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/views/about_my" />
@@ -210,7 +200,8 @@
       <workItem from="1624369211244" duration="20599000" />
       <workItem from="1624433547573" duration="632000" />
       <workItem from="1624434266279" duration="2345000" />
-      <workItem from="1624437556568" duration="12347000" />
+      <workItem from="1624437556568" duration="13348000" />
+      <workItem from="1624517734385" duration="9398000" />
     </task>
     <servers />
   </component>

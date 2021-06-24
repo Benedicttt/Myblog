@@ -24,7 +24,7 @@
                     $(document).ready(function() {
                       $("#main").click(function(e) {
                           e.preventDefault();
-                          $.ajax({ url: "/main", type: "get" });
+                          $.ajax({ url: "/main", type: "get", data: { locale: '#{params[:locale]}'} });
                       });
                     });
             %br
@@ -37,7 +37,7 @@
               %ul#otherSections1.collapse.list-unstyled.margin-left-60
                 %li.display-flex
                   #icon-ruby
-                  %a#web-ruby.scroll-link{:href => "#web/ruby"} Ruby
+                  %a#web-ruby.scroll-link{:href => "#web/ruby/"} Ruby
                 %li.display-flex
                   #icon-java
                   %a#web-java.scroll-link{:href => "#web/java"} Java
@@ -49,21 +49,23 @@
                   $(document).ready(function() {
                     $("#web-ruby").click(function(e) {
                         e.preventDefault();
-                        $.ajax({ url: "/web/ruby", type: "get" });
+                        $.ajax({
+                        url: "/web/ruby",
+                        type: "get", data: { locale: '#{params[:locale]}'} });
                     });
                   });
 
                   $(document).ready(function() {
                     $("#web-java").click(function(e) {
                         e.preventDefault();
-                        $.ajax({ url: "/web/java", type: "get" });
+                        $.ajax({ url: "/web/java", type: "get", data: { locale: '#{params[:locale]}'} });
                     });
                   });
 
                   $(document).ready(function() {
                     $("#web-js").click(function(e) {
                         e.preventDefault();
-                        $.ajax({ url: "/web/js", type: "get" });
+                        $.ajax({ url: "/web/js", type: "get", data: { locale: '#{params[:locale]}'} });
                     });
                   });
             %li
@@ -86,21 +88,21 @@
                   $(document).ready(function() {
                     $("#back-ruby").click(function(e) {
                         e.preventDefault();
-                        $.ajax({ url: "/back/ruby", type: "get" });
+                        $.ajax({ url: "/back/ruby", type: "get", data: { locale: '#{params[:locale]}'} });
                     });
                   });
 
                   $(document).ready(function() {
                     $("#back-java").click(function(e) {
                         e.preventDefault();
-                        $.ajax({ url: "/back/java", type: "get" });
+                        $.ajax({ url: "/back/java", type: "get", data: { locale: '#{params[:locale]}'} });
                     });
                   });
 
                   $(document).ready(function() {
                     $("#back-js").click(function(e) {
                         e.preventDefault();
-                        $.ajax({ url: "/back/js", type: "get" });
+                        $.ajax({ url: "/back/js", type: "get", data: { locale: '#{params[:locale]}'} });
                     });
                   });
 
@@ -124,21 +126,21 @@
                   $(document).ready(function() {
                     $("#mobile-ruby").click(function(e) {
                         e.preventDefault();
-                        $.ajax({ url: "/mobile/ruby", type: "get" });
+                        $.ajax({ url: "/mobile/ruby", type: "get", data: { locale: '#{params[:locale]}'} });
                     });
                   });
 
                   $(document).ready(function() {
                     $("#mobile-java").click(function(e) {
                         e.preventDefault();
-                        $.ajax({ url: "/mobile/java", type: "get" });
+                        $.ajax({ url: "/mobile/java", type: "get", data: { locale: '#{params[:locale]}'} });
                     });
                   });
 
                   $(document).ready(function() {
                     $("#mobile-js").click(function(e) {
                         e.preventDefault();
-                        $.ajax({ url: "/mobile/js", type: "get" });
+                        $.ajax({ url: "/mobile/js", type: "get", data: { locale: '#{params[:locale]}'} });
                     });
                   });
 
@@ -151,7 +153,7 @@
                     $(document).ready(function() {
                       $("#my").click(function(e) {
                           e.preventDefault();
-                          $.ajax({ url: "/about", type: "get" });
+                          $.ajax({ url: "/about", type: "get", data: { locale: '#{params[:locale]}'} });
                       });
                     });
     #body-container

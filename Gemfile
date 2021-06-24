@@ -83,5 +83,7 @@ group :development, :production, :test do
 
   gem 'actionpack-page_caching'
   gem 'actionpack-action_caching'
+  gem 'rails-i18n'
+
 end
 
