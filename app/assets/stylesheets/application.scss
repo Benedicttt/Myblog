@@ -40,10 +40,24 @@
 .font-size-18 {
   font-size: 18px !important;
 }
+
+.font-size-14 {
+  font-size: 18px !important;
+}
+
+.fw-900 {
+  font-weight: 900;
+}
+.pull-rigth-90-perc {
+  position: relative;
+  top: -20px;
+  left: 90%;
+}
+
 body {
   display: grid;
   grid-template-areas:
-  "nav header header"
+  "nav article ads"
   "nav article ads"
   "nav footer ads";
   grid-template-rows: 60px 1fr 60px;

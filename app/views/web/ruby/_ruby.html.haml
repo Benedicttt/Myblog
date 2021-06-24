@@ -1,5 +1,15 @@
-%h Ruby Web
-%h1= t :header
+%h2 Ruby Web
+%br
 
-%h1= I18n.default_locale
-
+%ul.nav.nav-tabs.margin-left-10
+ %li.active
+  %a{"data-toggle" => "tab", href: "#home"} Rspec
+ %li
+  %a{"data-toggle" => "tab", href: "#menu1"} Cucumber
+.tab-content
+ #home.tab-pane.fade.in.active
+  %h3 Rspec + Selenium
+  %p Some content.
+ #menu1.tab-pane.fade
+  %h3 Cucumber + Selenium
+  %p Some content in menu 1.

@@ -1,1 +1,22 @@
-%h Java Back
+%h2 Java Back
+%br
+
+%ul.nav.nav-tabs.margin-left-10
+  %li.active
+    %a{"data-toggle" => "tab", href: "#home"} TestNg
+  %li
+    %a{"data-toggle" => "tab", href: "#menu1"} JUnit5
+  %li
+    %a{"data-toggle" => "tab", href: "#menu2"} Cucumber
+.tab-content
+  #home.tab-pane.fade.in.active
+    %h3 TestNg + RestAssured
+    %p Some content.
+  #menu1.tab-pane.fade
+    %h3 JUnit5 + RestAssured
+    %p Some content in menu 1.
+  #menu2.tab-pane.fade
+    %h3 Cucumber + RestAssured
+    %p Some content in menu 1.
+
+

@@ -5,7 +5,7 @@
   / ---- Include the above in your HEAD tag --------
   %link{:href => "//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css", :rel => "stylesheet"}/
 %body
-  %header#pageHeader Header
+  -#%header#pageHeader Header
   %article#mainArticle
     #body-container
 
@@ -17,6 +17,6 @@
     = render "shared/mobile"
     = render "shared/about"
 
-  #siteAds Ads
-  %footer#pageFooter Footer
+  #siteAds
+  %footer#pageFooter.pull-rigth-90-perc.fw-900= t :author
 
