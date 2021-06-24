@@ -11,7 +11,7 @@ module MyBlog
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.1
 
-    # config.i18n.default_locale = :ru
+    config.i18n.default_locale = :ru
     config.i18n.fallbacks = %i[en ru]
   end
 end
