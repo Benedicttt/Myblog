@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 source "https://rails-assets.org"
 
 gem 'rails-assets-bootstrap', ">= 4.0.0.alpha.2"
-gem 'rails-assets-tether'
+gem 'rails-assets-tether', :source => 'https://rails-assets.org/'
 gem 'rubyzip', '>= 1.0.0'
 gem 'zip-zip'
 

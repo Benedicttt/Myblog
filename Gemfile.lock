@@ -174,8 +174,6 @@ GEM
       haml (>= 4.0.6, < 6.0)
       html2haml (>= 1.0.1)
       railties (>= 5.1)
-    highcharts-rails (6.0.3)
-      railties (>= 3.1)
     highline (2.0.3)
     html2haml (2.2.0)
       erubis (~> 2.7.0)
@@ -421,7 +419,6 @@ DEPENDENCIES
   geckodriver-helper
   glyphicons-rails
   haml-rails (~> 2.0)
-  highcharts-rails
   highline
   jquery-rails
   json-formatter-rails
@@ -440,7 +437,7 @@ DEPENDENCIES
   rack-cors
   rails!
   rails-assets-bootstrap (>= 4.0.0.alpha.2)
-  rails-assets-tether
+  rails-assets-tether!
   rails-i18n
   rails_semantic_logger
   rake (~> 13.0.1)

@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dca57621-5991-4d21-8d24-d2a640ecffe8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/assets/images/sw_life_cicle_new.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascript/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascript/application.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/main_page_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/main_page_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/back/java/_java.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/back/java/_java.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/back/js/_js.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/back/js/_js.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/back/ruby/_ruby.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/back/ruby/_ruby.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/main_page/_main_page.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main_page/_main_page.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/main_page/main_page.js.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main_page/main_page.js.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/mobile/java/_java.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/mobile/java/_java.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/mobile/js/_js.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/mobile/js/_js.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/mobile/ruby/_ruby.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/mobile/ruby/_ruby.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_about.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_about.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_api.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_api.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_container.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_container.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_main.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_main.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_mobile.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_mobile.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_web.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_web.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/web/java/_java.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/web/java/_java.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/web/js/_js.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/web/js/_js.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/web/ruby/_ruby.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/web/ruby/_ruby.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/locales/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/en.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/locales/ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/ru.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +198,7 @@
       <workItem from="1624437556568" duration="13348000" />
       <workItem from="1624517734385" duration="25839000" />
       <workItem from="1624569606530" duration="1632000" />
-      <workItem from="1624609021735" duration="22220000" />
+      <workItem from="1624609021735" duration="22838000" />
     </task>
     <servers />
   </component>
