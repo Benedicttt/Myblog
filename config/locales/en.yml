@@ -5,3 +5,14 @@ en:
   language_en: English
   language_ru: Russian
   author: S.Kievskiy
+  describe:
+    header: About testing in simple words
+    tabs_and_page:
+      tab_what_is_this_testing:
+        tab: What is software testing?
+      tab_who_are_qa: Who are QA?
+      tab_testing_types: Testing types
+      tab_misconceptions: Testing misconceptions
+      tab_gui: What os GUI testing?
+      tab_api: What os API testing?
+      tab_mobile: What os Mobile testing?

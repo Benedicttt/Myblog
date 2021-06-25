@@ -5,7 +5,11 @@
   / ---- Include the above in your HEAD tag --------
   %link{:href => "//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css", :rel => "stylesheet"}/
 %body
-  -#%header#pageHeader Header
+  %header#pageHeader
+    .line-bottom
+      %h2= t ('describe.header')
+    %br
+
   %article#mainArticle
     #body-container
 

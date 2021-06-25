@@ -1,2 +1,2 @@
-$("#body-container").html("<%= j render 'main_page' %>");
+$("#body-container").html("<%= j render 'main_page', params: { params: params, tab1: @text1 } %>");
 console.log("main page refresh")

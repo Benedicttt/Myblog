@@ -1,6 +1,8 @@
 class MainPageController < ApplicationController
   def index
     params[:locale] = I18n.default_locale if params[:locale].nil?
+
+
     render "main_page/index"
   end
 

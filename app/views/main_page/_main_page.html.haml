@@ -1,1 +1,86 @@
-%h4 Что такое автоматизированое тестирование и зачем оно нужно?
+%br
+%ul.nav.nav-tabs.margin-left-10
+  %li.active.nav-item
+    %a.nav-link{"data-toggle" => "tab", href: "#home"}= t ('describe.tabs_and_page.tab_what_is_this_testing.tab')
+  %li.nav-item
+    %a.nav-link#types-qa{"data-toggle" => "tab", href: "#menu1"}= t ('describe.tabs_and_page.tab_testing_types')
+  %li
+    %a{"data-toggle" => "tab", href: "#menu2"}= t ('describe.tabs_and_page.tab_who_are_qa')
+  %li
+    %a{"data-toggle" => "tab", href: "#menu3"}= t ('describe.tabs_and_page.tab_misconceptions')
+  %li
+    %a{"data-toggle" => "tab", href: "#menu4"}= t ('describe.tabs_and_page.tab_gui')
+  %li
+    %a{"data-toggle" => "tab", href: "#menu5"}= t ('describe.tabs_and_page.tab_api')
+  %li
+    %a{"data-toggle" => "tab", href: "#menu6"}= t ('describe.tabs_and_page.tab_mobile')
+
+.tab-content
+  #home.tab-pane.fade.in.active
+    %div
+    %br
+      .font-size-18#tab1-main
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        %blockquote.radius
+          = t('describe.tabs_and_page.tab_what_is_this_testing.describe.line1')
+        .margin-left-20
+          = t('describe.tabs_and_page.tab_what_is_this_testing.describe.line2')
+        %br
+        = t('describe.tabs_and_page.tab_what_is_this_testing.describe.line3')
+        %p
+        %strong
+          = t('describe.tabs_and_page.tab_what_is_this_testing.describe.line4')
+        %p
+        = t('describe.tabs_and_page.tab_what_is_this_testing.describe.line5')
+        %br
+        %br
+        .margin-left-20
+          = t('describe.tabs_and_page.tab_what_is_this_testing.describe.line6')
+        %span.img-container-center
+          %img.size-35{src: "/assets/sw_life_cicle_new.png"}
+        .margin-left-20
+          = t('describe.tabs_and_page.tab_what_is_this_testing.describe.line7').html_safe
+          = t('describe.tabs_and_page.tab_what_is_this_testing.describe.line8').html_safe
+          = t('describe.tabs_and_page.tab_what_is_this_testing.describe.line9').html_safe
+          = t('describe.tabs_and_page.tab_what_is_this_testing.describe.line10').html_safe
+          = t('describe.tabs_and_page.tab_what_is_this_testing.describe.line11').html_safe
+          = t('describe.tabs_and_page.tab_what_is_this_testing.describe.line12').html_safe
+
+        %br
+        %br
+        %blockquote.radius
+          = t('describe.tabs_and_page.tab_what_is_this_testing.describe.line13').html_safe
+        %br
+        .margin-left-20
+          = t('describe.tabs_and_page.tab_what_is_this_testing.describe.line14').html_safe
+        %br
+        .margin-left-20
+          = t('describe.tabs_and_page.tab_what_is_this_testing.describe.line15').html_safe
+
+        :javascript
+          function clickTab(selector) {
+              console.log("click tab")
+              var sideNavScrollbar = document.querySelector(selector);
+              sideNavScrollbar.click()
+          }
+  #menu1.tab-pane.fade
+    %h3 Cucumber + RestAssured
+    %p Some content in menu 1.
+  #menu2.tab-pane.fade
+    %h3 Cucumber + RestAssured
+    %p Some content in menu 1.
+  #menu3.tab-pane.fade
+    %h3 Cucumber + RestAssured
+    %p Some content in menu 1.
+  #menu4.tab-pane.fade
+    %h3 Cucumber + RestAssured
+    %p Some content in menu 1.
+  #menu5.tab-pane.fade
+    %h3 Cucumber + RestAssured
+    %p Some content in menu 1.
+  #menu6.tab-pane.fade
+    %h3 Cucumber + RestAssured
+    %p Some content in menu 1.
+
+
+

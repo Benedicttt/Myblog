@@ -71,7 +71,6 @@ group :development, :production, :test do
   gem 'rack-cors'
   gem 'rexml'
   gem 'autosize-rails'
-  gem "highcharts-rails"
 
   gem 'rspec-rails'
   gem "factory_bot"
