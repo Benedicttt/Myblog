@@ -10,6 +10,7 @@ en:
   describe:
     header: About testing in simple words
     tabs_and_page:
+
       tab_what_is_this_testing:
         tab: What is software testing?
         describe:
@@ -28,6 +29,7 @@ en:
           line13: <em> Planning is a continuous process of making managerial decisions and methodological organization of efforts to implement them in order to ensure the quality of a certain process over a long period of time. In fact, it is your colleagues who gather and discuss some kind of revision - in this case, based on your experience, say that, for example, it will take you two days to test this revision when it is ready. <br> <br> Reporting is collection and dissemination of information on the results of work (including the current status, assessment of progress and forecast of the development of the situation). </em> </blockquote>
           line14: "It all sounds awful and incomprehensible - but this is only for now, when the practice begins, for you everything that is written above will become familiar and understandable. Let's go further!"
           line15: Since there are many approaches in the testing life cycle, in the testing itself we output <a href="#" id="type_testing" onclick=clickTab("#types-qa")> Types of testing </a>
+
       tab_testing_types:
         tab: Types testing
         describe:
@@ -49,7 +51,14 @@ en:
           usability_testing: Usability testing
           usability_testing_describe: Usability testing is a testing method aimed at establishing the degree of usability, learnability, comprehensibility and attractiveness to users of the developed product in the context of specified conditions. To identify problems associated with a specific interface mechanism to determine whether there are problems with the usability of the interface for navigation, using the main functionality.
 
-      tab_who_are_qa: Who are QA?
+      tab_who_are_qa:
+        tab: Who are QA?
+        head: QA - is not a profession, but inspiration and eternal improvement!
+        describe: "The job of a Quality Assurance engineer is most likely to control the correct execution of all stages of development and the correct operation of the final product. It is very similar to what a manual tester monitors. for revision, if there are bugs or inaccuracies. The QA engineer also adheres to the standards of software development, interacts with many people, such as programmers, analysts, product owners, customers, designers, etc., but more closely. He literally climbs into the product and takes it apart piece by piece, and when he sees in general what and how, he can prompt or prevent the appearance of bugs by telling colleagues about the problems found. "
+        describe2: "A QA engineer is a person who sees the product from the outside, inside, and as an outside observer who is far from IT. But in order to see so much you need to practice and gain experience."
+        responsibilities: "The responsibilities of a tester most often include:"
+        responsibilities_describe: <ul> <li> analysis and calculation of the time required to create an application or fix a bug </li> <li> testing process directly </li> <li> re-testing moments in which problems were previously found </li> <li> development of test scripts </li> <li> introduction of discovered defects or bugs into the tracking system </li> <li> discussion of fixes with all development and analytics participants </li> <li> tracking the fix process </li> <li> analysis of test results </li> <li> script revision </li> <li> test documentation </li> </ul>
+
       tab_misconceptions: Testing misconceptions
       tab_gui: What is GUI testing?
       tab_api: What is API testing?

@@ -19,11 +19,14 @@
       .margin-left-20
         = t('describe.tabs_and_page.tab_what_is_this_testing.describe.line6')
       %br
+      %br
       %span.img-container-center
       - if params[:locale] == "ru"
         %img.size-85{src: "/assets/life-ru.svg"}
       - if params[:locale] == "en"
         %img.size-85{src: "/assets/life-en.svg"}
+      %br
+      %br
       %br
       .margin-left-20
         = t('describe.tabs_and_page.tab_what_is_this_testing.describe.line7').html_safe

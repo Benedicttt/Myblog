@@ -5,9 +5,7 @@
   %li.nav-item
     %a.nav-link#types-qa{"data-toggle" => "tab", href: "#menu1"}= t ('describe.tabs_and_page.tab_testing_types.tab')
   %li
-    %a{"data-toggle" => "tab", href: "#menu2"}= t ('describe.tabs_and_page.tab_who_are_qa')
-  %li
-    %a{"data-toggle" => "tab", href: "#menu3"}= t ('describe.tabs_and_page.tab_misconceptions')
+    %a{"data-toggle" => "tab", href: "#menu2"}= t ('describe.tabs_and_page.tab_who_are_qa.tab')
   %li
     %a{"data-toggle" => "tab", href: "#menu4"}= t ('describe.tabs_and_page.tab_gui')
   %li
@@ -18,12 +16,7 @@
 .tab-content
   = render "main_page/tabs/home"
   = render "main_page/tabs/menu1"
-  #menu2.tab-pane.fade
-    %h3 Cucumber + RestAssured
-    %p Some content in menu 1.
-  #menu3.tab-pane.fade
-    %h3 Cucumber + RestAssured
-    %p Some content in menu 1.
+  = render "main_page/tabs/menu2"
   #menu4.tab-pane.fade
     %h3 Cucumber + RestAssured
     %p Some content in menu 1.
