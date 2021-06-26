@@ -4,6 +4,8 @@ en:
   header: EN
   language_en: English
   language_ru: Russian
+  main: Home
+  about: About
   author: S.Kievskiy
   describe:
     header: About testing in simple words

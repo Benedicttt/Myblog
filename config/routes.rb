@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
   scope "(:locale)", locale: /en|ru/ do
     root 'main_page#index'
+
     get "/main",   to: 'main_page#refresh'
     get "/about",  to: 'about#index'
 

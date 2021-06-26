@@ -8,5 +8,6 @@
   $(document).ready(function() {
     $('#select_lang').change(function(){
       window.location = $(this).val()
+      // $.ajax({ url: "/main", type: "get", data: { locale: $(this).val() }});
     });
   })

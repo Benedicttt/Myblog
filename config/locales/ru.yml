@@ -4,6 +4,8 @@ ru:
   header: RU
   language_en: Английский
   language_ru: Русский
+  main: На главную
+  about: О блоге
   author: С.Киевский
   describe:
     header: Про тестирование простыми словами

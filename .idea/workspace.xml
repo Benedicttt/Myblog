@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dca57621-5991-4d21-8d24-d2a640ecffe8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/assets/images/life-en.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/type_testing-en.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/type_testing-ru.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/main_page/tabs/_home.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/main_page/tabs/_menu1.html.haml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/life.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/life-ru.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/main_page/_main_page.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main_page/_main_page.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/web.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/web.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/main_page_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/main_page_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/main_page/index.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main_page/index.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/main_page/main_page.js.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main_page/main_page.js.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shared/_about.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_about.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shared/_main.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_main.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shared/_select_lang.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_select_lang.html.haml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/locales/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/en.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/locales/ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/ru.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,15 +75,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/views/main_page" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views/main_page" />
       <recent name="$PROJECT_DIR$/app/assets/images" />
       <recent name="$PROJECT_DIR$/app/views/shared" />
       <recent name="$PROJECT_DIR$/config/locales" />
-      <recent name="$PROJECT_DIR$/app/views/main_page" />
       <recent name="$PROJECT_DIR$/app/controllers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -213,7 +213,7 @@
       <workItem from="1624517734385" duration="25839000" />
       <workItem from="1624569606530" duration="1632000" />
       <workItem from="1624609021735" duration="22838000" />
-      <workItem from="1624708520325" duration="7903000" />
+      <workItem from="1624708520325" duration="9314000" />
     </task>
     <servers />
   </component>
