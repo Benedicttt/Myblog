@@ -10,9 +10,45 @@ en:
     tabs_and_page:
       tab_what_is_this_testing:
         tab: What is software testing?
+        describe:
+          line1: Software testing is the process of verifying that the requirements from the customer and what the programmers wrote.
+          line2: The process when we check how it should be and how it really is, we call it - testing.
+          line3: Each testing has a life cycle (LC). Not to be confused with development lifecycle or development methodology.
+          line4: Lifecycle testing is the stages from the very beginning of testing and finding errors (bugs), inconsistencies, etc., to its end, when all the errors are corrected - when the product meets the terms of reference (TOR) from the customer.
+          line5: Most often, in the testing process, additions to the TK arise, since some things, for example, are technically impossible to implement and other implementation options are found so that the task from the TK is performed.
+          line6: "Let's consider, so what is the \" Life cycle in testing \"and its stages:"
+          line7: 1. <em> Requirements planning and analysis </em> - you just look at what they want from you and say \ "It will take me two days to parse and see what is ready and what is not in the software \". <p>
+          line8: 2. <em> Clarification of acceptance criteria </em> - after you have read and looked at the raw functionality, you will definitely clarify the minimum requirements for the software to work. Step is required. <p>
+          line9: 3. <em> Clarifying the testing strategy </em> - in principle, you can do without it. But it is important to understand that the strategy in testing is the organization of the testing process itself, subject to limited resources. Therefore, it would be nice to understand what resources are available in general. Plus, a testing strategy is needed so that each of the participants understands what is the role of testing in the project, what is being tested, how it is tested, and so that everyone has a real understanding in anticipation of what is generally going on in quality control. <p>
+          line10: "4. <em> Development of test documentation </em> - this is what many automators do not like, this is writing test cases. At this stage, development, revision, test documentation takes place: test case, test suite, test plans <p> "
+          line11: 5. <em> Executing test cases and Fixing found defects </em> - speaks for itself. We recorded a step-by-step execution of some small piece of software (test case) and began to test it. Oops! The performed check from the test case does not correspond to what is actually in the software - we write an error in the bug tracking (platform for fixing any bug, task, epik, etc.) <p>
+          line12: "6. <em> Analysis of test results and reporting - I will write about this as they write in the Internet: the formulated conclusions depend on the test plan and acceptance criteria and serve as the basis for stages 1, 2, 3 of the next iteration. </em>"
+          line13: <em> Planning is a continuous process of making managerial decisions and methodological organization of efforts to implement them in order to ensure the quality of a certain process over a long period of time. In fact, it is your colleagues who gather and discuss some kind of revision - in this case, based on your experience, say that, for example, it will take you two days to test this revision when it is ready. <br> <br> Reporting is collection and dissemination of information on the results of work (including the current status, assessment of progress and forecast of the development of the situation). </em> </blockquote>
+          line14: "It all sounds awful and incomprehensible - but this is only for now, when the practice begins, for you everything that is written above will become familiar and understandable. Let's go further!"
+          line15: Since there are many approaches in the testing life cycle, in the testing itself we output <a href="#" id="type_testing" onclick=clickTab("#types-qa")> Types of testing </a>
+      tab_testing_types:
+        tab: Types testing
+        describe:
+          head: "It is necessary to highlight the main types of testing:"
+          functional_testing: Functional testing
+          functional_testing_describe: Functionality check (testing by the "black box" method) - checking the compliance of the software with the requirements stated in the specification. Both full testing of the declared functionality and verification of only basic functionality can be carried out. White box testing testing for compliance of a software product with requirements with knowledge of the internal structure of the system implementation (source code and technical specifications are available). Black box testing testing for compliance of a software product with requirements without knowing the internal structure of the system implementation.
+          system_testing: System testing
+          system_testing_describe: High-level verification of the functionality of the entire program or the system as a whole. Or, more simply, the system, platform or environment is checked where this or that software should work.
+          performance_testing: Performance testing
+          performance_testing_describe: <p> Testing to determine how quickly a system or part of it performs under a given load.</p><ul><li><b>Load testing</b></li></ul><p>Testing is intended to verify the system's performance under standard loads and to determine the maximum possible peak at which the system operates correctly.</p><ul><li><b>Stress testing </b></li></ul><p>Testing is intended to check the system performance under<i>non</i>standard loads and to determine the maximum possible peak at which the system operates correctly. It is also intended to identify the results in which the system goes into a non-working state.</p>
+          regression_testing: Regression testing
+          regression_testing_describe: Regression testing is done to check if new features, enhancements, and fixed defects affect the existing functionality of the product, or if old defects arise.
+          unit_testing: Unit testing
+          unit_testing_describe: Each complex software system consists of separate parts - modules that perform a particular function as part of the system. In order to make sure that the entire system is working correctly, you must first test each module of the system separately. If problems arise during testing the system as a whole, this makes it easier to identify the modules that caused the problem and eliminate the corresponding defects in them. This unit testing is individually called unit testing.
+          security_testing: Security testing
+          security_testing_describe: Security testing is a testing strategy used to verify the security of a system, as well as to analyze the risks associated with ensuring a holistic approach to protecting an application, hacker attacks, viruses, and unauthorized access to confidential data.
+          localization_testing: Localization testing
+          localization_testing_describe: Localization testing is the process of testing a localized version of a software product. Checking the correctness of the translation of the user interface elements, checking the correctness of the translation of system messages and errors, checking the translation of the "Help" / "Support" section and accompanying documentation.
+          usability_testing: Usability testing
+          usability_testing_describe: Usability testing is a testing method aimed at establishing the degree of usability, learnability, comprehensibility and attractiveness to users of the developed product in the context of specified conditions. To identify problems associated with a specific interface mechanism to determine whether there are problems with the usability of the interface for navigation, using the main functionality.
+
       tab_who_are_qa: Who are QA?
-      tab_testing_types: Testing types
       tab_misconceptions: Testing misconceptions
-      tab_gui: What os GUI testing?
-      tab_api: What os API testing?
-      tab_mobile: What os Mobile testing?
+      tab_gui: What is GUI testing?
+      tab_api: What is API testing?
+      tab_mobile: What is Mobile testing?
