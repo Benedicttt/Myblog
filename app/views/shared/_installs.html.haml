@@ -113,3 +113,24 @@
           $.ajax({ url: "/install/on_mac/java", type: "get", data: { locale: '#{params[:locale]}'} });
       });
     });
+
+    $(document).ready(function() {
+      $("[href=\"#otherSections5\"]").click(function(e) {
+        e.preventDefault();
+        $.ajax({ url: "/windows", type: "get", data: { locale: '#{params[:locale]}'} });
+      });
+      });
+
+    $(document).ready(function() {
+      $("[href=\"#otherSections6\"]").click(function(e) {
+        e.preventDefault();
+        $.ajax({ url: "/linux", type: "get", data: { locale: '#{params[:locale]}'} });
+      });
+      });
+
+    $(document).ready(function() {
+      $("[href=\"#otherSections7\"]").click(function(e) {
+        e.preventDefault();
+        $.ajax({ url: "/mac", type: "get", data: { locale: '#{params[:locale]}'} });
+      });
+      });

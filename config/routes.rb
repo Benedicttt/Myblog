@@ -28,7 +28,12 @@ Rails.application.routes.draw do
       get "/js",   to: "js#web"
     end
 
+    get "windows", to: "install#windows"
+    get "linux",  to: "install#linux"
+    get "mac",     to: "install#mac"
+
     namespace :install do
+
       get "on_windows/ruby", to: "windows#win_ruby"
       get "on_linux/ruby", to: "linux#linux_ruby"
       get "on_mac/ruby", to: "mac#mac_ruby"
