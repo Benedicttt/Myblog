@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dca57621-5991-4d21-8d24-d2a640ecffe8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/controllers/back/main_page_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/mobile/main_page_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/web/main_page_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/back/index.js.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/back/main_page/_index.html.haml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/mobile/index.js.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/mobile/main_page/_index.html.haml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/web/index.js.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/web/main_page/_index.html.haml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/main_page/_main_page.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main_page/_main_page.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/locales/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/en.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/locales/ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/ru.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/main_page_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/main_page_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shared/_api.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_api.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shared/_mobile.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_mobile.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shared/_web.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_web.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,23 +87,23 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/views/main_page/tabs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/views/back" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/views/main_page/tabs" />
-      <recent name="$PROJECT_DIR$/app/views/main_page" />
-      <recent name="$PROJECT_DIR$/app/assets/images" />
-      <recent name="$PROJECT_DIR$/app/views/shared" />
-      <recent name="$PROJECT_DIR$/config/locales" />
+      <recent name="$PROJECT_DIR$/app/views/back" />
+      <recent name="$PROJECT_DIR$/app/views/mobile" />
+      <recent name="$PROJECT_DIR$/app/controllers/back" />
+      <recent name="$PROJECT_DIR$/app/controllers/mobile" />
+      <recent name="$PROJECT_DIR$/app/controllers/web" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views/web/main_page" />
+      <recent name="$PROJECT_DIR$/app/views/web" />
       <recent name="$PROJECT_DIR$/app/views/about_my" />
       <recent name="$PROJECT_DIR$/app/views/web/ruby" />
       <recent name="$PROJECT_DIR$/app/controllers/web" />
-      <recent name="$PROJECT_DIR$/app/views/frameworks" />
-      <recent name="$PROJECT_DIR$/app/views/main_page" />
     </key>
   </component>
   <component name="RunManager" selected="Rails.Development: MyBlog">
@@ -215,7 +226,7 @@
       <workItem from="1624569606530" duration="1632000" />
       <workItem from="1624609021735" duration="22838000" />
       <workItem from="1624708520325" duration="11847000" />
-      <workItem from="1624784471015" duration="1075000" />
+      <workItem from="1624784471015" duration="1943000" />
     </task>
     <servers />
   </component>

@@ -8,4 +8,18 @@ class MainPageController < ApplicationController
   def refresh
     render "main_page/main_page"
   end
+
+  def gui
+    puts "gui"
+  end
+
+  def back
+    puts "back"
+
+  end
+
+  def mobile
+    puts "mobile"
+
+  end
 end

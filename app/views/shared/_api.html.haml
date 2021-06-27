@@ -14,24 +14,31 @@
   %br
 
 
-    :javascript
-      $(document).ready(function() {
-        $("#back-ruby").click(function(e) {
-            e.preventDefault();
-            $.ajax({ url: "/back/ruby", type: "get", data: { locale: '#{params[:locale]}'} });
-        });
-      });
+:javascript
+  $(document).ready(function() {
+    $("#back-ruby").click(function(e) {
+        e.preventDefault();
+        $.ajax({ url: "/back/ruby", type: "get", data: { locale: '#{params[:locale]}'} });
+    });
+  });
 
-      $(document).ready(function() {
-        $("#back-java").click(function(e) {
-            e.preventDefault();
-            $.ajax({ url: "/back/java", type: "get", data: { locale: '#{params[:locale]}'} });
-        });
-      });
+  $(document).ready(function() {
+    $("#back-java").click(function(e) {
+        e.preventDefault();
+        $.ajax({ url: "/back/java", type: "get", data: { locale: '#{params[:locale]}'} });
+    });
+  });
 
-      $(document).ready(function() {
-        $("#back-js").click(function(e) {
-            e.preventDefault();
-            $.ajax({ url: "/back/js", type: "get", data: { locale: '#{params[:locale]}'} });
-        });
-      });
+  $(document).ready(function() {
+    $("#back-js").click(function(e) {
+        e.preventDefault();
+        $.ajax({ url: "/back/js", type: "get", data: { locale: '#{params[:locale]}'} });
+    });
+  });
+
+  $(document).ready(function() {
+    $("[href=\"#otherSections2\"]").click(function(e) {
+        e.preventDefault();
+        $.ajax({ url: "/back/back", type: "get", data: { locale: '#{params[:locale]}'} });
+    });
+  });
