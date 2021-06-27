@@ -1,0 +1,115 @@
+%a.dropdown-toggle.display-flex.padding-10{"aria-controls" => "otherSections1", "aria-expanded" => "false", "data-toggle" => "collapse", :href => "#otherSections4", :role => "button" }
+  #icon-install
+  %span{:style => "margin-left:10px;"}= t ("installs.install")
+
+%ul#otherSections4.collapse.list-unstyled.margin-left-10
+  %li.display-flex
+  %a.dropdown-toggle.display-flex.padding-10{"aria-controls" => "otherSections1", "aria-expanded" => "false", "data-toggle" => "collapse", :href => "#otherSections5", :role => "button" }
+    #icon-windows
+    %span{:style => "margin-left:10px;"}= t ("installs.windows")
+  %ul#otherSections5.collapse.list-unstyled.margin-left-40
+    %li.display-flex.padding-10
+      #icon-ruby
+      %a#win-ruby.scroll-link.margin-left-10{:href => "#install/onwindows/ruby"} Ruby
+    %li.display-flex.padding-10
+      #icon-js
+      %a#win-js.scroll-link.margin-left-10{:href => "#install/onwindows/js"} NodeJs
+    %li.display-flex.padding-10
+      #icon-java
+      %a#win-java.scroll-link.margin-left-10{:href => "#install/onwindows/java"} Java
+
+  %li.display-flex
+  %a.dropdown-toggle.display-flex.padding-10{"aria-controls" => "otherSections1", "aria-expanded" => "false", "data-toggle" => "collapse", :href => "#otherSections6", :role => "button" }
+    #icon-linux
+    %span{:style => "margin-left:10px;"}= t ("installs.linux")
+  %ul#otherSections6.collapse.list-unstyled.margin-left-40
+    %li.display-flex.padding-10
+      #icon-ruby
+      %a#linux-ruby.scroll-link.margin-left-10{:href => "#install/onlinux/ruby"} Ruby
+    %li.display-flex.padding-10
+      #icon-js
+      %a#linux-js.scroll-link.margin-left-10{:href => "#install/onlinux/js"} NodeJs
+    %li.display-flex.padding-10
+      #icon-java
+      %a#linux-java.scroll-link.margin-left-10{:href => "#install/onlinux/java"} Java
+
+  %li.display-flex
+  %a.dropdown-toggle.display-flex.padding-10{"aria-controls" => "otherSections1", "aria-expanded" => "false", "data-toggle" => "collapse", :href => "#otherSections7", :role => "button" }
+    #icon-mac
+    %span{:style => "margin-left:10px;"}= t ("installs.mac")
+  %ul#otherSections7.collapse.list-unstyled.margin-left-40
+    %li.display-flex.padding-10
+      #icon-ruby
+      %a#mac-ruby.scroll-link.margin-left-10{:href => "#install/onmac/ruby"} Ruby
+    %li.display-flex.padding-10
+      #icon-js
+      %a#mac-js.scroll-link.margin-left-10{:href => "#install/onmac/js"} NodeJs
+    %li.display-flex.padding-10
+      #icon-java
+      %a#mac-java.scroll-link.margin-left-10{:href => "#install/onmac/java"} Java
+%br
+%br
+
+  :javascript
+    $(document).ready(function() {
+      $("#win-ruby").click(function(e) {
+          e.preventDefault();
+          $.ajax({ url: "/install/on_windows/ruby", type: "get", data: { locale: '#{params[:locale]}'} });
+      });
+    });
+
+    $(document).ready(function() {
+      $("#win-js").click(function(e) {
+          e.preventDefault();
+          $.ajax({ url: "/install/on_windows/js", type: "get", data: { locale: '#{params[:locale]}'} });
+      });
+    });
+
+    $(document).ready(function() {
+      $("#win-java").click(function(e) {
+          e.preventDefault();
+          $.ajax({ url: "/install/on_windows/java", type: "get", data: { locale: '#{params[:locale]}'} });
+      });
+    });
+
+    $(document).ready(function() {
+      $("#linux-ruby").click(function(e) {
+          e.preventDefault();
+          $.ajax({ url: "/install/on_linux/ruby", type: "get", data: { locale: '#{params[:locale]}'} });
+      });
+    });
+
+    $(document).ready(function() {
+      $("#linux-js").click(function(e) {
+          e.preventDefault();
+          $.ajax({ url: "/install/on_linux/js", type: "get", data: { locale: '#{params[:locale]}'} });
+      });
+    });
+
+    $(document).ready(function() {
+      $("#linux-java").click(function(e) {
+          e.preventDefault();
+          $.ajax({ url: "/install/on_linux/java", type: "get", data: { locale: '#{params[:locale]}'} });
+      });
+    });
+
+    $(document).ready(function() {
+      $("#mac-ruby").click(function(e) {
+          e.preventDefault();
+          $.ajax({ url: "/install/on_mac/ruby", type: "get", data: { locale: '#{params[:locale]}'} });
+      });
+    });
+
+    $(document).ready(function() {
+      $("#mac-js").click(function(e) {
+          e.preventDefault();
+          $.ajax({ url: "/install/on_mac/js", type: "get", data: { locale: '#{params[:locale]}'} });
+      });
+    });
+
+    $(document).ready(function() {
+      $("#mac-java").click(function(e) {
+          e.preventDefault();
+          $.ajax({ url: "/install/on_mac/java", type: "get", data: { locale: '#{params[:locale]}'} });
+      });
+    });

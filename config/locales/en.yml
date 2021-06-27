@@ -16,6 +16,11 @@ en:
     line3: <strong> What are they? </strong> API can be internal, private - when software components are connected and used within the system. Or it can be open, public - in this case, it allows external users or other programs to receive information that can be integrated into their applications.
     line4: In order for programs to communicate with each other, their API must be built according to a single standard. One of them is REST, a standard for the architecture of the interaction between applications and sites that uses the HTTP protocol. The peculiarity of REST is that the server does not remember the state of the user between requests. In other words, user identification (authorization token) and all parameters of the operation are passed in each request. This approach is so simple and convenient that it has almost supplanted all others.
   mobile: Everything is the same as in the GUI, only the peculiarity of smartphones is that there are many of them and each has its own screen resolution. They have their own applications for their screens and the display of the site in the mobile version is different from the desktop version. Because of this, testing mobile versions and software on mobile phones is considered one of the most difficult.
+  installs:
+    install: Install
+    windows: on Windows
+    linux: on Linux
+    mac: on MacOs
   describe:
     header: About testing in simple words
     tabs_and_page:

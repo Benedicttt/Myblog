@@ -2,19 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dca57621-5991-4d21-8d24-d2a640ecffe8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/assets/images/api.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/gui_vs_cli.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/mobiles.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/world.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/install.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/linux.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/linux.png.crdownload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/mac.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/windows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/install/linux_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/install/mac_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/install/windows_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/install/linux/_java.html.haml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/install/linux/_js.html.haml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/install/linux/_ruby.html.haml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/install/linux/java.js.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/install/linux/js.js.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/install/linux/ruby.js.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/install/mac/_java.html.haml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/install/mac/_js.html.haml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/install/mac/_ruby.html.haml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/install/mac/java.js.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/install/mac/js.js.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/install/mac/ruby.js.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/install/windows/_java.html.haml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/install/windows/_js.html.haml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/install/windows/_ruby.html.haml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/install/windows/java.js.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/install/windows/js.js.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/install/windows/ruby.js.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/shared/_installs.html.haml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/about/_about.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/about/_about.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/back/main_page/_index.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/back/main_page/_index.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/mobile/main_page/_index.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/mobile/main_page/_index.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/web/main_page/_index.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/web/main_page/_index.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/web.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/web.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shared/_container.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_container.html.haml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/locales/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/en.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/locales/ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/ru.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,23 +106,23 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/views/back" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/views/install/linux" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/views/back" />
-      <recent name="$PROJECT_DIR$/app/views/mobile" />
+      <recent name="$PROJECT_DIR$/app/views/install/linux" />
+      <recent name="$PROJECT_DIR$/app/views/install/mac" />
+      <recent name="$PROJECT_DIR$/app/views/install/windows" />
+      <recent name="$PROJECT_DIR$/app/controllers/install" />
       <recent name="$PROJECT_DIR$/app/controllers/back" />
-      <recent name="$PROJECT_DIR$/app/controllers/mobile" />
-      <recent name="$PROJECT_DIR$/app/controllers/web" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/controllers/install" />
+      <recent name="$PROJECT_DIR$/app/controllers" />
       <recent name="$PROJECT_DIR$/app/views/web/main_page" />
       <recent name="$PROJECT_DIR$/app/views/web" />
       <recent name="$PROJECT_DIR$/app/views/about_my" />
-      <recent name="$PROJECT_DIR$/app/views/web/ruby" />
-      <recent name="$PROJECT_DIR$/app/controllers/web" />
     </key>
   </component>
   <component name="RunManager" selected="Rails.Development: MyBlog">
@@ -224,7 +245,7 @@
       <workItem from="1624569606530" duration="1632000" />
       <workItem from="1624609021735" duration="22838000" />
       <workItem from="1624708520325" duration="11847000" />
-      <workItem from="1624784471015" duration="6388000" />
+      <workItem from="1624784471015" duration="10125000" />
     </task>
     <servers />
   </component>
