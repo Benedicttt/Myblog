@@ -1,1 +1,71 @@
-windows java
+%br
+%br
+%div.font-size-18
+  .line-bottom
+    %h3 Установка языка программирования Java на Windows
+  %br
+  %p
+  1)
+  Переходим по ссылке и скачиваем файл инсталяции для
+  %a{ href: 'https://www.oracle.com/java/technologies/javase-jdk11-downloads.html', target: '_blank' }  11
+  версии, или для
+  %a{ href: 'https://www.oracle.com/java/technologies/javase-jdk8-downloads.html', target: '_blank' }  8
+  , и устанавливаем ПО. И та и та версии нам подойдут в дальнейшем
+  %p
+  = raw "2) Нажимаем комбинацию клавишь <strong>WIN + R</strong> и вводим команду <pre class=\"code code-shell-cmd\" title=\"triple click to select command\">cmd</pre>- откроется командная строка"
+  %p
+  = raw "3) Нужно проверить версию Java которая установилась, для этого указываем команду <pre class=\"code code-shell-cmd\" title=\"triple click to select command\">java -version</pre>"
+  %p
+  %p
+  .margin-left-10
+    В результате отобразится версия Java:
+  %p
+.margin-left-10
+  %iПример
+  %p
+  %img.size-55{src: "/assets/install/java/java-install.png"}
+
+  %br
+  %br
+
+%div.font-size-18
+  .line-bottom
+    %h3 Установка IDE для разработки (редактор)
+  %br
+  %p
+  Есть много хороших редакторов которыми пользуються для написания кода по Java, некоторые из них:
+  %p
+  %ul
+    %li
+      %a{ href: 'https://code.visualstudio.com/', target: '_blank'  } Visual Studio Code
+  %ul
+    %li
+      %a{ href: 'https://atom.io/', target: '_blank'  } Atom
+  %ul
+    %li
+      %a{ href: 'https://www.sublimetext.com/', target: '_blank'  } Sublime
+  %ul
+    %li
+      %a{ href: 'https://www.jetbrains.com/idea/', target: '_blank'  } Intellij Idea
+
+  %br
+    %i В дальнейшем будет показан код в редакторе RubyMine, вы же можете использовать любой редактор который вам по душе.
+
+  %br
+%div.font-size-18
+  .line-bottom
+    %h3 Итог
+  %br
+  %p
+    = raw "Когда у вас есть установленый язык программирования на ОС и есть хороший редактор для вашего нового проекта, вы можете смело пробовать свои силы для написания простого или сложного теста, но для начала выбирете раздел:"
+  %p
+  %ul
+    %li
+      %a{ href: '#', onclick: "document.querySelector('#icon-web').click();document.querySelector('#web-java').click()"} Способ как написать простые GUI тесты
+  %ul
+    %li
+      %a{ href: '#', onclick: "document.querySelector('#icon-back').click();document.querySelector('#back-java').click()"} Способ как написать простые API тесты
+  %ul
+    %li
+      %a{ href: '#', onclick: "document.querySelector('#icon-mobile').click();document.querySelector('#mobile-java').click()"} Способ как написать простые Mobile тесты
+
