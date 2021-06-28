@@ -2,74 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dca57621-5991-4d21-8d24-d2a640ecffe8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/assets/images/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/install/ruby/ruby-install.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/install/js/js-install.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/QA3.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/QA3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/api.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/api.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/back.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/back.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/blog.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/blog.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/gui_vs_cli.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/gui_vs_cli.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/install.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/install.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/java.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/java.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/js.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/js.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/life-en.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/life-en.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/life-ru.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/life-ru.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/linux.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/linux.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/mac.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/mac.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/main.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/main.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/mobile.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/mobile.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/mobiles.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/mobiles.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/qa.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/qa.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/ruby.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/ruby.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/sw_life_cicle_new.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/sw_life_cicle_new.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/type_testing-en.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/type_testing-en.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/type_testing-ru.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/type_testing-ru.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/web.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/web.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/windows.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/windows.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/world.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/world.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/back/index.js.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/back/index.js.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/back/main_page/_index.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/back/main_page/_index.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/install/_linux.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/_linux.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/install/_mac.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/_mac.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/install/_windows.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/_windows.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/install/linux.js.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/linux.js.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/install/linux/_java.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/linux/_java.html.haml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/install/linux/_js.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/linux/_js.html.haml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/install/linux/_ruby.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/linux/_ruby.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/install/linux/java.js.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/linux/java.js.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/install/linux/js.js.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/linux/js.js.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/install/linux/ruby.js.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/linux/ruby.js.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/install/mac.js.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/mac.js.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/install/mac/_java.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/mac/_java.html.haml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/install/mac/_js.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/mac/_js.html.haml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/install/mac/_ruby.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/mac/_ruby.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/install/mac/java.js.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/mac/java.js.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/install/mac/js.js.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/mac/js.js.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/install/mac/ruby.js.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/mac/ruby.js.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/install/windows.js.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/windows.js.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/install/windows/_java.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/windows/_java.html.haml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/install/windows/_js.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/windows/_js.html.haml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/install/windows/_ruby.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/windows/_ruby.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/install/windows/java.js.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/windows/java.js.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/install/windows/js.js.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/windows/js.js.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/install/windows/ruby.js.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/windows/ruby.js.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/main_page/tabs/_home.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main_page/tabs/_home.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/main_page/tabs/_menu1.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main_page/tabs/_menu1.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/main_page/tabs/_menu2.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main_page/tabs/_menu2.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/mobile/index.js.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/mobile/index.js.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/mobile/main_page/_index.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/mobile/main_page/_index.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_about.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_about.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_api.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_api.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_installs.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_installs.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_main.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_main.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_mobile.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_mobile.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_select_lang.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_select_lang.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_web.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_web.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/web/index.js.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/web/index.js.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/web/main_page/_index.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/web/main_page/_index.html.haml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -286,7 +226,7 @@
       <workItem from="1624609021735" duration="22838000" />
       <workItem from="1624708520325" duration="11847000" />
       <workItem from="1624784471015" duration="10677000" />
-      <workItem from="1624871263759" duration="6559000" />
+      <workItem from="1624871263759" duration="7906000" />
     </task>
     <servers />
   </component>

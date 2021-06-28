@@ -1,1 +1,68 @@
-windows js
+%br
+%br
+%div.font-size-18
+  .line-bottom
+    %h3 Установка языка программирования NodeJS на Windows
+  %br
+  %p
+  1)
+  Переходим по
+  %a{ href: 'https://nodejs.org/en/', target: '_blank' }  ссылке и скачиваем файл инсталяции и устанавливаем с него ПО
+  %p
+  = raw "2) Нажимаем комбинацию клавишь <strong>WIN + R</strong> и вводим команду <pre class=\"code code-shell-cmd\" title=\"triple click to select command\">cmd</pre>- откроется командная строка"
+  %p
+  = raw "3) Нужно проверить установился ли правильно NodeJS, для этого указываем команду <pre class=\"code code-shell-cmd\" title=\"triple click to select command\">node -v</pre>"
+  %p
+  %p
+  .margin-left-10
+    В результате отобразится версия NodeJS:
+  %p
+.margin-left-10
+  %iПример
+  %p
+  %img.size-55{src: "/assets/install/js/js-install.png"}
+
+  %br
+  %br
+
+%div.font-size-18
+  .line-bottom
+    %h3 Установка IDE для разработки (редактор)
+  %br
+  %p
+  Есть много хороших редакторов которыми пользуються для написания кода по NodeJS, некоторые из них:
+  %p
+  %ul
+    %li
+      %a{ href: 'https://code.visualstudio.com/', target: '_blank'  } Visual Studio Code
+  %ul
+    %li
+      %a{ href: 'https://atom.io/', target: '_blank'  } Atom
+  %ul
+    %li
+      %a{ href: 'https://www.sublimetext.com/', target: '_blank'  } Sublime
+  %ul
+    %li
+      %a{ href: 'https://www.jetbrains.com/webstorm/', target: '_blank'  } WebStorm
+
+  %br
+    %i В дальнейшем будет показан код в редакторе WebStorm, вы же можете использовать любой редактор который вам по душе.
+
+  %br
+%div.font-size-18
+  .line-bottom
+    %h3 Итог
+  %br
+  %p
+    = raw "Когда у вас есть установленый язык программирования на ОС и есть хороший редактор для вашего нового проекта, вы можете смело пробовать свои силы для написания простого или сложного теста, но для начала выбирете раздел:"
+  %p
+  %ul
+    %li
+      %a{ href: '#', onclick: "document.querySelector('#icon-web').click();document.querySelector('#web-ruby').click()"} Способ как написать простые GUI тесты
+  %ul
+    %li
+      %a{ href: '#', onclick: "document.querySelector('#icon-back').click();document.querySelector('#back-ruby').click()"} Способ как написать простые API тесты
+  %ul
+    %li
+      %a{ href: '#', onclick: "document.querySelector('#icon-mobile').click();document.querySelector('#mobile-ruby').click()"} Способ как написать простые Mobile тесты
+
