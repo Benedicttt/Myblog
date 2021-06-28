@@ -5,10 +5,10 @@ en:
       line1: "1) Go to the <a href='https://rubyinstaller.org/downloads/' target='_blank'> link </a> and download the installation file - preferably version 2.7.3-1, examples indicated on the site will be on this version of Ruby "
       line2: "2) Press the key combination <strong> WIN + R </strong> and enter the command <pre class = \" code code-shell-cmd \"title=\"triple click to select command \"> cmd </pre> - the command line will open "
       line3: "3) You need to check the version of Ruby that is installed, for this we specify the command <pre class = \" code code-shell-cmd \"title=\" triple click to select command \"> ruby -v </pre>"
-      see_version: "This will display the Ruby version:"
-      ide: Installing the IDE for Development (Editor)
-      feature: In the future, the code will be shown in the RubyMine editor, but you can use any editor you like.
 
+  see_version: "This will display the %{lang} version:"
+  ide: Installing the IDE for Development (Editor)
+  feature: In the future, the code will be shown in the %{ide} editor, but you can use any editor you like.
   count: "There are many good editors I use to write code for %{lang}, some of them are:"
   step:
     gui: How to write simple GUI tests
