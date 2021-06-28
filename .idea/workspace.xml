@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dca57621-5991-4d21-8d24-d2a640ecffe8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/install/linux/_ruby.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/linux/_ruby.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/install/mac/_ruby.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/mac/_ruby.html.haml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/install/windows/_ruby.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/windows/_ruby.html.haml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/locales/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/en.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/locales/ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/ru.yml" afterDir="false" />
@@ -222,7 +224,7 @@
       <workItem from="1624609021735" duration="22838000" />
       <workItem from="1624708520325" duration="11847000" />
       <workItem from="1624784471015" duration="10677000" />
-      <workItem from="1624871263759" duration="11202000" />
+      <workItem from="1624871263759" duration="12099000" />
     </task>
     <servers />
   </component>

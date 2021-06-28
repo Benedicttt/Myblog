@@ -1,10 +1,18 @@
 en:
   windows:
     ruby:
-      header: Installing the Ruby programming language on Windows
+      header: Installing the Ruby programming language on %{platform}
       line1: "1) Go to the <a href='https://rubyinstaller.org/downloads/' target='_blank'> link </a> and download the installation file - preferably version 2.7.3-1, examples indicated on the site will be on this version of Ruby "
       line2: "2) Press the key combination <strong> WIN + R </strong> and enter the command <pre class = \" code code-shell-cmd \"title=\"triple click to select command \"> cmd </pre> - the command line will open "
       line3: "3) You need to check the version of Ruby that is installed, for this we specify the command <pre class = \" code code-shell-cmd \"title=\" triple click to select command \"> ruby -v </pre>"
+  mac:
+    ruby:
+      recommend: "I recommend installing RVM - ruby version manager for %{platform}. This will require:"
+      line1: 1) Open a terminal in %{platform}. Add GPG key <pre class=\"code code-shell-cmd\" title=\"triple click to select command\"> gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0BE739499</pre>
+      line2: 2) Run the command <pre class = "code code-shell-cmd" title = "triple click to select command"> \curl -sSL https://get.rvm.io | bash -s stable </pre>
+      line3: 3) After installing "rvm" you need to restart the terminal in the shell
+      line4: 4) We need to install version 2.7 of Ruby, for this we type and execute the command in the terminal <pre class = "code code-shell-cmd" title = "triple click to select command"> rvm install 2.7 </pre>
+      line5: "5) After a long installation, you can also view the version in the terminal by typing and executing the command <pre class = \" code code-shell-cmd \"title = \" triple click to select command \"> ruby -v </pre> "
 
   see_version: "This will display the %{lang} version:"
   ide: Installing the IDE for Development (Editor)

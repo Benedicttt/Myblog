@@ -2,35 +2,37 @@
 %br
 %div.font-size-18
   .line-bottom
-    %h3 Установка языка программирования Ruby на Linux(Ubuntu)
+    %h3= raw t('windows.ruby.header', platform: 'Ubuntu')
   %br
   %p
-  Я рекомендую для Ubuntu установить RVM - ruby version manager. Для этого потребуется:
-  %br
-  %br
-  %p
-  1) Откройте терминал в Ubuntu. Добавить ключ GPG
-  <pre class=\"code code-shell-cmd\" title=\"triple click to select command\">gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB</pre>
-  %br
-  %p
-  2) Выполните команду <pre class="code code-shell-cmd" title="triple click to select command">\curl -sSL https://get.rvm.io | bash -s stable</pre>
-  %br
-  %p
-  3) После установки "rvm" нужно перезапустить терминал в оболочке
+    %h3= raw t('mac.ruby.recommend', platform: 'Ubuntu')
   %br
   %br
   %p
-  4) Нам нужно установить версию руби 2.7, для этого в терминале набираем и выполняем команду <pre class="code code-shell-cmd" title="triple click to select command">rvm install 2.7</pre>
+    = raw t('mac.ruby.line1', platform: 'Ubuntu')
   %br
   %p
-  = raw "5) После долгой установки, так же в терминале можно посмотреть версию, набрав и выполнив команду <pre class=\"code code-shell-cmd\" title=\"triple click to select command\">ruby -v</pre>"
+    = raw t('mac.ruby.line2')
+  %br
+  %p
+    = raw t('mac.ruby.line3')
+  %br
+  %br
+  %p
+    = raw t('mac.ruby.line4')
+  %br
+  %p
+    = raw t('mac.ruby.line5')
   %p
   %p
   .margin-left-10
-    В результате отобразится версия Ruby:
+    %p
+  %p
+  .margin-left-10
+    = raw t('see_version', lang: "Ruby")
   %p
 .margin-left-10
-  %iПример
+  %i= raw t('example')
   %p
   %img.size-55{src: "/assets/install/ruby/ruby-install.png"}
 
@@ -39,10 +41,10 @@
 
 %div.font-size-18
   .line-bottom
-    %h3 Установка IDE для разработки (редактор)
+    %h3= raw t('ide')
   %br
   %p
-  Есть много хороших редакторов которыми пользуються для написания кода по Ruby, некоторые из них:
+    = raw t('count', lang: "Ruby")
   %p
   %ul
     %li
@@ -58,23 +60,23 @@
       %a{ href: 'https://www.jetbrains.com/ruby/', target: '_blank'  } RubyMine
 
   %br
-    %i В дальнейшем будет показан код в редакторе RubyMine, вы же можете использовать любой редактор который вам по душе.
+    %i= raw t('feature', ide: "RubyMine")
 
   %br
 %div.font-size-18
   .line-bottom
-    %h3 Итог
+    %h3= raw t ("outcome")
   %br
   %p
-    = raw "Когда у вас есть установленый язык программирования на ОС и есть хороший редактор для вашего нового проекта, вы можете смело пробовать свои силы для написания простого или сложного теста, но для начала выбирете раздел:"
+    = raw t ("outcome_describe")
   %p
   %ul
     %li
-      %a{ href: '#', onclick: "document.querySelector('#icon-web').click();document.querySelector('#web-ruby').click()"} Способ как написать простые GUI тесты
+      %a{ href: '#', onclick: "document.querySelector('#icon-web').click();document.querySelector('#web-ruby').click()"}= raw t('step.gui')
   %ul
     %li
-      %a{ href: '#', onclick: "document.querySelector('#icon-back').click();document.querySelector('#back-ruby').click()"} Способ как написать простые API тесты
+      %a{ href: '#', onclick: "document.querySelector('#icon-back').click();document.querySelector('#back-ruby').click()"}= raw t('step.back')
   %ul
     %li
-      %a{ href: '#', onclick: "document.querySelector('#icon-mobile').click();document.querySelector('#mobile-ruby').click()"} Способ как написать простые Mobile тесты
+      %a{ href: '#', onclick: "document.querySelector('#icon-mobile').click();document.querySelector('#mobile-ruby').click()"}= raw t('step.mobile')
 

@@ -5,6 +5,14 @@ ru:
       line1: "1) Переходим по <a href='https://rubyinstaller.org/downloads/'  target='_blank'>ссылке</a> и скачиваем файл инсталяции - желательно версию 2.7.3-1, примеры, указанные на сайте, будут на этой версии Ruby"
       line2: "2) Нажимаем комбинацию клавишь <strong>WIN + R</strong> и вводим команду <pre class=\"code code-shell-cmd\" title=\"triple click to select command\">cmd</pre>- откроется командная строка"
       line3: "3) Нужно проверить версию Ruby которая установилась, для этого указываем команду <pre class=\"code code-shell-cmd\" title=\"triple click to select command\">ruby -v</pre>"
+  mac:
+    ruby:
+      recommend: "Я рекомендую для %{platform} установить RVM - ruby version manager. Для этого потребуется:"
+      line1: 1) Откройте терминал в %{platform}. Добавить ключ GPG <pre class=\"code code-shell-cmd\" title=\"triple click to select command\">gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB</pre>
+      line2: 2) Выполните команду <pre class="code code-shell-cmd" title="triple click to select command">\curl -sSL https://get.rvm.io | bash -s stable</pre>
+      line3: 3) После установки "rvm" нужно перезапустить терминал в оболочке
+      line4: 4) Нам нужно установить версию руби 2.7, для этого в терминале набираем и выполняем команду <pre class="code code-shell-cmd" title="triple click to select command">rvm install 2.7</pre>
+      line5: "5) После долгой установки, так же в терминале можно посмотреть версию, набрав и выполнив команду <pre class=\"code code-shell-cmd\" title=\"triple click to select command\">ruby -v</pre>"
 
   see_version: "В результате отобразится версия %{lang}:"
   ide: Установка IDE для разработки (редактор)
