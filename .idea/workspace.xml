@@ -2,7 +2,74 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dca57621-5991-4d21-8d24-d2a640ecffe8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@rails/actioncable/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@rails/actioncable/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@rails/actioncable/app/assets/javascripts/action_cable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@rails/actioncable/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@rails/actioncable/src/adapters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@rails/actioncable/src/connection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@rails/actioncable/src/connection_monitor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@rails/actioncable/src/consumer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@rails/actioncable/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@rails/actioncable/src/internal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@rails/actioncable/src/logger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@rails/actioncable/src/subscription.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@rails/actioncable/src/subscriptions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@rails/activestorage/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@rails/activestorage/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@rails/activestorage/app/assets/javascripts/activestorage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@rails/activestorage/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@rails/activestorage/src/blob_record.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@rails/activestorage/src/blob_upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@rails/activestorage/src/direct_upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@rails/activestorage/src/direct_upload_controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@rails/activestorage/src/direct_uploads_controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@rails/activestorage/src/file_checksum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@rails/activestorage/src/helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@rails/activestorage/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@rails/activestorage/src/ujs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@rails/ujs/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@rails/ujs/README.rdoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@rails/ujs/lib/assets/compiled/rails-ujs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@rails/ujs/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/spark-md5/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/spark-md5/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/spark-md5/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/spark-md5/spark-md5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/spark-md5/spark-md5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/turbolinks/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/turbolinks/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/turbolinks/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/turbolinks/dist/turbolinks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/turbolinks/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/turbolinks/src/turbolinks/BANNER.js.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/turbolinks/src/turbolinks/VERSION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/turbolinks/src/turbolinks/browser_adapter.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/turbolinks/src/turbolinks/compatibility.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/turbolinks/src/turbolinks/controller.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/turbolinks/src/turbolinks/error_renderer.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/turbolinks/src/turbolinks/head_details.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/turbolinks/src/turbolinks/helpers.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/turbolinks/src/turbolinks/history.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/turbolinks/src/turbolinks/http_request.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/turbolinks/src/turbolinks/index.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/turbolinks/src/turbolinks/location.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/turbolinks/src/turbolinks/progress_bar.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/turbolinks/src/turbolinks/renderer.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/turbolinks/src/turbolinks/script_warning.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/turbolinks/src/turbolinks/scroll_manager.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/turbolinks/src/turbolinks/snapshot.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/turbolinks/src/turbolinks/snapshot_cache.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/turbolinks/src/turbolinks/snapshot_renderer.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/turbolinks/src/turbolinks/start.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/turbolinks/src/turbolinks/view.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/turbolinks/src/turbolinks/visit.coffee" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/install/java/java-install.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/install/java/java-install.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/install/js/js-install.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/install/js/js-install.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/environments/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -221,7 +288,7 @@
       <workItem from="1624708520325" duration="11847000" />
       <workItem from="1624784471015" duration="10677000" />
       <workItem from="1624871263759" duration="12099000" />
-      <workItem from="1624948496300" duration="1385000" />
+      <workItem from="1624948496300" duration="1470000" />
     </task>
     <servers />
   </component>
