@@ -403,6 +403,9 @@ GEM
     temple (0.8.2)
     thor (1.1.0)
     tilt (2.0.10)
+    turbo-sprockets-rails3 (0.2.9)
+      railties (>= 3.1.0)
+      sprockets (>= 2.0.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
     tzinfo-data (1.2021.1)
@@ -506,6 +509,7 @@ DEPENDENCIES
   shoulda
   spring
   tabs_on_rails
+  turbo-sprockets-rails3
   tzinfo-data
   uglifier
   web-console
