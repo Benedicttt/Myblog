@@ -3,6 +3,95 @@
   <component name="ChangeListManager">
     <list default="true" id="dca57621-5991-4d21-8d24-d2a640ecffe8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/.sprockets-manifest-adc933952f19db8f54f8c278f0df2d1b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/QA3-0567be5d499294c362989ab4c59fa7fad3d837d93c30e17ad89c1f25285a5004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/ZeroClipboard-3d12dcff7d389546e4b271ddb1d9ab7afff75e301f919e12a13e4ded3740d91c.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/api-eed726603a83781cb0991848dc878d2c06eb3f85ec4cc7f0d9663e74ab122114.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/application-1a6a27fbe0ccbf2f6909e50b8f4c629148058e6bd9b60405b21abe31ec81d2ec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/application-1a6a27fbe0ccbf2f6909e50b8f4c629148058e6bd9b60405b21abe31ec81d2ec.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/application-363e4afabc4092c0ddae7b4668f307a6033c03a1fcc68c7777565349aba8f46b.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/application-363e4afabc4092c0ddae7b4668f307a6033c03a1fcc68c7777565349aba8f46b.scss.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/application-816c00befa86dbddd4cc8400ef1320ea95593aab2de2a93cf8deaf0a275adfd7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/application-816c00befa86dbddd4cc8400ef1320ea95593aab2de2a93cf8deaf0a275adfd7.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/application-e5f13e76a7659e7a2940f1e872aa816d304f213c53b9975a1e880ca98d91b807.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/application-e5f13e76a7659e7a2940f1e872aa816d304f213c53b9975a1e880ca98d91b807.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/back-e8cdf790879f892c6a341354d5e3649d9484c69375328c2d229df404cb8519a8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/background-e54df93e97ebab5ff2c61283a10917e77ea394051ad2da39d35ca72b6d2f10b8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/blog-05bca2b7eb9adc1f58e618a1817b585250da80b330e4e0c7580100a93eb0747f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/bootstrap/glyphicons-halflings-regular-0703369a358a012c0011843ae337a8a20270c336948a8668df5cb89a8827299b.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/bootstrap/glyphicons-halflings-regular-0805fb1fe24235f70a639f67514990e4bfb6d2cfb00ca563ad4b553c240ddc33.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/bootstrap/glyphicons-halflings-regular-0805fb1fe24235f70a639f67514990e4bfb6d2cfb00ca563ad4b553c240ddc33.eot.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/bootstrap/glyphicons-halflings-regular-22d0c88a49d7d0ebe45627143a601061a32a46a9b9afd2dc7f457436f5f15f6e.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/bootstrap/glyphicons-halflings-regular-22d0c88a49d7d0ebe45627143a601061a32a46a9b9afd2dc7f457436f5f15f6e.svg.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/bootstrap/glyphicons-halflings-regular-403acfcf0cbaebd1c28b404eec442cea53642644b3a73f91c5a4ab46859af772.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/bootstrap/glyphicons-halflings-regular-7c9caa5f4e16169b0129fdf93c84e85ad14d6c107eb1b0ad60b542daf01ee1f0.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/bootstrap/glyphicons-halflings-regular-7c9caa5f4e16169b0129fdf93c84e85ad14d6c107eb1b0ad60b542daf01ee1f0.ttf.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/eq_informations/elp/option-elp-1-09d39fd9b40ddf7e62b8ed4f15dbe5c4270cb5921a1354d0a616bb1631fec879.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/eq_informations/elp/option-elp-2-1614a7507e5b06cb63619f440806d2a88d427a00c95d7f6a2069611ddf797217.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/eq_informations/elp/option-elp-3-ec7af53a38c730cb380900643870a149351432e5192c1b296315e6bbb3221fd5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/eq_informations/elp/option-elp-3.1-8ef592eed76ea2ba586057579a5e0f05ba2fc0ffb18724e1a7900850ea7f65b6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/eq_informations/elp/option-elp-3.2-ab0d3781535d2cffccb5bba51473e0ebc9df638960e81a7e44873813d56964bb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/eq_informations/elp/option-elp-3.3-86af13275e5a1080275478fb3c436469fe8c7df01c521a2fb6199fddceafe872.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/eq_informations/elp/option-elp-3.4-b0927de67c9a6ebe049316b2e1ef5f016e3f93ecc24d3b1146a7f776a5617a64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/eq_informations/elp/option-elp-3.5-c2931cb8b1dfa4cee232badeeebfeed7d2c1b48cd81dff0b9d7d640028b8bdf1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/eq_informations/elp/option-elp-4-996becd450984b02e480a3f4e2a003e2b433917c31adfad87dcf0c14741a74d3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/eq_informations/elp/option-elp-6f9f9652344b2abc25e228577e1d5f2294e11430c5a2ee590f9f10ebb08b3e7a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/eq_informations/elp/result-elp-06100ff39fed3af51bf43ae9a8b41d48956fee442418e3341f14cef2dd8d0cc5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/eq_informations/elp/result-elp-full-ip-a82fcdce5d0bf5c98381086f167b83daba4d3ae262130876646b5ac740992c63.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/eq_informations/elp/result-elp-second-ip-3c01cb151a0e6dccd5e5ee845e12dc80410743682fe9837c177c134387d380bd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/exception_handler-200e02cd2b713be3193127acd188e28d1c7ace0fda6e78a04ae1053aa70e25c6.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/exception_handler-200e02cd2b713be3193127acd188e28d1c7ace0fda6e78a04ae1053aa70e25c6.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/exception_handler/alert-5b675713d76944191ded7ab2328c307cde6d5191b84173003d250ae68df87b16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/exception_handler/alert-d00e32cef29803da3e873963ca9d67c7ada7f252899882fc6721b432f63c7266.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/exception_handler/connect/facebook-7fb36b3ddd6df5526092d64b3ff8eb88291adb3fc86a66d8ed782c4801a76732.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/exception_handler/connect/fusion-479b0eb8f9b6c7d4d21f91111fd0cf5dbdd94febf7e2a5c2ac06b9386ff71251.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/exception_handler/connect/linkedin-4aa98de0d90fcbb422a5dc2dc0c72916aea10b3bad299d63cfc275e83a51c1f9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/exception_handler/connect/twitter-6cb44779d7ec88408f23a1bce4887607678d21abd04ee198e3139f50bb5f589a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/exception_handler/connect/youtube-44de82d32f58fc417cf94f82598096a08b28b34f442e876cfeb92ca6dc2cdc19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/exception_handler/favicon-376cf2d187d3bc65baf0d75606d9464e4eb7f4306dab4297cc9be25b8b97b8fa.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/exception_handler/favicon-376cf2d187d3bc65baf0d75606d9464e4eb7f4306dab4297cc9be25b8b97b8fa.ico.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/exception_handler/icon-63885ff575fcceb83c2b5d396c9cdfd42a159a20fa61312bbc3f2c6151e1afc9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/exception_handler/noise-dc65de8c91f2d53fa26f8d5643c4dbe005c043b9f29cea0fc107af2326572768.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/exception_handler/overlay-9c238c5527c3e88337080dfe4b78c8d37a949084c57ad80dc4fa208c351d8145.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/gui_vs_cli-c1c52f5f12beea1721de00ef9f7ebac3c50c323dd91d552c820e54ba21689c73.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/icon-title-9077334b875395b1de280d0293c783299eb389f9baf0741ffb719bb6d78fb1ca.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/icon-title-9077334b875395b1de280d0293c783299eb389f9baf0741ffb719bb6d78fb1ca.ico.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/install-223d98f48b1436e7c68e9039944af7d9c5db784de9e4b50160330d41505d881e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/install/java/java-install-d86acb9a5414d8a7c43d47cb9f4af1c404c479be34f6c79fe807014305112f67.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/install/js/js-install-7de3d623c3be6dc65b6745b744914808bb2da3ca4e21c48743c8b8b8db12f133.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/install/ruby/ruby-install-8bb1268a02a665271735ccbe6a96029896e3de76149b4ca73a6fa08d4f572a7d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/java-e9eac1f2e1bc1d7c4c37e30a72046d0d5dbf119405995e79960c1b835c776dce.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js-eb45b6ede896ffc95727ea98d80ecc78ccbbe1b90368a557af397edc29e0e743.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/life-en-99b460259bbaf57832bfbe0965b20e80b00e4c086b40920bc15b8ef3beeb1848.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/life-en-99b460259bbaf57832bfbe0965b20e80b00e4c086b40920bc15b8ef3beeb1848.svg.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/life-ru-b2b8c5e1dfaebd296e625506a15d3b3807dacac58627cbd59a3685673bafdb2f.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/life-ru-b2b8c5e1dfaebd296e625506a15d3b3807dacac58627cbd59a3685673bafdb2f.svg.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/linux-48bf0468de08da464bbc7dde65b1b05443b943f70bcc3859247b39c6dbb0bce7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/mac-2d8dfe50e5fb9ca8f0c23f0732b8b0fbf2d25507a68dcdfef101e3b8e6bcb1fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/main-44cab8a0e55d873e4bdbba756a2db361d138c6532a8b86430b72e4266e75af66.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/main_page-6be16a1fb9a27237e2f8a3b84e4907de16d1236b86174c654afc84a3047edaae.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/main_page-6be16a1fb9a27237e2f8a3b84e4907de16d1236b86174c654afc84a3047edaae.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/manifest-b4bf6e57a53c2bdb55b8998cc94cd00883793c1c37c5e5aea3ef6749b4f6d92b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/manifest-b4bf6e57a53c2bdb55b8998cc94cd00883793c1c37c5e5aea3ef6749b4f6d92b.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/mobile-b1c9835559c8518a7e0261e7277cd9aa3c76aeeeb1bcf1f505995da6b75d96b4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/mobile-b1c9835559c8518a7e0261e7277cd9aa3c76aeeeb1bcf1f505995da6b75d96b4.svg.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/mobiles-d50398a880c223d21bdaa798c4c784b641405f03f72b6f1dc564eac79b112856.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/qa-03a270df2aeb87574759f571d7ea8fe4b3360fb7d05d0e775de4cfb6b30edb6d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/ruby-8b6b1fe11c2b11eb9f7f5f86cd4789c465123d5ade7d2c292d5e19d4f0f5f629.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/spiner-0a9141414731ca655ae0b96cae14e6253a81d38fb6ad4977779df6eb89c03e25.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/spiner-0a9141414731ca655ae0b96cae14e6253a81d38fb6ad4977779df6eb89c03e25.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/sw_life_cicle_new-347e5ae36df393427bcb4088ce543e5a714158007a7d1b8630f9fd1784700877.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/type_testing-en-0f9759ba70b569dcb9060f72252a4c8b88705bf481fdc3c18643bd7665412116.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/type_testing-en-0f9759ba70b569dcb9060f72252a4c8b88705bf481fdc3c18643bd7665412116.svg.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/type_testing-ru-8184b8dff210b6aa579c4f42ff0a2c9a70777313da822217ad37399dbf7e49e6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/type_testing-ru-8184b8dff210b6aa579c4f42ff0a2c9a70777313da822217ad37399dbf7e49e6.svg.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/web-29ef57dd9b99c420b254d7fd34a996b7ee9c32053321c5bc3f34efe2c6d3da6c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/web-5de765b30a5a22d6bf934419bf6795912619805750174ea3b5ef439e2abac323.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/web-5de765b30a5a22d6bf934419bf6795912619805750174ea3b5ef439e2abac323.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/windows-9ccd51e8d3d3434010b0a6b59115f54c82803f41917c87cb43e98bedb87f437d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/world-36f64070863c1993ac86e898aaa513463d32901180f8d106f84548a128788c99.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
