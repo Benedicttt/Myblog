@@ -1,8 +1,7 @@
-source 'https://rubygems.org'
-source "https://rails-assets.org"
+ruby "2.7.3"
 
-gem 'rails-assets-bootstrap', ">= 4.0.0.alpha.2"
-gem 'rails-assets-tether', :source => 'https://rails-assets.org/'
+source 'https://rubygems.org'
+
 gem 'rubyzip', '>= 1.0.0'
 gem 'zip-zip'
 

@@ -86,7 +86,6 @@ GIT
 
 GEM
   remote: https://rubygems.org/
-  remote: https://rails-assets.org/
   specs:
     actionpack-action_caching (1.2.2)
       actionpack (>= 4.0.0)
@@ -107,6 +106,7 @@ GEM
     autosize-rails (1.18.17)
       rails (>= 3.1)
     bcrypt (3.1.16)
+    bcrypt (3.1.16-java)
     bindex (0.8.1)
     bootstrap-sass (3.4.1)
       autoprefixer-rails (>= 5.2.1)
@@ -152,6 +152,9 @@ GEM
       i18n (>= 1.6, < 2)
     faker-russian (0.0.6)
     ffi (1.15.3)
+    ffi (1.15.3-java)
+    ffi (1.15.3-x64-mingw32)
+    ffi (1.15.3-x86-mingw32)
     geckodriver-helper (0.24.0)
       archive-zip (~> 0.7)
     globalid (0.4.2)
@@ -207,6 +210,7 @@ GEM
     method_source (1.0.0)
     mime-types (1.25.1)
     mini_mime (1.1.0)
+    mini_portile2 (2.5.3)
     minitest (5.14.4)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
@@ -215,15 +219,31 @@ GEM
     net-ssh (6.1.0)
     netrc (0.11.0)
     nio4r (2.5.7)
+    nio4r (2.5.7-java)
+    nokogiri (1.11.7)
+      mini_portile2 (~> 2.5.0)
+      racc (~> 1.4)
+    nokogiri (1.11.7-java)
+      racc (~> 1.4)
+    nokogiri (1.11.7-x64-mingw32)
+      racc (~> 1.4)
+    nokogiri (1.11.7-x86-mingw32)
+      racc (~> 1.4)
     nokogiri (1.11.7-x86_64-linux)
       racc (~> 1.4)
     nori (2.6.0)
     ox (2.14.5)
     pg (1.2.3)
+    pg (1.2.3-x64-mingw32)
+    pg (1.2.3-x86-mingw32)
     posix-spawn (0.3.15)
     pry (0.14.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
+    pry (0.14.1-java)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
+      spoon (~> 0.0)
     pry-byebug (3.8.0)
       byebug (~> 11.0)
       pry (~> 0.10)
@@ -242,11 +262,14 @@ GEM
     public_suffix (4.0.6)
     puma (5.3.2)
       nio4r (~> 2.0)
+    puma (5.3.2-java)
+      nio4r (~> 2.0)
     que (1.0.0.beta4)
     que-web (0.9.3)
       que (~> 1.0.0.beta3)
       sinatra
     racc (1.5.2)
+    racc (1.5.2-java)
     rack (2.2.3)
     rack-cors (1.1.1)
       rack (>= 2.0.0)
@@ -254,8 +277,6 @@ GEM
       rack
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
-    rails-assets-bootstrap (4.3.1)
-    rails-assets-tether (1.4.7)
     rails-dom-testing (2.0.3)
       activesupport (>= 4.2.0)
       nokogiri (>= 1.6)
@@ -277,6 +298,24 @@ GEM
       actionpack (>= 5.0)
       railties (>= 5.0)
     rest-client (2.1.0)
+      http-accept (>= 1.7.0, < 2.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
+    rest-client (2.1.0-x64-mingw32)
+      ffi (~> 1.9)
+      http-accept (>= 1.7.0, < 2.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
+    rest-client (2.1.0-x86-mingw32)
+      ffi (~> 1.9)
+      http-accept (>= 1.7.0, < 2.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
+    rest-client (2.1.0-x86-mswin32)
+      ffi (~> 1.9)
       http-accept (>= 1.7.0, < 2.0)
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 4.0)
@@ -312,6 +351,8 @@ GEM
       sassc-rails (~> 2.1, >= 2.1.1)
     sassc (2.4.0)
       ffi (~> 1.9)
+    sassc (2.4.0-x64-mingw32)
+      ffi (~> 1.9)
     sassc-rails (2.1.2)
       railties (>= 4.0.0)
       sassc (>= 2.0)
@@ -345,6 +386,8 @@ GEM
       tilt (~> 2.0)
     slop (3.6.0)
     socksify (1.7.1)
+    spoon (0.0.6)
+      ffi
     spring (2.1.1)
     sprockets (4.0.2)
       concurrent-ruby (~> 1.0)
@@ -362,11 +405,16 @@ GEM
     tilt (2.0.10)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
+    tzinfo-data (1.2021.1)
+      tzinfo (>= 1.0.0)
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
     unf (0.1.4)
       unf_ext
+    unf (0.1.4-java)
     unf_ext (0.0.7.7)
+    unf_ext (0.0.7.7-x64-mingw32)
+    unf_ext (0.0.7.7-x86-mingw32)
     wasabi (3.6.1)
       addressable
       httpi (~> 2.0)
@@ -377,6 +425,8 @@ GEM
       bindex (>= 0.4.0)
       railties (>= 6.0.0)
     websocket-driver (0.7.5)
+      websocket-extensions (>= 0.1.0)
+    websocket-driver (0.7.5-java)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
     will_paginate (3.3.0)
@@ -393,6 +443,11 @@ GEM
       rubyzip (>= 1.0.0)
 
 PLATFORMS
+  java
+  ruby
+  x64-mingw32
+  x86-mingw32
+  x86-mswin32
   x86_64-linux
 
 DEPENDENCIES
@@ -436,8 +491,6 @@ DEPENDENCIES
   que-web
   rack-cors
   rails!
-  rails-assets-bootstrap (>= 4.0.0.alpha.2)
-  rails-assets-tether!
   rails-i18n
   rails_semantic_logger
   rake (~> 13.0.1)
@@ -461,6 +514,9 @@ DEPENDENCIES
   xmlhasher
   zeroclipboard-rails
   zip-zip
+
+RUBY VERSION
+   ruby 2.7.3p183
 
 BUNDLED WITH
    2.2.20
