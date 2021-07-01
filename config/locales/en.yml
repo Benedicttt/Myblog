@@ -6,6 +6,17 @@ en:
       line2: "2) Press the key combination <strong> WIN + R </strong> and enter the command <pre class = \" code code-shell-cmd \"title=\"triple click to select command \"> cmd </pre> - the command line will open "
       line3: "3) You need to check the version of Ruby that is installed, for this we specify the command <pre class = \" code code-shell-cmd \"title=\" triple click to select command \"> ruby -v </pre>"
     head: Useful software and links for %{platform} that will help with testing and not only
+    git: "- a distributed version control system."
+    putty: "- freeware client for various remote access protocols, including SSH, Telnet, rlogin."
+    fast_stone: "- very cool editor for screenshots, where you can sign and draw"
+    sys:
+      env1: "How to exhibit"
+      env2: "system variables"
+      env3: (needed for JAVA)
+    docker: "- platform for containerization"
+    postman: "- a program for working with api requests"
+    zoom: "- a program for video conferencing"
+    ssh: "- a description of how to work with private and public ssh keys"
   mac:
     ruby:
       recommend: "I recommend installing RVM - ruby version manager for %{platform}. This will require:"

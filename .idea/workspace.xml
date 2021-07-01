@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dca57621-5991-4d21-8d24-d2a640ecffe8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/install/_linux.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/_linux.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/install/_mac.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/_mac.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/install/_windows.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/_windows.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/locales/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/locales/ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/ru.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,7 +240,7 @@
       <workItem from="1624948496300" duration="3378000" />
       <workItem from="1625046982333" duration="2262000" />
       <workItem from="1625083031165" duration="156000" />
-      <workItem from="1625129352673" duration="5909000" />
+      <workItem from="1625129352673" duration="7063000" />
     </task>
     <servers />
   </component>
