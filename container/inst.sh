@@ -49,6 +49,7 @@ fi
 cd /app
 
 bundle install
+bundle install --path vendor/bundle
 
 RAILS_ENV=development rake db:migrate
 RAILS_ENV=development rake assets:precompile
