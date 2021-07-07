@@ -1,0 +1,47 @@
+%li.display-flex
+%a.dropdown-toggle.display-flex.padding-10{"aria-controls" => "main_section", "aria-expanded" => "false", "data-toggle" => "collapse", :href => "#windows10", :role => "button" }
+  #icon-windows
+  %span{:style => "margin-left:10px;"}= t ("installs.windows")
+%ul#windows10.collapse.list-unstyled.margin-left-40
+  %li.display-flex.padding-10
+    #icon-ruby
+    %a#win-ruby.scroll-link.margin-left-10{:href => "#install/onwindows/ruby"} Ruby
+  %li.display-flex.padding-10
+    #icon-js
+    %a#win-js.scroll-link.margin-left-10{:href => "#install/onwindows/js"} NodeJs
+  %li.display-flex.padding-10
+    #icon-java
+    %a#win-java.scroll-link.margin-left-10{:href => "#install/onwindows/java"} Java
+
+:javascript
+    $(document).ready(function() {
+      $("#win-ruby").click(function(e) {
+          e.preventDefault();
+          $.ajax({ url: "/install/on_windows/ruby", type: "get", data: { locale: '#{params[:locale]}'} });
+      });
+    });
+
+    $(document).ready(function() {
+      $("#win-js").click(function(e) {
+          e.preventDefault();
+          $.ajax({ url: "/install/on_windows/js", type: "get", data: { locale: '#{params[:locale]}'} });
+      });
+    });
+
+    $(document).ready(function() {
+      $("#win-java").click(function(e) {
+          e.preventDefault();
+          $.ajax({ url: "/install/on_windows/java", type: "get", data: { locale: '#{params[:locale]}'} });
+      });
+    });
+
+    $(document).ready(function() {
+      $("[href=\"#windows10\"]").click(function(e) {
+        e.preventDefault();
+
+        params_hide = { win: false, linux: true, mac: true, fedora: true, back: true, mobile: true, gui: true }
+        show_hide(params_hide)
+
+        $.ajax({ url: "/windows", type: "get", data: { locale: '#{params[:locale]}'} });
+      });
+    });

@@ -1,7 +1,7 @@
-%a.dropdown-toggle.display-flex.padding-10{"aria-controls" => "otherSections1", "aria-expanded" => "false", "data-toggle" => "collapse", :href => "#otherSections1", :role => "button" }
+%a.dropdown-toggle.display-flex.padding-10{"aria-controls" => "gui", "aria-expanded" => "false", "data-toggle" => "collapse", :href => "#gui", :role => "button" }
   #icon-web
   %span{:style => "margin-left:10px;"} Gui
-%ul#otherSections1.collapse.list-unstyled.margin-left-60
+%ul#gui.collapse.list-unstyled.margin-left-60
   %li.display-flex.padding-10
     #icon-ruby
     %a#web-ruby.scroll-link.margin-left-10{:href => "#web/ruby/"} Ruby
@@ -39,8 +39,12 @@
   });
 
   $(document).ready(function() {
-    $("[href=\"#otherSections1\"]").click(function(e) {
+    $("[href=\"#gui\"]").click(function(e) {
         e.preventDefault();
+
+        params_hide = { win: true, linux: true, mac: true, fedora: true, back: true, mobile: true, gui: false }
+        show_hide(params_hide)
+
         $.ajax({ url: "/web/gui", type: "get", data: { locale: '#{params[:locale]}'} });
     });
   });

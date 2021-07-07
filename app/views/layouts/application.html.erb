@@ -67,6 +67,37 @@
           }
       };
 
+      function show_hide(params){
+          if ($("[href=\"#windows10\"]").attr("aria-expanded") === `${params.win}`) {
+              let icon = document.querySelector("#icon-windows")
+              icon.click()
+          }
+          if ($("[href=\"#linux\"]").attr("aria-expanded") === `${params.linux}`) {
+              let icon = document.querySelector("#icon-linux")
+              icon.click()
+          }
+          if ($("[href=\"#mac\"]").attr("aria-expanded") === `${params.mac}`) {
+              let icon = document.querySelector("#icon-mac")
+              icon.click()
+          }
+          if ($("[href=\"#fedora\"]").attr("aria-expanded") === `${params.fedora}`) {
+              let icon = document.querySelector("#icon-fedora")
+              icon.click()
+          }
+
+          if ($("[href=\"#back\"]").attr("aria-expanded") === `${params.back}`) {
+              let icon = document.querySelector("#icon-back")
+              icon.click()
+          }
+          if ($("[href=\"#mobile\"]").attr("aria-expanded") === `${params.mobile}`) {
+              let icon = document.querySelector("#icon-mobile")
+              icon.click()
+          }
+          if ($("[href=\"#gui\"]").attr("aria-expanded") === `${params.gui}`) {
+              let icon = document.querySelector("#icon-web")
+              icon.click()
+          }
+      }
   </script>
 
   <%= stylesheet_link_tag    'application', media: 'all' %>

@@ -1,7 +1,7 @@
-%a.dropdown-toggle.display-flex.padding-10{"aria-controls" => "otherSections3", "aria-expanded" => "false", "data-toggle" => "collapse", :href => "#otherSections3", :role => "button" }
+%a.dropdown-toggle.display-flex.padding-10{"aria-controls" => "mobile", "aria-expanded" => "false", "data-toggle" => "collapse", :href => "#mobile", :role => "button" }
   #icon-mobile
   %span{:style => "margin-left:10px;"} Mobile
-%ul#otherSections3.collapse.list-unstyled.margin-left-60
+%ul#mobile.collapse.list-unstyled.margin-left-60
   %li.display-flex.padding-10
     #icon-ruby
     %a#mobile-ruby.scroll-link.margin-left-10{:href => "#mobile/ruby"} Ruby
@@ -37,8 +37,12 @@
   });
 
   $(document).ready(function() {
-    $("[href=\"#otherSections3\"]").click(function(e) {
+    $("[href=\"#mobile\"]").click(function(e) {
         e.preventDefault();
+
+        params_hide = { win: true, linux: true, mac: true, fedora: true, back: true, mobile: false, gui: true }
+        show_hide(params_hide)
+
         $.ajax({ url: "/mobile/mobile", type: "get", data: { locale: '#{params[:locale]}'} });
     });
   });
