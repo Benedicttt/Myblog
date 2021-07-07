@@ -1,12 +1,12 @@
 version: "3.4"
 
 services:
-  create_clients:
+  blog:
     build:
       context: .
     image: blog:v1
     container_name: blog
-    hostname: create_clients
+    hostname: blog
     command: bash container/inst.sh
     environment:
       - LEVEL=dev

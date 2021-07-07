@@ -1,7 +1,7 @@
 ru:
   windows:
     ruby:
-      header: Установка языка программирования Ruby на Windows
+      header: Установка языка программирования Ruby на %{platform}
       line1: "1) Переходим по <a href='https://rubyinstaller.org/downloads/'  target='_blank'>ссылке</a> и скачиваем файл инсталяции - желательно версию 2.7.3-1, примеры, указанные на сайте, будут на этой версии Ruby"
       line2: "2) Нажимаем комбинацию клавишь <strong>WIN + R</strong> и вводим команду <pre class=\"code code-shell-cmd\" title=\"triple click to select command\">cmd</pre>- откроется командная строка"
       line3: "3) Нужно проверить версию Ruby которая установилась, для этого указываем команду <pre class=\"code code-shell-cmd\" title=\"triple click to select command\">ruby -v</pre>"
@@ -16,7 +16,7 @@ ru:
     docker: "- платформа для контейнеризации"
     postman: "- программа для работы с апи запросами"
     zoom: "- программа для видеоконференций"
-    ssh: "- описание того как работать с приватными и публичными ключами ssh"
+    ssh: "- описание того как работать с приватными и публичными ключами ssh, генерация нормального rsa (ssh-keygen -t rsa -b 4096)"
   mac:
     ruby:
       recommend: "Я рекомендую для %{platform} установить RVM - ruby version manager. Для этого потребуется:"
@@ -59,6 +59,7 @@ ru:
     install: Установить
     windows: на Виндовс
     linux: на Линукс
+    fedora: на Fedora
     mac: на MacOs
   describe:
     header: Про тестирование простыми словами

@@ -31,20 +31,24 @@ Rails.application.routes.draw do
     get "windows", to: "install#windows"
     get "linux",  to: "install#linux"
     get "mac",     to: "install#mac"
+    get "fedora",     to: "install#fedora"
 
     namespace :install do
 
       get "on_windows/ruby", to: "windows#win_ruby"
       get "on_linux/ruby", to: "linux#linux_ruby"
       get "on_mac/ruby", to: "mac#mac_ruby"
+      get "on_fedora/ruby", to: "fedora#fedora_ruby"
 
       get "on_windows/js", to: "windows#win_js"
       get "on_linux/js", to: "linux#linux_js"
       get "on_mac/js", to: "mac#mac_js"
+      get "on_fedora/js", to: "fedora#fedora_js"
 
       get "on_windows/java", to: "windows#win_java"
       get "on_linux/java", to: "linux#linux_java"
       get "on_mac/java", to: "mac#mac_java"
+      get "on_fedora/java", to: "fedora#fedora_java"
     end
   end
 end

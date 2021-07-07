@@ -16,7 +16,7 @@ en:
     docker: "- platform for containerization"
     postman: "- a program for working with api requests"
     zoom: "- a program for video conferencing"
-    ssh: "- a description of how to work with private and public ssh keys"
+    ssh: "- a description of how to work with private and public ssh keys, generate normal rsa (ssh-keygen -t rsa -b 4096)"
   mac:
     ruby:
       recommend: "I recommend installing RVM - ruby version manager for %{platform}. This will require:"
@@ -59,6 +59,7 @@ en:
     install: Install
     windows: on Windows
     linux: on Linux
+    fedora: on Fedora
     mac: on MacOs
   describe:
     header: About testing in simple words

@@ -1,0 +1,80 @@
+%br
+%br
+%div.font-size-18
+  .line-bottom
+    %h3 Установка языка программирования NodeJS на Fedora
+  %br
+  %br
+  %br
+  %p
+  1) Откройте терминал в Fedora и обновите пакеты командой
+  <pre class=\"code code-shell-cmd\" title=\"triple click to select command\">sudo apt update</pre>
+  %br
+  %p
+  2) Выполните команду <pre class="code code-shell-cmd" title="triple click to select command">sudo apt install nodejs && sudo apt install npm</pre>
+  %br
+    %i что такое "npm" - это node package manager - менеджер установки пакетов. В Windows и Mac "node" и "npm" устанавливаются сразу вместе.
+  %p
+    %i Если по какойто причине у вас возникли проблемы с установкой , перейдите по ссылке и попробуте по этому
+    %a{ href: 'https://www.geeksforgeeks.org/installation-of-node-js-on-linux/', target: '_blank' } гайду
+  %br
+  %p
+  3) После установки "node" нужно перезапустить терминал в оболочке
+  %br
+  %br
+  %p
+  = raw "4) После установки и перезапуска терминала, можно посмотреть версию, набрав и выполнив команду <pre class=\"code code-shell-cmd\" title=\"triple click to select command\">node -v</pre>"
+  %p
+  %p
+  .margin-left-10
+    В результате отобразится версия NodeJS:
+  %p
+.margin-left-10
+  %iПример
+  %p
+  %img.size-55{src: "/assets/install/js/js-install.png"}
+
+  %br
+  %br
+
+%div.font-size-18
+  .line-bottom
+    %h3 Установка IDE для разработки (редактор)
+  %br
+  %p
+  Есть много хороших редакторов которыми пользуються для написания кода по NodeJS, некоторые из них:
+  %p
+  %ul
+    %li
+      %a{ href: 'https://code.visualstudio.com/', target: '_blank'  } Visual Studio Code
+  %ul
+    %li
+      %a{ href: 'https://atom.io/', target: '_blank'  } Atom
+  %ul
+    %li
+      %a{ href: 'https://www.sublimetext.com/', target: '_blank'  } Sublime
+  %ul
+    %li
+      %a{ href: 'https://www.jetbrains.com/webstorm/', target: '_blank'  } WebStorm
+
+  %br
+    %i В дальнейшем будет показан код в редакторе WebStorm, вы же можете использовать любой редактор который вам по душе.
+
+  %br
+%div.font-size-18
+  .line-bottom
+    %h3 Итог
+  %br
+  %p
+    = raw "Когда у вас есть установленый язык программирования на ОС и есть хороший редактор для вашего нового проекта, вы можете смело пробовать свои силы для написания простого или сложного теста, но для начала выбирете раздел:"
+  %p
+  %ul
+    %li
+      %a{ href: '#', onclick: "document.querySelector('#icon-web').click();document.querySelector('#web-js').click()"} Способ как написать простые GUI тесты
+  %ul
+    %li
+      %a{ href: '#', onclick: "document.querySelector('#icon-back').click();document.querySelector('#back-js').click()"} Способ как написать простые API тесты
+  %ul
+    %li
+      %a{ href: '#', onclick: "document.querySelector('#icon-mobile').click();document.querySelector('#mobile-js').click()"} Способ как написать простые Mobile тесты
+

@@ -10,4 +10,8 @@ class InstallController < ApplicationController
   def mac
     render "install/mac.js"
   end
+
+  def fedora
+    render "install/fedora.js"
+  end
 end
