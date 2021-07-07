@@ -1,4 +1,6 @@
 ru:
+  fedora:
+    snap: Все что нужно устанавливать не через SNAP
   windows:
     ruby:
       header: Установка языка программирования Ruby на %{platform}

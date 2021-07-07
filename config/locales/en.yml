@@ -1,4 +1,7 @@
 en:
+  fedora:
+    snap: All need install from SNAP
+    no_snap: All need install from not SNAP
   windows:
     ruby:
       header: Installing the Ruby programming language on %{platform}

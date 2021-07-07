@@ -1,27 +1,50 @@
+%div.font-size-18.margin-left-10
+  %p
+  %a{ href: 'https://www.fosslinux.com/842/how-to-install-fedora-in-a-dual-boot-setup-with-windows.html', target: 'blank' } Fedora
+  %span - как установить как основную ОС или рядом с Windows 10
+%br
+%br
+%br
+
 %h4= raw t('windows.head', platform: "Fedora")
 %div.font-size-18.margin-left-10
+  %a{ href: 'https://snapcraft.io/docs/installing-snap-on-fedora', target: 'blank' }
+    %strong= raw t('fedora.snap')
   %br
   %br
-  %a{ href: 'https://ubuntu.fandom.com/ru/wiki/Terminator' } Terminator
-  %span - очень удобный терминал, лучше чем дефолтный на Ubuntu
-  %p
-  %a{ href: 'https://www.tecmint.com/install-oh-my-zsh-in-ubuntu/' } Oh-My-Zsh
-  %span - это платформа с открытым исходным кодом для управления конфигурацией ZSH, управляемая сообществом. Груба говоря надстройка на bash. Плагин gnzh.
-  %p
-  %a{ href: 'https://www.docker.com/products/docker-desktop' } Docker
-  %span - платформа для контейнеризации
-  %p
-  %a{ href: 'https://developer.fedoraproject.org/tools/docker/docker-installation.html' } Docker (Fedora)
-  %span - платформа для контейнеризации
-  %p
-  %a{ href: 'https://www.libreoffice.org/discover/libreoffice/' } Libreoffice
-  %span - все что есть в Microsoft office но только бесплатно
-  %p
-  %a{ href: 'https://www.postman.com/' } Postman
-  %span - программа для работы с апи запросами
-  %p
-  %a{ href: 'https://zoom.us/download' } Zoom
-  %span - программа для видеоконференций
-  %p
-  %a{ href: 'https://www.ssh.com/academy/ssh/key' } SSH
-  %span - описание того как работать с приватными и публичными ключами ssh
+  .margin-left-10
+    %p
+    %a{ href: 'https://snapcraft.io/install/postman/fedora', target: 'blank' }Postman
+    %span - программа для работы с апи запросами
+    %p
+    %a{ href: 'https://snapcraft.io/zoom-client', target: 'blank' }Zoom
+    %span - программа для видеоконференций
+    %p
+    %a{ href: 'https://snapcraft.io/intellij-idea-community', target: 'blank' }Idea
+    %span - программа для видеоконференций
+    %p
+    %a{ href: 'https://snapcraft.io/rubymine', target: 'blank' }RubyMine
+    %span - программа для видеоконференций
+    %p
+    %a{ href: 'https://snapcraft.io/webstorm', target: 'blank' }WebStorm
+    %span - программа для видеоконференций
+
+  %br
+  %br
+  %strong= raw t('fedora.no_snap')
+  .margin-left-10
+    %p
+    %a{ href: 'https://kifarunix.com/install-and-setup-zsh-and-oh-my-zsh-on-fedora-32/', target: 'blank' }Oh-My-Zsh
+    %span - это платформа с открытым исходным кодом для управления конфигурацией ZSH, управляемая сообществом. Груба говоря надстройка на bash. Плагин gnzh.
+    %p
+    %a{ href: 'https://www.2daygeek.com/terminator-linux-terminal-emulator-supports-multiple-terminals-in-one-window/', target: 'blank' }Terminator
+    %span - очень удобный терминал, лучше чем дефолтный на Ubuntu
+    %p
+    %a{ href: 'https://computingforgeeks.com/how-to-install-docker-on-fedora/', target: 'blank' }Docker
+    %span - платформа для контейнеризации
+    %p
+    %a{ href: 'https://developer.fedoraproject.org/tools/docker/docker-installation.html', target: 'blank' }Docker (Fedora)
+    %span - платформа для контейнеризации
+    %p
+    %a{ href: 'https://www.ssh.com/academy/ssh/key', target: 'blank' }SSH
+    %span - описание того как работать с приватными и публичными ключами ssh

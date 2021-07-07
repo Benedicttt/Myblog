@@ -2,28 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dca57621-5991-4d21-8d24-d2a640ecffe8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/blog-s-kievskiy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/fedora.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/install/fedora_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/install/_fedora.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/install/fedora.js.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/install/fedora/_java.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/install/fedora/_js.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/install/fedora/_ruby.html.haml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/install/fedora/java.js.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/install/fedora/js.js.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/install/fedora/ruby.js.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/fedora.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/fedora.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/web.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/web.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/Install_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Install_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/install/_fedora.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/_fedora.html.haml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/install/_linux.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/_linux.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_installs.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_installs.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/install/_mac.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/_mac.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/install/_windows.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/_windows.html.haml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/locales/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/en.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/locales/ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/ru.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container/inst.sh" beforeDir="false" afterPath="$PROJECT_DIR$/container/inst.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -361,7 +349,7 @@
       <workItem from="1625411737810" duration="2316000" />
       <workItem from="1625469557340" duration="2905000" />
       <workItem from="1625556018576" duration="600000" />
-      <workItem from="1625651759318" duration="1326000" />
+      <workItem from="1625651759318" duration="3752000" />
     </task>
     <servers />
   </component>
