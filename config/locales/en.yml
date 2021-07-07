@@ -1,13 +1,78 @@
 en:
+  mac:
+    how_install: "- how to install as the main OS"
+    ruby:
+      recommend: "I recommend installing RVM - ruby version manager for %{platform}. This will require:"
+      line1: 1) Open a terminal in %{platform}. Add GPG key <pre class=\"code code-shell-cmd\" title=\"triple click to select command\"> gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0BE739499</pre>
+      line2: 2) Run the command <pre class = "code code-shell-cmd" title = "triple click to select command"> \curl -sSL https://get.rvm.io | bash -s stable </pre>
+      line3: 3) After installing "rvm" you need to restart the terminal in the shell
+      line4: 4) We need to install version 2.7 of Ruby, for this we type and execute the command in the terminal <pre class = "code code-shell-cmd" title = "triple click to select command"> rvm install 2.7 </pre>
+      line5: "5) After a long installation, you can also view the version in the terminal by typing and executing the command <pre class = \" code code-shell-cmd \"title = \" triple click to select command \"> ruby -v </pre> "
+    java:
+      header: Installing the Java Programming Language on MacOsX
+      line1: 1) Open terminal in MacOsX and update packages with command
+      line2: 2) Run the command
+      line3: If for some reason you have problems with the installation, follow the link and give it a try
+      line4: "3) After installation, you can view the version by typing and executing the command"
+    js:
+
   fedora:
     snap: All need install from SNAP
     no_snap: All need install from not SNAP
+    how_install: "- how to install as the main OS or next to Windows 10"
+    java:
+      header: Installing the Java programming language on %{platform}
+      line1: "1) Open a terminal in Fedora and type the following command"
+      line2: "2) As a result, a list of all versions of the JDK (Java Development Kit) will be displayed, you need to select the one depending on which you need, for example"
+      line3: "If for some reason you have problems with the installation, go to the link and give it a try."
+      line4: "3) After installation, you can view the version by typing and running the command"
+    js:
+      header: Installing the NodeJs programming language on %{platform}
+      step1: Can be installed from Snap
+      line1: "1) Open a terminal in Fedora and type the following command"
+      line2: "2) As a result, a list of all NodeJS versions will be displayed, you need to select the one depending on which you need, for example"
+      line3: "If for some reason you have problems with the installation, go to the link and give it a try."
+      line4: "3) After installation, you can view the version by typing and executing the command"
+    ruby:
+
+  ubuntu:
+    snap: All need install from SNAP
+    no_snap: All need install from not SNAP
+    how_install: "- how to install as the main OS or next to Windows 10"
+    java:
+      header: Installing the Java programming language on %{platform}
+      line1: "1) Open a terminal in Ubuntu and type the following command"
+      line2: "2) As a result, a list of all versions of the JDK (Java Development Kit) will be displayed, you need to select the one depending on which you need, for example"
+      line3: "If for some reason you have problems with the installation, go to the link and give it a try."
+      line4: "3) After installation, you can view the version by typing and running the command"
+    js:
+      header: Installing the NodeJs programming language on %{platform}
+      step1: Can be installed from Snap
+      line1: "1) Open a terminal in Ubuntu and type the following command"
+      line2: "2) As a result, a list of all NodeJS versions will be displayed, you need to select the one depending on which you need, for example"
+      line3: "If for some reason you have problems with the installation, go to the link and give it a try."
+      line4: "3) After installation, you can view the version by typing and executing the command"
+    ruby:
+
   windows:
+    how_install: "- how to install as the main OS"
     ruby:
       header: Installing the Ruby programming language on %{platform}
       line1: "1) Go to the <a href='https://rubyinstaller.org/downloads/' target='_blank'> link </a> and download the installation file - preferably version 2.7.3-1, examples indicated on the site will be on this version of Ruby "
       line2: "2) Press the key combination <strong> WIN + R </strong> and enter the command <pre class = \" code code-shell-cmd \"title=\"triple click to select command \"> cmd </pre> - the command line will open "
       line3: "3) You need to check the version of Ruby that is installed, for this we specify the command <pre class = \" code code-shell-cmd \"title=\" triple click to select command \"> ruby -v </pre>"
+    java:
+      header: Installing the Java programming language on %{platform}
+      line1: "1) Follow the link and download the installation file for"
+      line2: ", and install the software. Both versions will suit us in the future."
+      line3: "2) Press the key combination <strong> WIN + R </strong> and enter the command <pre class = \" code code-shell-cmd \"title = \" triple click to select command \"> cmd </pre> - the command line will open "
+      line4: "3) You need to check the Java version that is installed, for this we specify the command <pre class = \" code code-shell-cmd \"title = \" triple click to select command \"> java -version </pre>"
+    js:
+      header: Installing the NodeJs programming language on %{platform}
+      line1: 1) Go to
+      line2: link and download the installation file and install the software from it
+      line3: "2) Press the key combination <strong> WIN + R </strong> and enter the command <pre class = \" code code-shell-cmd \"title = \" triple click to select command \"> cmd </pre> - the command line will open "
+      line4: "3) You need to check if NodeJS was installed correctly, for this we specify the command <pre class = \" code code-shell-cmd \"title = \" triple click to select command \"> node -v </pre>"
     head: Useful software and links for %{platform} that will help with testing and not only
     git: "- a distributed version control system."
     putty: "- freeware client for various remote access protocols, including SSH, Telnet, rlogin."
@@ -20,14 +85,15 @@ en:
     postman: "- a program for working with api requests"
     zoom: "- a program for video conferencing"
     ssh: "- a description of how to work with private and public ssh keys, generate normal rsa (ssh-keygen -t rsa -b 4096)"
-  mac:
-    ruby:
-      recommend: "I recommend installing RVM - ruby version manager for %{platform}. This will require:"
-      line1: 1) Open a terminal in %{platform}. Add GPG key <pre class=\"code code-shell-cmd\" title=\"triple click to select command\"> gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0BE739499</pre>
-      line2: 2) Run the command <pre class = "code code-shell-cmd" title = "triple click to select command"> \curl -sSL https://get.rvm.io | bash -s stable </pre>
-      line3: 3) After installing "rvm" you need to restart the terminal in the shell
-      line4: 4) We need to install version 2.7 of Ruby, for this we type and execute the command in the terminal <pre class = "code code-shell-cmd" title = "triple click to select command"> rvm install 2.7 </pre>
-      line5: "5) After a long installation, you can also view the version in the terminal by typing and executing the command <pre class = \" code code-shell-cmd \"title = \" triple click to select command \"> ruby -v </pre> "
+    editor: editor IDE for %{platform}
+    zsh: "is an open source community driven ZSH configuration management platform. Roughly a bash add-on. The gnzh plugin."
+    terminator: "- very convenient terminal, better than the default one on Ubuntu"
+    terminator2: "- very convenient terminal, better than the default one on MacOs"
+    libbre: "- everything that is in Microsoft office but only for free"
+    homebrew: "- to install third-party packages through the terminal"
+    appstorrent: "- a lot of useful software for mac"
+    paw: "- a program for working with api requests, an alternative to Postman"
+    vpn: "- program for VPN connection"
 
   see_version: "This will display the %{lang} version:"
   ide: Installing the IDE for Development (Editor)
@@ -39,6 +105,9 @@ en:
     mobile: How to write simple Mobile tests
   example: Example
   outcome: Outcome
+  guide: guide
+  or: or
+  or_or: version, or for
   outcome_describe: "When you have an installed programming language on the OS and a good editor for your new project, you can safely try your hand at writing a simple or complex test, but first select the section:"
 
   loader: Loading ...
@@ -61,7 +130,7 @@ en:
   installs:
     install: Install
     windows: on Windows
-    linux: on Linux
+    linux: on Ubuntu
     fedora: on Fedora
     mac: on MacOs
   describe:

@@ -2,26 +2,25 @@
 %br
 %div.font-size-18
   .line-bottom
-    %h3 Установка языка программирования Java на Windows
+    %h3= raw t("windows.java.header", platform: "Windows")
   %br
   %p
-  1)
-  Переходим по ссылке и скачиваем файл инсталяции для
+  = raw t("windows.java.line1")
   %a{ href: 'https://www.oracle.com/java/technologies/javase-jdk11-downloads.html', target: '_blank' }  11
-  версии, или для
+  = raw t("or_or")
   %a{ href: 'https://www.oracle.com/java/technologies/javase-jdk8-downloads.html', target: '_blank' }  8
-  , и устанавливаем ПО. И та и та версии нам подойдут в дальнейшем
+  = raw t("windows.java.line2")
   %p
-  = raw "2) Нажимаем комбинацию клавишь <strong>WIN + R</strong> и вводим команду <pre class=\"code code-shell-cmd\" title=\"triple click to select command\">cmd</pre>- откроется командная строка"
+  = raw t("windows.java.line3")
   %p
-  = raw "3) Нужно проверить версию Java которая установилась, для этого указываем команду <pre class=\"code code-shell-cmd\" title=\"triple click to select command\">java -version</pre>"
+  = raw t("windows.java.line4")
   %p
   %p
   .margin-left-10
-    В результате отобразится версия Java:
-  %p
+    = raw t('see_version', lang: "Java")
+%p
 .margin-left-10
-  %iПример
+  %i=raw t("example")
   %p
   %img.size-55{src: "/assets/install/java/java-install.png"}
 
@@ -30,10 +29,10 @@
 
 %div.font-size-18
   .line-bottom
-    %h3 Установка IDE для разработки (редактор)
+    %h3= raw t('ide')
   %br
   %p
-  Есть много хороших редакторов которыми пользуються для написания кода по Java, некоторые из них:
+    = raw t('count', lang: "Java")
   %p
   %ul
     %li
@@ -46,26 +45,26 @@
       %a{ href: 'https://www.sublimetext.com/', target: '_blank'  } Sublime
   %ul
     %li
-      %a{ href: 'https://www.jetbrains.com/idea/', target: '_blank'  } Intellij Idea
+      %a{ href: 'https://www.jetbrains.com/idea/', target: '_blank'  } Idea Intellij
 
   %br
-    %i В дальнейшем будет показан код в редакторе RubyMine, вы же можете использовать любой редактор который вам по душе.
+    %i= raw t('feature', ide: "Intellij Idea")
 
   %br
 %div.font-size-18
   .line-bottom
-    %h3 Итог
+    %h3= raw t ("outcome")
   %br
   %p
-    = raw "Когда у вас есть установленый язык программирования на ОС и есть хороший редактор для вашего нового проекта, вы можете смело пробовать свои силы для написания простого или сложного теста, но для начала выбирете раздел:"
+    = raw t ("outcome_describe")
   %p
   %ul
     %li
-      %a{ href: '#', onclick: "document.querySelector('#icon-web').click();document.querySelector('#web-java').click()"} Способ как написать простые GUI тесты
+      %a{ href: '#', onclick: "document.querySelector('#icon-web').click();document.querySelector('#web-java').click()"}= raw t('step.gui')
   %ul
     %li
-      %a{ href: '#', onclick: "document.querySelector('#icon-back').click();document.querySelector('#back-java').click()"} Способ как написать простые API тесты
+      %a{ href: '#', onclick: "document.querySelector('#icon-back').click();document.querySelector('#back-java').click()"}= raw t('step.back')
   %ul
     %li
-      %a{ href: '#', onclick: "document.querySelector('#icon-mobile').click();document.querySelector('#mobile-java').click()"} Способ как написать простые Mobile тесты
+      %a{ href: '#', onclick: "document.querySelector('#icon-mobile').click();document.querySelector('#mobile-java').click()"}= raw t('step.mobile')
 

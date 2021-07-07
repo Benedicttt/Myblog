@@ -1,7 +1,7 @@
 %div.font-size-18.margin-left-10
   %p
   %a{ href: 'https://www.fosslinux.com/842/how-to-install-fedora-in-a-dual-boot-setup-with-windows.html', target: 'blank' } Fedora
-  %span - как установить как основную ОС или рядом с Windows 10
+  %span= raw t('fedora.how_install')
 %br
 %br
 %br
@@ -15,19 +15,19 @@
   .margin-left-10
     %p
     %a{ href: 'https://snapcraft.io/install/postman/fedora', target: 'blank' }Postman
-    %span - программа для работы с апи запросами
+    %span= raw t('windows.postman')
     %p
     %a{ href: 'https://snapcraft.io/zoom-client', target: 'blank' }Zoom
-    %span - программа для видеоконференций
+    %span= raw t('windows.zoom')
     %p
     %a{ href: 'https://snapcraft.io/intellij-idea-community', target: 'blank' }Idea
-    %span - программа для видеоконференций
+    %span= raw t('windows.editor', platform: "Java")
     %p
     %a{ href: 'https://snapcraft.io/rubymine', target: 'blank' }RubyMine
-    %span - программа для видеоконференций
+    %span= raw t('windows.editor', platform: "Ruby")
     %p
     %a{ href: 'https://snapcraft.io/webstorm', target: 'blank' }WebStorm
-    %span - программа для видеоконференций
+    %span= raw t('windows.editor', platform: "JS")
 
   %br
   %br
@@ -35,16 +35,16 @@
   .margin-left-10
     %p
     %a{ href: 'https://kifarunix.com/install-and-setup-zsh-and-oh-my-zsh-on-fedora-32/', target: 'blank' }Oh-My-Zsh
-    %span - это платформа с открытым исходным кодом для управления конфигурацией ZSH, управляемая сообществом. Груба говоря надстройка на bash. Плагин gnzh.
+    %span= raw t('windows.zsh')
     %p
     %a{ href: 'https://www.2daygeek.com/terminator-linux-terminal-emulator-supports-multiple-terminals-in-one-window/', target: 'blank' }Terminator
-    %span - очень удобный терминал, лучше чем дефолтный на Ubuntu
+    %span= raw t('windows.terminator')
     %p
     %a{ href: 'https://computingforgeeks.com/how-to-install-docker-on-fedora/', target: 'blank' }Docker
-    %span - платформа для контейнеризации
+    %span= raw t('windows.docker')
     %p
     %a{ href: 'https://developer.fedoraproject.org/tools/docker/docker-installation.html', target: 'blank' }Docker (Fedora)
-    %span - платформа для контейнеризации
+    %span= raw t('windows.docker')
     %p
     %a{ href: 'https://www.ssh.com/academy/ssh/key', target: 'blank' }SSH
-    %span - описание того как работать с приватными и публичными ключами ssh
+    %span= raw t('windows.ssh')
