@@ -83,5 +83,6 @@ group :development, :production, :test do
   gem 'actionpack-action_caching'
   gem 'rails-i18n'
   gem "tabs_on_rails"
+  gem "railties"
 end
 
