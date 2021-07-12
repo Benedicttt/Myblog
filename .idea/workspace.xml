@@ -3,19 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dca57621-5991-4d21-8d24-d2a640ecffe8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/install/_fedora.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/_fedora.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/install/_linux.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/_linux.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/install/_mac.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/_mac.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/install/_windows.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/_windows.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/install/fedora/_java.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/fedora/_java.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/install/fedora/_js.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/fedora/_js.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/install/linux/_java.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/linux/_java.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/install/linux/_js.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/linux/_js.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/install/mac/_java.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/mac/_java.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/install/mac/_js.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/mac/_js.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/install/windows/_java.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/windows/_java.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/install/windows/_js.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/windows/_js.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/locales/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/en.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/locales/ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/ru.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -354,7 +341,9 @@
       <workItem from="1625411737810" duration="2316000" />
       <workItem from="1625469557340" duration="2905000" />
       <workItem from="1625556018576" duration="600000" />
-      <workItem from="1625651759318" duration="15817000" />
+      <workItem from="1625651759318" duration="17125000" />
+      <workItem from="1625813897157" duration="3450000" />
+      <workItem from="1626074681046" duration="417000" />
     </task>
     <servers />
   </component>
