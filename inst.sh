@@ -1,6 +1,2 @@
-
-apt-get update && apt-get install libpq-dev
-bundle install -j4
-#rake db:migrate
-rake assets:precompile
-rails s
+docker-compose up -d
+docker exec -ti blog bash -c 'rails s -b 0.0.0.0'
