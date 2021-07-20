@@ -2,5 +2,5 @@
   %h3 Ruby+Selenium
   %p Some content.
 
-  = render "shared/pre", f: raw(File.read("app/file_examples/ruby/test.rb")), id: "line1"
-  = render "shared/pre", f: raw(File.read("app/file_examples/ruby/parameters_controller.rb")), id: "line2"
+  = render "shared/pre", f: "ruby/test.rb", id: "line1"
+  = render "shared/pre", f: "ruby/parameters_controller.rb", id: "line2"
