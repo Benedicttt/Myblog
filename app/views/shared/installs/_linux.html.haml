@@ -1,0 +1,48 @@
+%li.display-flex
+%a.dropdown-toggle.display-flex.padding-10{"aria-controls" => "main_section", "aria-expanded" => "false", "data-toggle" => "collapse", :href => "#linux", :role => "button" }
+  #icon-linux
+  %span{:style => "margin-left:10px;"}= t ("installs.linux")
+%ul#linux.collapse.list-unstyled.margin-left-40
+  %li.display-flex.padding-10
+    #icon-ruby
+    %a#linux-ruby.scroll-link.margin-left-10{:href => "#install/onlinux/ruby"} Ruby
+  %li.display-flex.padding-10
+    #icon-js
+    %a#linux-js.scroll-link.margin-left-10{:href => "#install/onlinux/js"} NodeJs
+  %li.display-flex.padding-10
+    #icon-java
+    %a#linux-java.scroll-link.margin-left-10{:href => "#install/onlinux/java"} Java
+
+:javascript
+    $(document).ready(function() {
+      $("#linux-ruby").click(function(e) {
+          e.preventDefault();
+          $.ajax({ url: "/install/on_linux/ruby", type: "get", data: { locale: '#{params[:locale]}'} });
+      });
+    });
+
+    $(document).ready(function() {
+      $("#linux-js").click(function(e) {
+          e.preventDefault();
+          $.ajax({ url: "/install/on_linux/js", type: "get", data: { locale: '#{params[:locale]}'} });
+      });
+    });
+
+    $(document).ready(function() {
+      $("#linux-java").click(function(e) {
+          e.preventDefault();
+          $.ajax({ url: "/install/on_linux/java", type: "get", data: { locale: '#{params[:locale]}'} });
+      });
+    });
+
+    $(document).ready(function() {
+      $("[href=\"#linux\"]").click(function(e) {
+        e.preventDefault();
+
+        params_hide = { win: true, linux: false, mac: true, fedora: true, back: true, mobile: true, gui: true }
+        show_hide(params_hide)
+
+        $.ajax({ url: "/linux", type: "get", data: { locale: '#{params[:locale]}'} });
+      });
+      });
+

@@ -1,0 +1,47 @@
+%li.display-flex
+%a.dropdown-toggle.display-flex.padding-10{"aria-controls" => "main_section", "aria-expanded" => "false", "data-toggle" => "collapse", :href => "#fedora", :role => "button" }
+  #icon-fedora
+  %span{:style => "margin-left:10px;"}= t ("installs.fedora")
+%ul#fedora.collapse.list-unstyled.margin-left-40
+  %li.display-flex.padding-10
+    #icon-ruby
+    %a#fedora-ruby.scroll-link.margin-left-10{:href => "#install/onfedora/ruby"} Ruby
+  %li.display-flex.padding-10
+    #icon-js
+    %a#fedora-js.scroll-link.margin-left-10{:href => "#install/onfedora/js"} NodeJs
+  %li.display-flex.padding-10
+    #icon-java
+    %a#fedora-java.scroll-link.margin-left-10{:href => "#install/onfedora/java"} Java
+
+:javascript
+    $(document).ready(function() {
+      $("#fedora-ruby").click(function(e) {
+          e.preventDefault();
+          $.ajax({ url: "/install/on_fedora/ruby", type: "get", data: { locale: '#{params[:locale]}'} });
+      });
+    });
+
+    $(document).ready(function() {
+      $("#fedora-js").click(function(e) {
+          e.preventDefault();
+          $.ajax({ url: "/install/on_fedora/js", type: "get", data: { locale: '#{params[:locale]}'} });
+      });
+    });
+
+    $(document).ready(function() {
+      $("#fedora-java").click(function(e) {
+          e.preventDefault();
+          $.ajax({ url: "/install/on_fedora/java", type: "get", data: { locale: '#{params[:locale]}'} });
+      });
+    });
+
+    $(document).ready(function() {
+      $("[href=\"#fedora\"]").click(function(e) {
+        e.preventDefault();
+
+       params_hide = { win: true, linux: true, mac: true, fedora: true, back: true, mobile: true, gui: true }
+       show_hide(params_hide)
+
+        $.ajax({ url: "/fedora", type: "get", data: { locale: '#{params[:locale]}'} });
+      });
+      });

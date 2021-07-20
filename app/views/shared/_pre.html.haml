@@ -1,0 +1,19 @@
+%div
+  %div
+    %pre
+      %code{ id: id }
+        .text.max-width
+          = f
+      %button#icon-copy-text-input{ class: "clipboard-btn", :'data-clipboard-action' => "copy", :'data-clipboard-target' => "#" + id.to_s }
+
+:javascript
+  $(document).ready(function() {
+    $('pre code').each(function(i, block) {
+      hljs.highlightBlock(block);
+    });
+  });
+
+:css
+  button {
+    border-width: 0px;
+  }

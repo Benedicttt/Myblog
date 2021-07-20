@@ -1,0 +1,75 @@
+%br
+%br
+%div.font-size-18
+  .line-bottom
+    %h3= raw t("ubuntu.js.header", platform: "Fedora")
+  %br
+  %br
+  %p
+  = raw t("ubuntu.js.line1")
+  <pre class=\"code code-shell-cmd\" title=\"triple click to select command\">sudo apt update</pre>
+  %br
+  %p
+  = raw t("ubuntu.js.line2")
+  <pre class="code code-shell-cmd" title="triple click to select command">apt install nodejs</pre>
+  %br
+    %i= raw t("ubuntu.js.line3")
+    %a{ href: 'https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04', target: '_blank' }= raw t("guide")
+  %br
+  %br
+  %p
+  = raw t("ubuntu.js.line4")
+  %p
+  %p
+  .margin-left-10
+    = raw t('see_version', lang: "Java")
+  %p
+.margin-left-10
+  %i= raw t('example')
+  %p
+  %img.size-55{src: "/assets/install/js/js-install.png"}
+
+  %br
+  %br
+
+%div.font-size-18
+  .line-bottom
+    %h3= raw t('ide')
+  %br
+  %p
+    = raw t('count', lang: "NodeJs")
+  %p
+  %ul
+    %li
+      %a{ href: 'https://code.visualstudio.com/', target: '_blank'  } Visual Studio Code
+  %ul
+    %li
+      %a{ href: 'https://atom.io/', target: '_blank'  } Atom
+  %ul
+    %li
+      %a{ href: 'https://www.sublimetext.com/', target: '_blank'  } Sublime
+  %ul
+    %li
+      %a{ href: 'https://www.jetbrains.com/webstrom/', target: '_blank'  } WebStrom
+
+  %br
+    %i= raw t('feature', ide: "Intellij Idea")
+
+  %br
+%div.font-size-18
+  .line-bottom
+    %h3= raw t ("outcome")
+  %br
+  %p
+    = raw t ("outcome_describe")
+  %p
+  %ul
+    %li
+      %a{ href: '#', onclick: "document.querySelector('#icon-web').click();document.querySelector('#web-js').click()"}= raw t('step.gui')
+  %ul
+    %li
+      %a{ href: '#', onclick: "document.querySelector('#icon-back').click();document.querySelector('#back-js').click()"}= raw t('step.back')
+  %ul
+    %li
+      %a{ href: '#', onclick: "document.querySelector('#icon-mobile').click();document.querySelector('#mobile-js').click()"}= raw t('step.mobile')
+

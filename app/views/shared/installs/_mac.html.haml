@@ -1,0 +1,52 @@
+%li.display-flex
+%a.dropdown-toggle.display-flex.padding-10{"aria-controls" => "main_section", "aria-expanded" => "false", "data-toggle" => "collapse", :href => "#mac", :role => "button" }
+  #icon-mac
+  %span{:style => "margin-left:10px;"}= t ("installs.mac")
+%ul#mac.collapse.list-unstyled.margin-left-40
+  %li.display-flex.padding-10
+    #icon-ruby
+    %a#mac-ruby.scroll-link.margin-left-10{:href => "#install/onmac/ruby"} Ruby
+  %li.display-flex.padding-10
+    #icon-js
+    %a#mac-js.scroll-link.margin-left-10{:href => "#install/onmac/js"} NodeJs
+  %li.display-flex.padding-10
+    #icon-java
+    %a#mac-java.scroll-link.margin-left-10{:href => "#install/onmac/java"} Java
+  %br
+  %br
+
+  :javascript
+
+    $(document).ready(function() {
+      $("#mac-ruby").click(function(e) {
+          e.preventDefault();
+          $.ajax({ url: "/install/on_mac/ruby", type: "get", data: { locale: '#{params[:locale]}'} });
+      });
+    });
+
+    $(document).ready(function() {
+      $("#mac-js").click(function(e) {
+          e.preventDefault();
+          $.ajax({ url: "/install/on_mac/js", type: "get", data: { locale: '#{params[:locale]}'} });
+      });
+    });
+
+    $(document).ready(function() {
+      $("#mac-java").click(function(e) {
+          e.preventDefault();
+          $.ajax({ url: "/install/on_mac/java", type: "get", data: { locale: '#{params[:locale]}'} });
+      });
+    });
+
+
+    $(document).ready(function() {
+      $("[href=\"#mac\"]").click(function(e) {
+        e.preventDefault();
+
+        params_hide = { win: true, linux: true, mac: false, fedora: true, back: true, mobile: true, gui: true }
+        show_hide(params_hide)
+
+        $.ajax({ url: "/mac", type: "get", data: { locale: '#{params[:locale]}'} });
+      });
+      });
+

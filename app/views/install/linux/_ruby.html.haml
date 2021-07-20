@@ -1,0 +1,82 @@
+%br
+%br
+%div.font-size-18
+  .line-bottom
+    %h3= raw t('windows.ruby.header', platform: 'Ubuntu')
+  %br
+  %p
+    %h3= raw t('mac.ruby.recommend', platform: 'Ubuntu')
+  %br
+  %br
+  %p
+    = raw t('mac.ruby.line1', platform: 'Ubuntu')
+  %br
+  %p
+    = raw t('mac.ruby.line2')
+  %br
+  %p
+    = raw t('mac.ruby.line3')
+  %br
+  %br
+  %p
+    = raw t('mac.ruby.line4')
+  %br
+  %p
+    = raw t('mac.ruby.line5')
+  %p
+  %p
+  .margin-left-10
+    %p
+  %p
+  .margin-left-10
+    = raw t('see_version', lang: "Ruby")
+  %p
+.margin-left-10
+  %i= raw t('example')
+  %p
+  %img.size-55{src: "/assets/install/ruby/ruby-install.png"}
+
+  %br
+  %br
+
+%div.font-size-18
+  .line-bottom
+    %h3= raw t('ide')
+  %br
+  %p
+    = raw t('count', lang: "Ruby")
+  %p
+  %ul
+    %li
+      %a{ href: 'https://code.visualstudio.com/', target: '_blank'  } Visual Studio Code
+  %ul
+    %li
+      %a{ href: 'https://atom.io/', target: '_blank'  } Atom
+  %ul
+    %li
+      %a{ href: 'https://www.sublimetext.com/', target: '_blank'  } Sublime
+  %ul
+    %li
+      %a{ href: 'https://www.jetbrains.com/ruby/', target: '_blank'  } RubyMine
+
+  %br
+    %i= raw t('feature', ide: "RubyMine")
+
+  %br
+%div.font-size-18
+  .line-bottom
+    %h3= raw t ("outcome")
+  %br
+  %p
+    = raw t ("outcome_describe")
+  %p
+  %ul
+    %li
+      %a{ href: '#', onclick: "document.querySelector('#icon-web').click();document.querySelector('#web-ruby').click()"}= raw t('step.gui')
+  %ul
+    %li
+      %a{ href: '#', onclick: "document.querySelector('#icon-back').click();document.querySelector('#back-ruby').click()"}= raw t('step.back')
+  %ul
+    %li
+      %a{ href: '#', onclick: "document.querySelector('#icon-mobile').click();document.querySelector('#mobile-ruby').click()"}= raw t('step.mobile')
+

@@ -1,0 +1,21 @@
+version: "3.4"
+
+services:
+  blog:
+    build:
+      context: .
+    image: blog:v1
+    container_name: blog
+    hostname: blog
+    command: bash container/inst.sh
+    environment:
+      - LEVEL=dev
+      - POSTGRES_USER=admin_blog
+      - POSTGRES_PASSWORD=admin_blog
+      - POSTGRES_DB=db_blog_development
+    ports:
+      - 5498:5432
+      - 3000:3000
+      - 8080:8080
+    volumes:
+      - ./:/app

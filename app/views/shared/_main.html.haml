@@ -1,0 +1,15 @@
+.display-flex.margin-top-75
+  %a.hover-add-size#main.display-flex.padding-10{ :href => "#" }
+    #icon-main
+    %span{:style => "margin-left:10px;"}=t :main
+
+
+    :javascript
+        $(document).ready(function() {
+          $("#main").click(function(e) {
+              e.preventDefault();
+              $.ajax({ url: "/main", type: "get", data: { locale: '#{params[:locale]}'} });
+          });
+        });
+%br
+

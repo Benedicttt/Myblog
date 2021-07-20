@@ -1,0 +1,70 @@
+%br
+%br
+%div.font-size-18
+  .line-bottom
+    %h3= raw t("windows.java.header", platform: "Windows")
+  %br
+  %p
+  = raw t("windows.java.line1")
+  %a{ href: 'https://www.oracle.com/java/technologies/javase-jdk11-downloads.html', target: '_blank' }  11
+  = raw t("or_or")
+  %a{ href: 'https://www.oracle.com/java/technologies/javase-jdk8-downloads.html', target: '_blank' }  8
+  = raw t("windows.java.line2")
+  %p
+  = raw t("windows.java.line3")
+  %p
+  = raw t("windows.java.line4")
+  %p
+  %p
+  .margin-left-10
+    = raw t('see_version', lang: "Java")
+%p
+.margin-left-10
+  %i=raw t("example")
+  %p
+  %img.size-55{src: "/assets/install/java/java-install.png"}
+
+  %br
+  %br
+
+%div.font-size-18
+  .line-bottom
+    %h3= raw t('ide')
+  %br
+  %p
+    = raw t('count', lang: "Java")
+  %p
+  %ul
+    %li
+      %a{ href: 'https://code.visualstudio.com/', target: '_blank'  } Visual Studio Code
+  %ul
+    %li
+      %a{ href: 'https://atom.io/', target: '_blank'  } Atom
+  %ul
+    %li
+      %a{ href: 'https://www.sublimetext.com/', target: '_blank'  } Sublime
+  %ul
+    %li
+      %a{ href: 'https://www.jetbrains.com/idea/', target: '_blank'  } Idea Intellij
+
+  %br
+    %i= raw t('feature', ide: "Intellij Idea")
+
+  %br
+%div.font-size-18
+  .line-bottom
+    %h3= raw t ("outcome")
+  %br
+  %p
+    = raw t ("outcome_describe")
+  %p
+  %ul
+    %li
+      %a{ href: '#', onclick: "document.querySelector('#icon-web').click();document.querySelector('#web-java').click()"}= raw t('step.gui')
+  %ul
+    %li
+      %a{ href: '#', onclick: "document.querySelector('#icon-back').click();document.querySelector('#back-java').click()"}= raw t('step.back')
+  %ul
+    %li
+      %a{ href: '#', onclick: "document.querySelector('#icon-mobile').click();document.querySelector('#mobile-java').click()"}= raw t('step.mobile')
+

@@ -1,0 +1,82 @@
+pre code.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 1em
+}
+
+code.hljs {
+    padding: 3px 5px
+}
+
+.hljs {
+    color: #eaeaea;
+    background: #000
+}
+
+.hljs-subst {
+    color: #eaeaea
+}
+
+.hljs-emphasis {
+    font-style: italic
+}
+
+.hljs-strong {
+    font-weight: 700
+}
+
+.hljs-type {
+    color: #eaeaea
+}
+
+.hljs-params {
+    color: #da0000
+}
+
+.hljs-literal,.hljs-name,.hljs-number {
+    color: #06e524;
+    font-weight: bolder
+}
+
+.hljs-comment {
+    color: #969896
+}
+
+.hljs-quote,.hljs-selector-id {
+    color: #efe917
+}
+
+.hljs-template-variable,.hljs-variable {
+   color: #6913de;
+   font-weight: 700;
+}
+.hljs-title, {
+   color: #de4d0a;
+   font-weight: 700;
+}
+
+.hljs-keyword,.hljs-selector-class,.hljs-symbol {
+    color: #64aeef
+}
+
+.hljs-bullet,.hljs-string {
+    color: #53c627
+}
+
+.hljs-section,.hljs-tag {
+    color: #000fff
+}
+
+.hljs-selector-tag {
+    color: #000fff;
+    font-weight: 700
+}
+
+.hljs-attribute,.hljs-built_in,.hljs-link,.hljs-regexp {
+    color: #f0f
+}
+
+.hljs-meta {
+    color: #fff;
+    font-weight: bolder
+}

@@ -1,0 +1,13 @@
+%br
+%ul.nav.nav-tabs.margin-left-10
+  %li.active.nav-item
+    %a.nav-link{"data-toggle" => "tab", href: "#home"}= t ('describe.tabs_and_page.tab_what_is_this_testing.tab')
+  %li.nav-item
+    %a.nav-link#types-qa{"data-toggle" => "tab", href: "#menu1"}= t ('describe.tabs_and_page.tab_testing_types.tab')
+  %li
+    %a{"data-toggle" => "tab", href: "#menu2"}= t ('describe.tabs_and_page.tab_who_are_qa.tab')
+
+.tab-content
+  = render "main_page/tabs/home"
+  = render "main_page/tabs/menu1"
+  = render "main_page/tabs/menu2"

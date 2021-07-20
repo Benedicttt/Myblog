@@ -1,0 +1,81 @@
+#menu1.tab-pane.fade
+  %br
+  %span.img-container-center
+    - if params[:locale] == "ru"
+      %img.size-100{src: "/assets/type_testing-ru.svg"}
+    - if params[:locale] == "en"
+      %img.size-100{src: "/assets/type_testing-en.svg"}
+  %br
+  %br
+  %h4= t('describe.tabs_and_page.tab_testing_types.describe.head').html_safe
+
+  %br
+  %strong.margin-left-20.font-size-18
+    = t('describe.tabs_and_page.tab_testing_types.describe.functional_testing').html_safe
+  .line-bottom
+  %br
+  .font-size-18
+    = t('describe.tabs_and_page.tab_testing_types.describe.functional_testing_describe').html_safe
+  %br
+
+  %br
+  %strong.margin-left-20.font-size-18
+    = t('describe.tabs_and_page.tab_testing_types.describe.system_testing').html_safe
+  .line-bottom
+  %br
+  .font-size-18
+    = t('describe.tabs_and_page.tab_testing_types.describe.system_testing_describe').html_safe
+  %br
+
+  %br
+  %strong.margin-left-20.font-size-18
+    = t('describe.tabs_and_page.tab_testing_types.describe.performance_testing').html_safe
+  .line-bottom
+  %br
+  .font-size-18
+    = t('describe.tabs_and_page.tab_testing_types.describe.performance_testing_describe').html_safe
+  %br
+
+  %br
+  %strong.margin-left-20.font-size-18
+    = t('describe.tabs_and_page.tab_testing_types.describe.regression_testing').html_safe
+  .line-bottom
+  %br
+  .font-size-18
+    = t('describe.tabs_and_page.tab_testing_types.describe.regression_testing_describe').html_safe
+  %br
+
+  %br
+  %strong.margin-left-20.font-size-18
+    = t('describe.tabs_and_page.tab_testing_types.describe.unit_testing').html_safe
+  .line-bottom
+  %br
+  .font-size-18
+    = t('describe.tabs_and_page.tab_testing_types.describe.unit_testing_describe').html_safe
+  %br
+
+  %br
+  %strong.margin-left-20.font-size-18
+    = t('describe.tabs_and_page.tab_testing_types.describe.security_testing').html_safe
+  .line-bottom
+  %br
+  .font-size-18
+    = t('describe.tabs_and_page.tab_testing_types.describe.security_testing_describe').html_safe
+  %br
+
+  %br
+  %strong.margin-left-20.font-size-18
+    = t('describe.tabs_and_page.tab_testing_types.describe.localization_testing').html_safe
+  .line-bottom
+  %br
+  .font-size-18
+    = t('describe.tabs_and_page.tab_testing_types.describe.localization_testing_describe').html_safe
+  %br
+
+  %br
+  %strong.margin-left-20.font-size-18
+    = t('describe.tabs_and_page.tab_testing_types.describe.usability_testing').html_safe
+  .line-bottom
+  %br
+  .font-size-18
+    = t('describe.tabs_and_page.tab_testing_types.describe.usability_testing_describe').html_safe

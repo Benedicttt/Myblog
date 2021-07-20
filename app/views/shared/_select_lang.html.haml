@@ -1,0 +1,19 @@
+= select_tag(:option, options_for_select([['🇷🇺', "ru", {:class=>'font-size-24'}], ['🇬🇧', "en", {:class=>'font-size-24'}]], selected: params[:locale] ), class: "margin-left-20 btn btn-dark font-size-18", id: "select_lang")
+
+:css
+  option: {
+    font-size: 24px !important;
+  }
+
+-#%select#select_lang.margin-left-20.btn.btn-dark.font-size-18{ selected: params[:locale] }
+-#  %option{ value: "ru" } 🇷🇺
+-#  %option{ value: "en" } 🇬🇧
+
+:javascript
+  $(document).ready(function() {
+    $('#select_lang').change(function(){
+      window.location = $(this).val()
+      // $.ajax({ url: "/main", type: "get", data: { locale: $(this).val() }});
+    });
+  })
+

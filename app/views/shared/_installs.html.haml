@@ -1,0 +1,9 @@
+%a.hover-add-size.dropdown-toggle.display-flex.padding-10{"aria-controls" => "main_section", "aria-expanded" => "false", "data-toggle" => "collapse", :href => "#install", :role => "button" }
+  #icon-install
+  %span{:style => "margin-left:10px;"}= t ("installs.install")
+
+%ul#install.collapse.list-unstyled.margin-left-10
+  =render "shared/installs/windows"
+  =render "shared/installs/linux"
+  =render "shared/installs/fedora"
+  =render "shared/installs/mac"

@@ -1,0 +1,17 @@
+%br
+  %br
+
+  .display-flex.pull-down
+    .hover-add-size
+      %a#my.display-flex.padding-10{:href => "#" }
+        #icon-blog
+        %span{:style => "margin-left:10px;"}= t :about
+
+
+        :javascript
+          $(document).ready(function() {
+            $("#my").click(function(e) {
+                e.preventDefault();
+                $.ajax({ url: "/about", type: "get", data: { locale: '#{params[:locale]}'} });
+            });
+          });

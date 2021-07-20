@@ -1,0 +1,81 @@
+%br
+%br
+%div.font-size-18
+  .line-bottom
+    %h3= raw t('mac.java.header')
+  %br
+  %br
+  %br
+  %p
+  = raw t('mac.java.line1')
+  <pre class=\"code code-shell-cmd\" title=\"triple click to select command\">brew update</pre>
+  %br
+  %p
+  = raw t('mac.java.line2')
+  <pre class="code code-shell-cmd" title="triple click to select command">brew install --cask adoptopenjdk8</pre>
+  %p
+    = raw t('or')
+  %p
+    <pre class="code code-shell-cmd" title="triple click to select command">brew install --cask adoptopenjdk11</pre>
+  %br
+    %i= raw t('mac.java.line3')
+    %a{ href: 'https://stackoverflow.com/questions/24342886/how-to-install-java-8-on-mac', target: '_blank' }= raw t('guide')
+  %br
+  %br
+  %p
+  = raw t('mac.java.line3')
+  <pre class=\"code code-shell-cmd\" title=\"triple click to select command\">java -version</pre>
+  %p
+  %p
+  .margin-left-10
+    = raw t('see_version', lang: "Java")
+  %p
+.margin-left-10
+  %i= raw t('example')
+  %p
+  %img.size-55{src: "/assets/install/java/java-install.png"}
+
+  %br
+  %br
+
+%div.font-size-18
+  .line-bottom
+    %h3= raw t('ide')
+  %br
+  %p
+    = raw t('count', lang: "Java")
+  %p
+  %ul
+    %li
+      %a{ href: 'https://code.visualstudio.com/', target: '_blank'  } Visual Studio Code
+  %ul
+    %li
+      %a{ href: 'https://atom.io/', target: '_blank'  } Atom
+  %ul
+    %li
+      %a{ href: 'https://www.sublimetext.com/', target: '_blank'  } Sublime
+  %ul
+    %li
+      %a{ href: 'https://www.jetbrains.com/idea/', target: '_blank'  } Idea Intellij
+
+  %br
+    %i= raw t('feature', ide: "Intellij Idea")
+
+  %br
+%div.font-size-18
+  .line-bottom
+    %h3= raw t ("outcome")
+  %br
+  %p
+    = raw t ("outcome_describe")
+  %p
+  %ul
+    %li
+      %a{ href: '#', onclick: "document.querySelector('#icon-web').click();document.querySelector('#web-java').click()"}= raw t('step.gui')
+  %ul
+    %li
+      %a{ href: '#', onclick: "document.querySelector('#icon-back').click();document.querySelector('#back-java').click()"}= raw t('step.back')
+  %ul
+    %li
+      %a{ href: '#', onclick: "document.querySelector('#icon-mobile').click();document.querySelector('#mobile-java').click()"}= raw t('step.mobile')
+
