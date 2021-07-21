@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dca57621-5991-4d21-8d24-d2a640ecffe8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/file_examples/java/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/file_examples/js/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/blog-s-kievskiy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog-s-kievskiy.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/web/java/_java.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/web/java/_java.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/web/js/_js.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/web/js/_js.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/web/ruby/_cucumber.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/web/ruby/_cucumber.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/web/ruby/_rspec.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/web/ruby/_rspec.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/web/ruby/_ruby.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/web/ruby/_ruby.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/locales/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/locales/ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/ru.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +94,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/file_examples/ruby" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -360,7 +356,7 @@
       <workItem from="1626675070189" duration="594000" />
       <workItem from="1626778823237" duration="3630000" />
       <workItem from="1626782821310" duration="6149000" />
-      <workItem from="1626813857875" duration="8083000" />
+      <workItem from="1626813857875" duration="9102000" />
     </task>
     <servers />
   </component>

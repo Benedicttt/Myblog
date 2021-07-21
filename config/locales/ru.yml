@@ -21,7 +21,6 @@ ru:
       line3: If for some reason you have problems with the installation, follow the link and give it a try
       line4: 3) After installing "node" you need to restart the terminal in the shell
       line5: 4) After installing and restarting the terminal, you can see the version by typing and running the command
-
   fedora:
     snap: Все что нужно устанавливать через SNAP
     no_snap: Все что нужно устанавливать не через SNAP
@@ -42,6 +41,8 @@ ru:
     ruby:
 
   ubuntu:
+    snap: все что необходимо установить из SNAP
+    no_snap: все что необходимо устанавливать не по SNAP
     how_install: "- как установить как основную ОС или рядом с Windows 10"
     java:
       header: Установка языка программирования Java на %{platform}
@@ -51,6 +52,7 @@ ru:
       line4: "3) После установки, можно посмотреть версию, набрав и выполнив команду"
     js:
       header: Установка языка программирования NodeJs на %{platform}
+      step1: Может быть установлен из Snap
       line1: "1) Откройте терминал в Ubuntu и наберите следующую команду"
       line2: "2) В результате будет отображен списко всех версий NodeJS, вам нужно выбрать ту в зависимости которая вам нужна, например"
       line3: "Если по какойто причине у вас возникли проблемы с установкой , перейдите по ссылке и попробуте по этому"
@@ -76,8 +78,6 @@ ru:
       line2: ссылке и скачиваем файл инсталяции и устанавливаем с него ПО
       line3: "2) Нажимаем комбинацию клавишь <strong>WIN + R</strong> и вводим команду <pre class=\"code code-shell-cmd\" title=\"triple click to select command\">cmd</pre>- откроется командная строка"
       line4: "3) Нужно проверить установился ли правильно NodeJS, для этого указываем команду <pre class=\"code code-shell-cmd\" title=\"triple click to select command\">node -v</pre>"
-
-    #######
     head: Полезный софт и ссылки для %{platform} который поможет при тестировании и не только
     git: "- распределённая система управления версиями."
     putty: "- свободно распространяемый клиент для различных протоколов удалённого доступа, включая SSH, Telnet, rlogin."
@@ -99,8 +99,6 @@ ru:
     appstorrent: " - очень много полезного софта для mac"
     paw: " - программа для работы с апи запросами, альтернатива Postman"
     vpn: " - программа для VPN подключения"
-    #######
-
 
   see_version: "В результате отобразится версия %{lang}:"
   ide: Установка IDE для разработки (редактор)
@@ -192,6 +190,7 @@ ru:
         responsibilities: "В обязаности тестироващика чаще всего входят:"
         responsibilities_describe: <ul><li>анализ и расчет времени нужного на создание приложения или исправление бага</li><li>процесс тестирования непосредственно</li><li>повторное тестирование моментов в которых ранее были обнаружены проблемы</li><li>разработка сценариев тестирования</li><li>внесение обнаруженных недочетов или багов в трекинговую систему</li><li>обсуждение исправлений с всеми участниками разработки и аналитики</li><li>отслеживание процесса исправления</li><li>анализ результатов тестирований</li><li>доработка сценариев</li><li>ведение документации по тестам</li><li><a href="#" onclick="document.querySelector('#icon-web').click()">Написанием автотестов на GUI</a></li><li><a href="#" onclick="document.querySelector('#icon-back').click()">Написанием тестов на API</a></li><li><a href="#" onclick="document.querySelector('#icon-mobile').click()">Написанием тестов на Mobile</a></li></ul>
 
+      tab_misconceptions: Проверка заблуждений
       tab_gui: Что такое GUI тестирование?
       tab_api: Что такое Api тестирование?
       tab_mobile: Что такое Mobile тестирование?

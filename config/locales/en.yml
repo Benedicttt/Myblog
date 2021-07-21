@@ -15,7 +15,12 @@ en:
       line3: If for some reason you have problems with the installation, follow the link and give it a try
       line4: "3) After installation, you can view the version by typing and executing the command"
     js:
-
+      header: Установка языка программирования NodeJS на MacOsX
+      line1: 1) Откройте терминал в MacOsX и обновите пакеты с помощью команды
+      line2: 2) Запустите команду
+      line3: Если по какой-то причине у вас возникли проблемы с установкой, перейдите по ссылке и попробуйте
+      line4: 3) После установки "Node" необходимо перезапустить терминал в оболочке
+      line5: 4) После установки и перезапуска терминала вы можете увидеть версию, набрав и выполнив команду
   fedora:
     snap: All need install from SNAP
     no_snap: All need install from not SNAP
