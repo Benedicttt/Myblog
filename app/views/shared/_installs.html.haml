@@ -7,3 +7,14 @@
   =render "shared/installs/linux"
   =render "shared/installs/fedora"
   =render "shared/installs/mac"
+
+:javascript
+  $(document).ready(function() {
+    $("[href=\"#install\"]").click(function(e) {
+      e.preventDefault();
+
+      params_hide = { win: true, linux: true, mac: true, fedora: true, back: true, mobile: true, gui: true }
+      show_hide(params_hide)
+
+    });
+  });

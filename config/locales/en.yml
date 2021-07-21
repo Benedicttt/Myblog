@@ -194,3 +194,47 @@ en:
       tab_gui: What is GUI testing?
       tab_api: What is API testing?
       tab_mobile: What is Mobile testing?
+
+  tests:
+    gui:
+      ruby:
+        native:
+          header: Writing Simple Test With Ruby + Selenium
+          tutorial: To write autotests in Ruby, it is assumed that you have the necessary software installed on your system. If not click <a href='#' onclick="click_install_menu()"> here </a>. <br>
+          tutorial2: "In order for the tests to work correctly, the main bundle of software must be installed, namely: <ul> <li> required <a href=\"https://chromedriver.chromium.org/downloads\"> chromedriver </a> </li> </ul> and installed gems (this is how libraries are called in ruby): <ul><li><strong>selenium-webdriver</strong></li><li> <strong> chromedriver-helper </strong> </li> "
+          tutorial3: "To install gems, you need to open a terminal or command line and write two commands there:"
+          create_test_file: Then create a file with the extension <strong> rb </strong> in our editor. Let's call it for example <strong> test.rb </strong>, or whatever you want
+          create_test_file2: "Or create a file in the terminal (Mac Linux) using the command:"
+          create_test_file3: "Or create a file in the command line (Windows) using the command:"
+
+          code1: Then we write a simple code for opening the page and run it. This will open the Google Chrome browser page.
+          comment1: We declare the driver. It is this line that opens the browser.
+          comment2: We set a get request for the driver. It's like you followed a link in a browser.
+          comment3: This command is meant to sleep 10 seconds
+
+          code2: Let's rewrite the code a little, in which we will type in the search bar and click on the "Search" button
+          comment4: Global setting for seleinum in the test so that the element would be searched for up to 10 seconds. implicit_wait - implicit wait, that is, the wait when the program waits for the element to appear on the page
+          comment5: This is how the native selenium searches for an element by css-selector
+          comment6: And this is how the field is filled
+          comment7: And this is how it clicks
+
+          code3: But the problem with the code above is that it simply runs the test code we have written, but it would be nice to make an explicit check (assert), for example, on the number of links to articles found, and plus we will do everything through the class method. Let's try to do it like this
+          comment8: This is how a class is declared in ruby
+          comment9: This is how the initialization method is declared for what will be done in the first place in the code
+          comment10: This is how a method is declared that contains some logic in the class
+          comment11: "We are looking for all the blocks of found articles. Please note that the search method that searches for elements (not a single element) is: find_elements and it will return an array of element objects"
+          comment12: This is how the condition is written that 10 is equal to the number of found elements in the array, in this case it is assertion. You can change 10 to 11 and you will see that the command line shows an error
+          comment13: This is how the code interrupt is written with a message if the condition is not met
+          comment14: A separate method to run everything more or less structured. Note that it says self.def - this means the instance method will refer to the object itself
+          comment15: Calling a single instance of the class
+
+          code4: "The code is getting big, and it would be nice to decompose it somehow or at least split it into files. To do this, create 4 files: <strong> test1.rb </strong>, <strong> test2.rb </strong>, <strong> test3.rb </strong>, <strong> runner.rb </strong> "
+          comment16: Module declaration. Modules are containers for classes, methods, and constants. Roughly speaking, this is a namespace and mixins.
+          comment17: This is how the module is connected
+
+          runner: Run the code
+        rspec:
+        cucumber:
+    api:
+    mobile:
+    perfomence:
