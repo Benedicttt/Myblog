@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dca57621-5991-4d21-8d24-d2a640ecffe8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/assets/images/code/gui/ruby/installs_gems.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/file_examples/ruby/code2.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/file_examples/ruby/code3.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/file_examples/ruby/create_file_test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/file_examples/ruby/create_file_test_win" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/file_examples/ruby/example/runner.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/file_examples/ruby/example/test1.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/file_examples/ruby/example/test2.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/file_examples/ruby/example/test3.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/file_examples/ruby/gems_install_chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/file_examples/ruby/gems_install_seleniumdriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/file_examples/ruby/runner" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/shared/_pre_with_comments.html.haml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/styles/_pre.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/styles/_pre.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/file_examples/ruby/parameters_controller.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/file_examples/ruby/test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/file_examples/ruby/code1.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/install/linux/_java.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/linux/_java.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/install/linux/_js.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/linux/_js.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/install/windows/_js.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/install/windows/_js.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_container.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_container.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_installs.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_installs.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/web/ruby/_native.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/web/ruby/_native.html.haml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/locales/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/en.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/locales/ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/ru.yml" afterDir="false" />
     </list>
@@ -379,7 +355,8 @@
       <workItem from="1626675070189" duration="594000" />
       <workItem from="1626778823237" duration="3630000" />
       <workItem from="1626782821310" duration="6149000" />
-      <workItem from="1626813857875" duration="23469000" />
+      <workItem from="1626813857875" duration="24667000" />
+      <workItem from="1626990814928" duration="281000" />
     </task>
     <servers />
   </component>

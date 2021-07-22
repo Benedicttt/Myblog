@@ -226,7 +226,7 @@ en:
           comment12: This is how the condition is written that 10 is equal to the number of found elements in the array, in this case it is assertion. You can change 10 to 11 and you will see that the command line shows an error
           comment13: This is how the code interrupt is written with a message if the condition is not met
           comment14: A separate method to run everything more or less structured. Note that it says self.def - this means the instance method will refer to the object itself
-          comment15: Calling a single instance of the class
+          comment15: self - reference to the class instance in the methods of the class instance
 
           code4: "The code is getting big, and it would be nice to decompose it somehow or at least split it into files. To do this, create 4 files: <strong> test1.rb </strong>, <strong> test2.rb </strong>, <strong> test3.rb </strong>, <strong> runner.rb </strong> "
           comment16: Module declaration. Modules are containers for classes, methods, and constants. Roughly speaking, this is a namespace and mixins.
