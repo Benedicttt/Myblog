@@ -8,54 +8,47 @@
 
 
     = raw t('tests.gui.ruby.native.tutorial3')
-    .margin-left-20{ style: "border-left: 4px solid green; margin: 20px; padding: 20px;"}
-      = render "shared/pre", f: "ruby/gems_install_chromedriver", id: "install_gem_chromedriver"
-      = render "shared/pre", f: "ruby/gems_install_seleniumdriver", id: "install_gem_seleniumdriver"
-      %img.size-35.radius{src: "/assets/code/gui/ruby/installs_gems.png"}
+    = render "shared/pre", f: "ruby/gems_install_chromedriver", id: "install_gem_chromedriver", color: "green"
+    = render "shared/pre", f: "ruby/gems_install_seleniumdriver", id: "install_gem_seleniumdriver", color: "green"
+    = render "shared/images", href: "/assets/code/gui/ruby/installs_gems.png", width: "150%", width2: "35%"
 
     %br
     = raw t('tests.gui.ruby.native.create_test_file')
     %br
     = raw t('tests.gui.ruby.native.create_test_file2')
 
-    .margin-left-20{ style: "border-left: 4px solid yellow; margin: 20px; padding: 20px;"}
-      = render "shared/pre", f: "ruby/create_file_test", id: "create_file_test"
+    = render "shared/pre", f: "ruby/create_file_test", id: "create_file_test", color: "yellow"
 
     = raw t('tests.gui.ruby.native.create_test_file3')
-    .margin-left-20{ style: "border-left: 4px solid yellow; margin: 20px; padding: 20px;"}
-      = render "shared/pre", f: "ruby/create_file_test_win", id: "create_file_test_win"
+    = render "shared/pre", f: "ruby/create_file_test_win", id: "create_file_test_win", color: "yellow"
 
     %br
 
     = raw t('tests.gui.ruby.native.code1')
-    .margin-left-20{ style: "border-left: 4px solid #333; margin: 20px; padding: 20px;"}
-      = render "shared/pre_with_comments", f: "ruby/code1.rb", id: "code1", comments: [ t("tests.gui.ruby.native.comment1"), t("tests.gui.ruby.native.comment2"), t("tests.gui.ruby.native.comment3") ]
-      = raw t('tests.gui.ruby.native.runner')
-      = render "shared/pre_with_comments", f: "ruby/runner", id: "run_code", comments: [ "code1.rb" ]
+    = render "shared/pre_with_comments", f: "ruby/code1.rb", id: "code1", comments: [ t("tests.gui.ruby.native.comment1"), t("tests.gui.ruby.native.comment2"), t("tests.gui.ruby.native.comment3") ], color: "#333"
+    = raw t('tests.gui.ruby.native.runner')
+    = render "shared/pre_with_comments", f: "ruby/runner", id: "run_code", comments: [ "code1.rb" ], color: "#333"
 
     %br
 
     = raw t('tests.gui.ruby.native.code2')
-    .margin-left-20{ style: "border-left: 4px solid #061d02; margin: 20px; padding: 20px;"}
-      = render "shared/pre_with_comments", f: "ruby/code2.rb", id: "code2", comments: [ t("tests.gui.ruby.native.comment4"), t("tests.gui.ruby.native.comment5"), t("tests.gui.ruby.native.comment6"), t("tests.gui.ruby.native.comment7") ]
-      = raw t('tests.gui.ruby.native.runner')
-      = render "shared/pre_with_comments", f: "ruby/runner", id: "run_code", comments: [ "code2.rb" ]
+    = render "shared/pre_with_comments", f: "ruby/code2.rb", id: "code2", comments: [ t("tests.gui.ruby.native.comment4"), t("tests.gui.ruby.native.comment5"), t("tests.gui.ruby.native.comment6"), t("tests.gui.ruby.native.comment7") ], color: "#061d02"
+    = raw t('tests.gui.ruby.native.runner')
+    = render "shared/pre_with_comments", f: "ruby/runner", id: "run_code", comments: [ "code2.rb" ], color: "#061d02"
 
     %br
 
     = raw t('tests.gui.ruby.native.code3')
-    .margin-left-20{ style: "border-left: 4px solid #b75614; margin: 20px; padding: 20px;"}
-      = render "shared/pre_with_comments", f: "ruby/code3.rb", id: "code3", comments: [ t("tests.gui.ruby.native.comment8"), t("tests.gui.ruby.native.comment9"), t("tests.gui.ruby.native.comment10"), t("tests.gui.ruby.native.comment11"), t("tests.gui.ruby.native.comment12"), t("tests.gui.ruby.native.comment13"), t("tests.gui.ruby.native.comment14"), t("tests.gui.ruby.native.comment15") ]
-      = raw t('tests.gui.ruby.native.runner')
-      = render "shared/pre_with_comments", f: "ruby/runner", id: "run_code", comments: [ "code3.rb" ]
+    = render "shared/pre_with_comments", f: "ruby/code3.rb", id: "code3", comments: [ t("tests.gui.ruby.native.comment8"), t("tests.gui.ruby.native.comment9"), t("tests.gui.ruby.native.comment10"), t("tests.gui.ruby.native.comment11"), t("tests.gui.ruby.native.comment12"), t("tests.gui.ruby.native.comment13"), t("tests.gui.ruby.native.comment14"), t("tests.gui.ruby.native.comment15") ], color: "#b75614"
+    = raw t('tests.gui.ruby.native.runner')
+    = render "shared/pre_with_comments", f: "ruby/runner", id: "run_code", comments: [ "code3.rb" ], color: "#b75614"
 
     %br
 
     = raw t('tests.gui.ruby.native.code4')
-    .margin-left-20{ style: "border-left: 4px solid #d23c0e; margin: 20px; padding: 20px;"}
-      = render "shared/pre_with_comments", f: "ruby/example/test1.rb", id: "test1", comments: [ t("tests.gui.ruby.native.comment16")]
-      = render "shared/pre", f: "ruby/example/test2.rb", id: "test2"
-      = render "shared/pre", f: "ruby/example/test3.rb", id: "test3"
-      = render "shared/pre_with_comments", f: "ruby/example/runner.rb", id: "runner", comments: [ t("tests.gui.ruby.native.comment17")]
-      = raw t('tests.gui.ruby.native.runner')
-      = render "shared/pre_with_comments", f: "ruby/runner", id: "run_code", comments: [ "runner.rb" ]
+    = render "shared/pre_with_comments", f: "ruby/example/test1.rb", id: "test1", comments: [ t("tests.gui.ruby.native.comment16")], color: "#d23c0e"
+    = render "shared/pre", f: "ruby/example/test2.rb", id: "test2", color: "#d23c0e"
+    = render "shared/pre", f: "ruby/example/test3.rb", id: "test3", color: "#d23c0e"
+    = render "shared/pre_with_comments", f: "ruby/example/runner.rb", id: "runner", comments: [ t("tests.gui.ruby.native.comment17")], color: "#d23c0e"
+    = raw t('tests.gui.ruby.native.runner')
+    = render "shared/pre_with_comments", f: "ruby/runner", id: "run_code", comments: [ "runner.rb" ], color: "#d23c0e"

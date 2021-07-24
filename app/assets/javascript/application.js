@@ -25,6 +25,7 @@
 //= require bootag.js
 //= require json-formatter
 //= require clipboard
+//= require highlight
 
 
 "./app/assets/javascripts/"

@@ -2,9 +2,9 @@
   %br
   %span.img-container-center
     - if params[:locale] == "ru"
-      %img.size-100{src: "/assets/type_testing-ru.svg"}
+      = render "shared/images", href: "/assets/type_testing-ru.svg", width: "100%", width2: "100%"
     - if params[:locale] == "en"
-      %img.size-100{src: "/assets/type_testing-en.svg"}
+      = render "shared/images", href: "/assets/type_testing-en.svg", width: "100%", width2: "100%"
   %br
   %br
   %h4= t('describe.tabs_and_page.tab_testing_types.describe.head').html_safe

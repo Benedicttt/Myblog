@@ -1,10 +1,11 @@
-%div
+.margin-left-20{ style: "border-left: 4px solid #{color}; margin: 20px; padding: 20px;"}
   %div
-    %pre
-      %code{ id: id }
-        .text.max-width
-          = raw(File.read("app/file_examples/#{f}"))
-      %button#icon-copy-text-input{ class: "clipboard-btn", :'data-clipboard-action' => "copy", :'data-clipboard-target' => "#" + id.to_s }
+    %div
+      %pre
+        %code{ id: id }
+          .text.max-width
+            = raw(File.read("app/file_examples/#{f}"))
+        %button#icon-copy-text-input{ class: "clipboard-btn", :'data-clipboard-action' => "copy", :'data-clipboard-target' => "#" + id.to_s }
 
 :javascript
   $(document).ready(function() {

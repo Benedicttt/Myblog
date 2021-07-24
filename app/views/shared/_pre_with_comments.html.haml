@@ -1,14 +1,15 @@
-%div
+.margin-left-20{ style: "border-left: 4px solid #{color}; margin: 20px; padding: 20px;"}
   %div
-    %pre
-      %code{ id: id }
-        .text.max-width
-          - new_text = File.read("app/file_examples/#{f}")
-          - comments.each_with_index do |c, index|
-            - new_text = new_text.gsub("replace_comment#{index}", c)
+    %div
+      %pre
+        %code{ id: id }
+          .text.max-width
+            - new_text = File.read("app/file_examples/#{f}")
+            - comments.each_with_index do |c, index|
+              - new_text = new_text.gsub("replace_comment#{index}", c)
 
-          = raw(new_text)
-      %button#icon-copy-text-input{ class: "clipboard-btn", :'data-clipboard-action' => "copy", :'data-clipboard-target' => "#" + id.to_s }
+            = raw(new_text)
+        %button#icon-copy-text-input{ class: "clipboard-btn", :'data-clipboard-action' => "copy", :'data-clipboard-target' => "#" + id.to_s }
 
 :javascript
   $(document).ready(function() {

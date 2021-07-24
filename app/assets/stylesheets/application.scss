@@ -26,6 +26,10 @@
   }
 }
 
+.text-center {
+  text-align: center;
+}
+
 .radius {
   border-radius: 30px;
   background-color: antiquewhite;
@@ -138,6 +142,7 @@ header#pageHeader, footer#pageFooter, article#mainArticle, nav#mainNav, div#site
 }
 footer#pageFooter, article#mainArticle, div#siteAds {
   line-height: 35px !important;
+  margin-left: 25%;
 }
 
 #pageHeader {
@@ -196,7 +201,7 @@ select > option[value="female"] { background-image:url(female.png); }
 
 pre {
   background: black !important;
-  max-width: 75%;
+  max-width: 100%;
   color: white !important;
 }
 

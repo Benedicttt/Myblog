@@ -22,9 +22,9 @@
       %br
       %span.img-container-center
       - if params[:locale] == "ru"
-        %img.size-85{src: "/assets/life-ru.svg"}
+        = render "shared/images", href: "/assets/life-ru.svg", width: "150%", width2: "100%"
       - if params[:locale] == "en"
-        %img.size-85{src: "/assets/life-en.svg"}
+        = render "shared/images", href: "/assets/life-en.svg", width: "150%", width2: "100%"
       %br
       %br
       %br
@@ -47,9 +47,10 @@
       .margin-left-20
         = t('describe.tabs_and_page.tab_what_is_this_testing.describe.line15').html_safe
 
-      :javascript
-        function clickTab(selector) {
-            console.log("click tab")
-            var sideNavScrollbar = document.querySelector(selector);
-            sideNavScrollbar.click()
-        }
+:javascript
+  function clickTab(selector) {
+      console.log("click tab")
+      var sideNavScrollbar = document.querySelector(selector);
+      sideNavScrollbar.click()
+  }
+
