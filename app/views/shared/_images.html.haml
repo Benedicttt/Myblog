@@ -38,7 +38,7 @@
       $fsmActual.classList.add('growing');
       $fsmActual.style.height = '100vh';
       $fsmActual.style.width = '100vw';
-      $fsmActual.style.top = '0';
+      $fsmActual.style.top = '400px';
       $fsmActual.style.left = '0';
       $fsmActual.style.margin = '0';
     }, 1);
@@ -46,7 +46,7 @@
     setTimeout(function(){
       $fsmActual.classList.remove('growing');
       $fsmActual.classList.add('full-screen')
-    }, 1000);
+    }, 300);
   };
 
   var closeFSM = function(event){
@@ -67,13 +67,15 @@
         classList.remove(classList.item(0));
       }
       $this.style = '';;
-    }, 1000);
+    }, 300);
   };
 
-  for (var i = 0; i < $fsm.length; i++) {
-    $fsm[i].addEventListener("click", openFSM);
+  if ($(window).width() > 1024) {
+    for (var i = 0; i < $fsm.length; i++) {
+      $fsm[i].addEventListener("click", openFSM);
+    }
+    $fsmActual.addEventListener("click", closeFSM);
   }
-  $fsmActual.addEventListener("click", closeFSM);
 
 :css
   .fsm {

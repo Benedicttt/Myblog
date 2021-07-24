@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dca57621-5991-4d21-8d24-d2a640ecffe8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/assets/javascript/highlight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/shared/_images.html.haml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascript/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascript/application.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/back/java/_java.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/back/java/_java.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/back/js/_js.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/back/js/_js.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/back/ruby/_ruby.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/back/ruby/_ruby.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/main_page/tabs/_home.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main_page/tabs/_home.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/main_page/tabs/_menu1.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main_page/tabs/_menu1.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/mobile/java/_java.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/mobile/java/_java.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/mobile/js/_js.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/mobile/js/_js.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/mobile/ruby/_ruby.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/mobile/ruby/_ruby.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_container.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_container.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_pre.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_pre.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_pre_with_comments.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_pre_with_comments.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/web/java/_java.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/web/java/_java.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/web/js/_js.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/web/js/_js.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/web/ruby/_native.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/web/ruby/_native.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/web/ruby/_ruby.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/web/ruby/_ruby.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shared/_images.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_images.html.haml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -381,7 +363,7 @@
       <workItem from="1626778823237" duration="3630000" />
       <workItem from="1626782821310" duration="6149000" />
       <workItem from="1626813857875" duration="24667000" />
-      <workItem from="1626990814928" duration="14762000" />
+      <workItem from="1626990814928" duration="18508000" />
     </task>
     <servers />
   </component>
@@ -404,6 +386,6 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Myblog@Development__blog_s_kievskiy.rcov" NAME="Development: blog-s-kievskiy Coverage Results" MODIFIED="1627033569355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="blog-s-kievskiy" />
+    <SUITE FILE_PATH="coverage/Myblog@Development__blog_s_kievskiy.rcov" NAME="Development: blog-s-kievskiy Coverage Results" MODIFIED="1627125699141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="blog-s-kievskiy" />
   </component>
 </project>
