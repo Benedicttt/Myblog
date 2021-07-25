@@ -28,6 +28,10 @@ Rails.application.routes.draw do
       get "/js",   to: "js#web"
     end
 
+    namespace :other do
+      get "/docker", to: "docker#docker"
+    end
+
     get "windows", to: "install#windows"
     get "linux",  to: "install#linux"
     get "mac",     to: "install#mac"

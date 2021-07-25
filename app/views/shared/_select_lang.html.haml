@@ -1,8 +1,12 @@
-= select_tag(:option, options_for_select([['🇷🇺', "ru", {:class=>'font-size-24'}], ['🇬🇧', "en", {:class=>'font-size-24'}]], selected: params[:locale] ), class: "margin-left-20 btn btn-dark font-size-18", id: "select_lang")
+= select_tag(:option, options_for_select([['🇷🇺', "ru", {:class=>'font-size-34'}], ['🇬🇧', "en", {:class=>'font-size-34'}]], selected: params[:locale] ), class: "margin-left-20 btn btn-dark font-size-34", id: "select_lang")
 
 :css
   option: {
-    font-size: 24px !important;
+    font-size: 34px !important;
+  }
+
+  select {
+    background: #1b1c1d !important;
   }
 
 -#%select#select_lang.margin-left-20.btn.btn-dark.font-size-18{ selected: params[:locale] }

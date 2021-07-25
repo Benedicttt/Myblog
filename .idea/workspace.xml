@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dca57621-5991-4d21-8d24-d2a640ecffe8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/assets/images/docker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/other.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/images/other.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/other/docker_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/other/docker/_docker.html.haml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/other/docker/docker.js.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/shared/_other.html.haml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_images.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_images.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/web.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/web.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shared/_container.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_container.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shared/_select_lang.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_select_lang.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/locales/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/locales/ru.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/ru.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,24 +111,24 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/views/other" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views/other" />
+      <recent name="$PROJECT_DIR$/app/views/shared" />
       <recent name="$PROJECT_DIR$/app/assets" />
       <recent name="$PROJECT_DIR$/app/file_examples/ruby/example" />
       <recent name="$PROJECT_DIR$/app/file_examples/ruby" />
-      <recent name="$PROJECT_DIR$/app/views/shared" />
-      <recent name="$PROJECT_DIR$/app/assets/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views/other/other" />
       <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/app/assets/file_examples/ruby" />
       <recent name="$PROJECT_DIR$/app/assets/images/install/ruby" />
       <recent name="$PROJECT_DIR$/app/assets/images/install.ruby" />
-      <recent name="$PROJECT_DIR$/app/controllers/install" />
     </key>
   </component>
   <component name="RunManager" selected="Rails.Development: blog-s-kievskiy">
@@ -363,7 +376,8 @@
       <workItem from="1626778823237" duration="3630000" />
       <workItem from="1626782821310" duration="6149000" />
       <workItem from="1626813857875" duration="24667000" />
-      <workItem from="1626990814928" duration="18508000" />
+      <workItem from="1626990814928" duration="20189000" />
+      <workItem from="1627226446995" duration="1907000" />
     </task>
     <servers />
   </component>

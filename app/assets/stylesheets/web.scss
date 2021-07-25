@@ -18,6 +18,16 @@
 }
 
 
+#icon-docker {
+  background: url(docker.png);
+  background-size: 100%;
+  height: 24px;
+  width: 24px !important;
+  margin-left: 18px;
+  border-radius: 10px;
+
+}
+
 #icon-fedora {
   background: url(fedora.png);
   background-size: 100%;
@@ -99,6 +109,14 @@
 
 #icon-mobile {
   background: url(mobile.svg);
+  background-size: 100%;
+  height: 24px;
+  width: 24px !important;
+  margin-left: 18px;
+}
+
+#icon-other {
+  background: url(other.png);
   background-size: 100%;
   height: 24px;
   width: 24px !important;
