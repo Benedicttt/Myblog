@@ -1,0 +1,50 @@
+%h3= t("other.docker.header")
+
+%br
+.margin-left-10
+  .font-size-18{ style: "border-left: 4px solid green; margin: 20px; padding: 20px;"}
+    = raw t("other.docker.docker")
+    %br
+  .font-size-18{ style: "border-left: 4px solid yellow; margin: 20px; padding: 20px;"}
+    = raw t("other.docker.container")
+    %br
+  .font-size-18{ style: "border-left: 4px solid brown; margin: 20px; padding: 20px;"}
+    = raw t("other.docker.container2")
+    %br
+  .font-size-18{ style: "border-left: 4px solid blue; margin: 20px; padding: 20px;"}
+    %h4= raw t("other.docker-compose.header")
+    = raw t("other.docker-compose.describe")
+    %br
+  .font-size-18{ style: "border-left: 4px solid gray; margin: 20px; padding: 20px;"}
+    %h4= raw t("other.volume.header")
+    = raw t("other.volume.describe")
+  .font-size-18{ style: "border-left: 4px solid #de1111; margin: 20px; padding: 20px;"}
+    %h4= raw t("other.image.header")
+    = raw t("other.image.describe")
+    = raw t("other.image.describe2")
+    %br
+    %br
+  .font-size-18
+    = raw t("other.start.header")
+    = raw t("other.start.header2")
+    %br
+    %br
+    = raw t("other.start.create-dockerfile")
+    = render "shared/pre", f: "docker/dockerfile-example", id: "docker-example", color: "#"
+    = raw t("other.start.create-dockerfile2")
+    = raw t("other.start.create-dockerfile3")
+    = render "shared/pre", f: "docker/dockerfile-build", id: "docker-build", color: "#"
+    = raw t("other.start.create-dockerfile4")
+    = render "shared/pre", f: "docker/dockerfile-build-result", id: "docker-build-result", color: "#"
+    = raw t("other.start.create-dockerfile5")
+    = render "shared/pre", f: "docker/docker-images-result", id: "docker-images-result", color: "#"
+    = raw t("other.start.create-dockerfile6")
+    = render "shared/pre", f: "docker/docker-run", id: "docker-run", color: "#"
+    = raw t("other.start.create-dockerfile7")
+    = render "shared/pre", f: "docker/docker-run2", id: "docker-run2", color: "#"
+    = raw t("other.start.create-dockerfile8")
+    = render "shared/pre", f: "docker/docker-exec", id: "docker-exec", color: "#"
+    = raw t("other.start.create-dockerfile9")
+    = render "shared/pre", f: "docker/docker-exit", id: "docker-exit", color: "#"
+    = raw t("other.start.create-dockerfile10")
+

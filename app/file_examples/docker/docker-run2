@@ -1,0 +1,1 @@
+docker run -d -ti --name ubuntu ubuntu:18 bash
